@@ -295,6 +295,11 @@
     if (state.aiExplanations[question.question_id]) {
       return state.aiExplanations[question.question_id];
     }
+    if (question.explanation) {
+      state.aiExplanations[question.question_id] = question.explanation;
+      writeState(state);
+      return question.explanation;
+    }
 
     const payload = {
       question: question.question,
