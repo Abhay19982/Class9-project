@@ -100,9 +100,9 @@
         aiExplain.querySelector(".ai-solution").textContent = explanation;
         QuizApp.renderMath(aiExplain);
       })
-      .catch(() => {
+      .catch((error) => {
         aiExplain.querySelector(".ai-solution").textContent =
-          "Unable to generate explanation right now.";
+          error.message || "Unable to generate explanation right now.";
       });
 
     QuizApp.renderMath(selectors.board);

@@ -23,17 +23,29 @@ exports.handler = async function handler(event) {
       "Options:",
       ...(payload.options || []).map((option) => `${option.identifier}. ${option.content}`),
       "Keep the explanation concise, clear, and student-friendly.",
+      "Mention why the correct option is right.",
     ].join("\n");
 
-    const response = await fetch("https://api.openai.com/v1/responses", {
+    const response = await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: "gpt-4.1-mini",
-        input: prompt,
+        model: process.env.OPENAI_MODEL || "gpt-4o-mini",
+        messages: [
+          {
+            role: "system",
+            content:
+              "You explain Class 9 questions clearly and simply. Keep the answer short, accurate, and beginner-friendly.",
+          },
+          {
+            role: "user",
+            content: prompt,
+          },
+        ],
+        temperature: 0.3,
       }),
     });
 
@@ -41,19 +53,20 @@ exports.handler = async function handler(event) {
       const text = await response.text();
       return {
         statusCode: response.status,
-        body: JSON.stringify({ error: text }),
+        body: JSON.stringify({ error: text || "OpenAI request failed" }),
       };
     }
 
     const data = await response.json();
     const explanation =
-      data.output_text ||
-      (Array.isArray(data.output)
-        ? data.output
-            .flatMap((item) => item.content || [])
-            .map((item) => item.text || "")
-            .join("\n")
-        : "");
+      data.choices?.[0]?.message?.content?.trim() || "";
+
+    if (!explanation) {
+      return {
+        statusCode: 502,
+        body: JSON.stringify({ error: "OpenAI returned an empty explanation" }),
+      };
+    }
 
     return {
       statusCode: 200,
@@ -66,4 +79,3 @@ exports.handler = async function handler(event) {
     };
   }
 };
-

@@ -245,7 +245,16 @@
       });
 
       if (!response.ok) {
-        throw new Error(`AI explanation unavailable (${response.status})`);
+        let message = `AI explanation unavailable (${response.status})`;
+        try {
+          const errorData = await response.json();
+          if (errorData.error) {
+            message = `${message}: ${errorData.error}`;
+          }
+        } catch {
+          // ignore parse failure
+        }
+        throw new Error(message);
       }
 
       const data = await response.json();
@@ -253,11 +262,8 @@
       state.aiExplanations[question.question_id] = explanation;
       writeState(state);
       return explanation;
-    } catch {
-      const explanation = mockExplanation(question);
-      state.aiExplanations[question.question_id] = explanation;
-      writeState(state);
-      return explanation;
+    } catch (error) {
+      throw error;
     }
   }
 

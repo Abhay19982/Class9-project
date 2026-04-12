@@ -206,8 +206,8 @@
         aiBody.textContent = text;
         QuizApp.renderMath(aiBody);
       })
-      .catch(() => {
-        aiBody.textContent = "Unable to generate explanation right now.";
+      .catch((error) => {
+        aiBody.textContent = error.message || "Unable to generate explanation right now.";
       });
 
     return panel;
