@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Class 9 Analysis</title>
+    <link rel="stylesheet" href="./styles.css?v=5" />
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [["$", "$"], ["\\(", "\\)"]],
+          displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+          processEscapes: true
+        },
+        svg: {
+          fontCache: "global"
+        }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  </head>
+  <body data-page="analysis">
+    <header class="topbar">
+      <a class="brand" href="./index.html">
+        <img src="./assets/image.png" alt="Quiz board" />
+        <span>Class 9 Analysis</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a data-nav="quiz" href="./index.html">Quiz</a>
+        <a data-nav="dashboard" href="./dashboard.html">Dashboard</a>
+        <a data-nav="analysis" href="./analysis.html">Analysis</a>
+      </nav>
+      <div class="topbar-actions">
+        <span id="userCodeBadge" class="code-badge">Code</span>
+        <button id="changeCodeBtn" type="button" class="secondary-button">Switch Code</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero-grid">
+        <div class="hero-card">
+          <p class="eyebrow">Question review</p>
+          <h1>Review selected answers, correct answers, and explanations.</h1>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <strong id="reviewCount">0</strong>
+            <small>review items</small>
+          </article>
+          <article class="stat-card">
+            <strong id="correctCount">0</strong>
+            <small>correct</small>
+          </article>
+          <article class="stat-card">
+            <strong id="incorrectCount">0</strong>
+            <small>incorrect</small>
+          </article>
+        </div>
+      </section>
+
+      <div id="analysisStatus" class="status" role="status">Loading analysis...</div>
+      <section id="analysisBoard" class="analysis-board"></section>
+
+      <section class="panel pager-panel">
+        <button id="prevReviewBtn" type="button" class="secondary-button">Previous Review</button>
+        <span id="reviewInfo" class="page-info">Review 1</span>
+        <button id="nextReviewBtn" type="button">Next Review</button>
+      </section>
+    </main>
+
+    <script src="./shared.js?v=5"></script>
+    <script src="./analysis.js?v=5"></script>
+  </body>
+</html>

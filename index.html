@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Class 9 Quiz</title>
+    <link rel="stylesheet" href="./styles.css?v=5" />
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [["$", "$"], ["\\(", "\\)"]],
+          displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+          processEscapes: true
+        },
+        svg: {
+          fontCache: "global"
+        }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  </head>
+  <body data-page="quiz">
+    <header class="topbar">
+      <a class="brand" href="./index.html">
+        <img src="./assets/image.png" alt="Quiz board" />
+        <span>Class 9 Quiz</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a data-nav="quiz" href="./index.html">Quiz</a>
+        <a data-nav="dashboard" href="./dashboard.html">Dashboard</a>
+        <a data-nav="analysis" href="./analysis.html">Analysis</a>
+      </nav>
+      <div class="topbar-actions">
+        <span id="userCodeBadge" class="code-badge">Code</span>
+        <button id="changeCodeBtn" type="button" class="secondary-button">Switch Code</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero-grid">
+        <div class="hero-card">
+          <p class="eyebrow">Practice dashboard</p>
+          <h1>One question. One answer. No repeats.</h1>
+          <p class="hero-copy">
+            Questions are reserved per access code, filters update intelligently,
+            and every attempt is saved for review and analytics.
+          </p>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <strong id="remainingCount">...</strong>
+            <small>remaining</small>
+          </article>
+          <article class="stat-card">
+            <strong id="attemptedCount">...</strong>
+            <small>attempted</small>
+          </article>
+          <article class="stat-card">
+            <strong id="accuracyCount">...</strong>
+            <small>accuracy</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel filters-panel">
+        <form id="filterForm" class="filters">
+          <label>
+            Keyword
+            <input id="searchInput" type="search" placeholder="motion, algebra, atoms..." autocomplete="off" />
+          </label>
+          <label>
+            Subject
+            <select id="subjectSelect">
+              <option value="">All subjects</option>
+            </select>
+          </label>
+          <label>
+            Chapter
+            <select id="chapterSelect">
+              <option value="">All chapters</option>
+            </select>
+          </label>
+          <label>
+            Topic
+            <select id="topicSelect">
+              <option value="">All topics</option>
+            </select>
+          </label>
+          <label>
+            Difficulty
+            <select id="difficultySelect">
+              <option value="">All difficulty</option>
+            </select>
+          </label>
+          <button type="submit">Apply</button>
+        </form>
+      </section>
+
+      <div id="status" class="status" role="status">Loading questions...</div>
+
+      <section id="questionBoard" class="question-board" aria-live="polite"></section>
+
+      <section class="panel pager-panel" aria-label="Question navigation">
+        <button id="prevBundleBtn" type="button" class="secondary-button">Previous 100</button>
+        <button id="prevBtn" type="button" class="secondary-button">Previous</button>
+        <span id="pageInfo" class="page-info">Question 1</span>
+        <button id="nextBtn" type="button">Next</button>
+        <button id="nextBundleBtn" type="button">Next 100</button>
+      </section>
+    </main>
+
+    <script src="./shared.js?v=5"></script>
+    <script src="./script.js?v=5"></script>
+  </body>
+</html>

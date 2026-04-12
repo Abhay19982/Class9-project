@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Class 9 Dashboard</title>
+    <link rel="stylesheet" href="./styles.css?v=5" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body data-page="dashboard">
+    <header class="topbar">
+      <a class="brand" href="./index.html">
+        <img src="./assets/image.png" alt="Quiz board" />
+        <span>Class 9 Dashboard</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a data-nav="quiz" href="./index.html">Quiz</a>
+        <a data-nav="dashboard" href="./dashboard.html">Dashboard</a>
+        <a data-nav="analysis" href="./analysis.html">Analysis</a>
+      </nav>
+      <div class="topbar-actions">
+        <span id="userCodeBadge" class="code-badge">Code</span>
+        <button id="exportCsvBtn" type="button" class="secondary-button">Export CSV</button>
+        <button id="changeCodeBtn" type="button" class="secondary-button">Switch Code</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero-grid">
+        <div class="hero-card">
+          <p class="eyebrow">Performance analytics</p>
+          <h1>Track subject and topic performance for your current access code.</h1>
+          <p class="hero-copy">
+            Everything here is stored in localStorage, so each code keeps its own
+            analytics and review history on this device.
+          </p>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <strong id="totalAttempted">0</strong>
+            <small>attempted</small>
+          </article>
+          <article class="stat-card">
+            <strong id="correctRate">0%</strong>
+            <small>correct</small>
+          </article>
+          <article class="stat-card">
+            <strong id="remainingCount">0</strong>
+            <small>remaining</small>
+          </article>
+        </div>
+      </section>
+
+      <div id="dashboardEmpty" class="panel empty-state" hidden>
+        No attempts yet for this code. Answer a few questions in the quiz first.
+      </div>
+
+      <section id="dashboardContent" class="dashboard-grid" hidden>
+        <article class="panel chart-panel">
+          <h2>Subject-wise Performance</h2>
+          <canvas id="subjectChart"></canvas>
+        </article>
+        <article class="panel chart-panel">
+          <h2>Topic-wise Accuracy</h2>
+          <canvas id="topicChart"></canvas>
+        </article>
+        <article class="panel table-panel">
+          <h2>Subject Summary</h2>
+          <div id="subjectTable"></div>
+        </article>
+        <article class="panel table-panel">
+          <h2>Topic Summary</h2>
+          <div id="topicTable"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="./shared.js?v=5"></script>
+    <script src="./dashboard.js?v=5"></script>
+  </body>
+</html>
