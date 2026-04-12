@@ -190,6 +190,17 @@ button:disabled {
   max-width: 56ch;
 }
 
+.sync-form {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.sync-form button {
+  align-self: end;
+}
+
 .stats-grid {
   display: grid;
   gap: 12px;

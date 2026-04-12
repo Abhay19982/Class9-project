@@ -6,6 +6,10 @@
     codeBadge: document.querySelector("#userCodeBadge"),
     changeCode: document.querySelector("#changeCodeBtn"),
     exportCsv: document.querySelector("#exportCsvBtn"),
+    syncSupabase: document.querySelector("#syncSupabaseBtn"),
+    studentName: document.querySelector("#studentNameInput"),
+    familyCode: document.querySelector("#familyCodeInput"),
+    syncStatus: document.querySelector("#syncStatus"),
     empty: document.querySelector("#dashboardEmpty"),
     content: document.querySelector("#dashboardContent"),
     totalAttempted: document.querySelector("#totalAttempted"),
@@ -16,6 +20,11 @@
     subjectChart: document.querySelector("#subjectChart"),
     topicChart: document.querySelector("#topicChart"),
   };
+
+  function setSyncStatus(message, isError = false) {
+    selectors.syncStatus.textContent = message;
+    selectors.syncStatus.classList.toggle("error", isError);
+  }
 
   function renderTable(container, rows) {
     if (!rows.length) {
@@ -90,11 +99,19 @@
     const attempts = QuizApp.getCurrentUserState().attempts;
     const analytics = QuizApp.computeAnalytics(attempts);
     const remaining = QuizApp.filterUnattempted(QuizApp.getQuestions(), code).length;
+    const profile = QuizApp.getCurrentUserProfile();
 
     selectors.codeBadge.textContent = code;
+    selectors.studentName.value = profile.student_name || "";
+    selectors.familyCode.value = profile.family_code || "";
     selectors.totalAttempted.textContent = analytics.totalAttempted.toLocaleString();
     selectors.correctRate.textContent = `${analytics.accuracy}%`;
     selectors.remaining.textContent = remaining.toLocaleString();
+    setSyncStatus(
+      profile.last_synced_at
+        ? `Last synced: ${new Date(profile.last_synced_at).toLocaleString()}`
+        : "Supabase sync not done yet."
+    );
 
     if (!attempts.length) {
       selectors.empty.hidden = false;
@@ -133,6 +150,29 @@
         return;
       }
       QuizApp.downloadCsv(`class9-${QuizApp.getCurrentUserCode().toLowerCase()}-attempts.csv`, csv);
+    });
+    selectors.studentName.addEventListener("input", () => {
+      QuizApp.updateCurrentUserProfile({
+        student_name: selectors.studentName.value.trim(),
+      });
+    });
+    selectors.familyCode.addEventListener("input", () => {
+      QuizApp.updateCurrentUserProfile({
+        family_code: selectors.familyCode.value.trim(),
+      });
+    });
+    selectors.syncSupabase.addEventListener("click", async () => {
+      try {
+        selectors.syncSupabase.disabled = true;
+        setSyncStatus("Syncing to Supabase...");
+        await QuizApp.syncAttemptSummaryToSupabase();
+        renderDashboard();
+        setSyncStatus("Synced to Supabase successfully.");
+      } catch (error) {
+        setSyncStatus(`Supabase sync failed: ${error.message}`, true);
+      } finally {
+        selectors.syncSupabase.disabled = false;
+      }
     });
   }
 

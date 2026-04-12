@@ -4,8 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Class 9 Dashboard</title>
-    <link rel="stylesheet" href="./styles.css?v=5" />
+    <link rel="stylesheet" href="./styles.css?v=6" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   </head>
   <body data-page="dashboard">
     <header class="topbar">
@@ -34,6 +35,18 @@
             Everything here is stored in localStorage, so each code keeps its own
             analytics and review history on this device.
           </p>
+          <div class="sync-form">
+            <label>
+              Student name
+              <input id="studentNameInput" type="text" placeholder="Enter student name" autocomplete="name" />
+            </label>
+            <label>
+              Family code
+              <input id="familyCodeInput" type="text" placeholder="Enter family code" autocomplete="off" />
+            </label>
+            <button id="syncSupabaseBtn" type="button">Sync to Supabase</button>
+          </div>
+          <div id="syncStatus" class="status" role="status"></div>
         </div>
         <div class="stats-grid">
           <article class="stat-card">
@@ -75,7 +88,7 @@
       </section>
     </main>
 
-    <script src="./shared.js?v=5"></script>
-    <script src="./dashboard.js?v=5"></script>
+    <script src="./shared.js?v=6"></script>
+    <script src="./dashboard.js?v=6"></script>
   </body>
 </html>

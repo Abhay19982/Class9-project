@@ -1,11 +1,16 @@
 (function () {
-  const APP_STORAGE_KEY = "class9_quiz_app_v5";
+  const APP_STORAGE_KEY = "class9_quiz_app_v6";
+  const LEGACY_STORAGE_KEYS = ["class9_quiz_app_v5"];
   const ACCESS_CODES = ["USER1", "USER2", "USER3", "USER4", "USER5"];
   const DATA_PATH = "./data/questions.json";
   const OLLAMA_ENDPOINT = "http://127.0.0.1:11434/api/generate";
   const OLLAMA_MODEL = "llama3.2";
+  const SUPABASE_URL = "https://ytakzdebrllvzbkzwrah.supabase.co";
+  const SUPABASE_KEY = "sb_publishable_ll-nYUzWQHUAv2B6OTCJHw_he-2yswj";
 
   let questionsCache = null;
+  const supabaseClient =
+    window.supabase?.createClient?.(SUPABASE_URL, SUPABASE_KEY) || null;
 
   function defaultState() {
     return {
@@ -18,10 +23,22 @@
   function readState() {
     try {
       const raw = localStorage.getItem(APP_STORAGE_KEY);
-      if (!raw) {
-        return defaultState();
+      if (raw) {
+        return { ...defaultState(), ...JSON.parse(raw) };
       }
-      return { ...defaultState(), ...JSON.parse(raw) };
+
+      for (const legacyKey of LEGACY_STORAGE_KEYS) {
+        const legacyRaw = localStorage.getItem(legacyKey);
+        if (!legacyRaw) {
+          continue;
+        }
+
+        const migratedState = migrateState(JSON.parse(legacyRaw));
+        writeState(migratedState);
+        return migratedState;
+      }
+
+      return defaultState();
     } catch {
       return defaultState();
     }
@@ -31,12 +48,42 @@
     localStorage.setItem(APP_STORAGE_KEY, JSON.stringify(state));
   }
 
+  function migrateState(state) {
+    const base = { ...defaultState(), ...(state || {}) };
+    const users = {};
+
+    Object.entries(base.users || {}).forEach(([code, userState]) => {
+      users[code] = {
+        attempts: Array.isArray(userState?.attempts) ? userState.attempts : [],
+        attempted_questions: Array.isArray(userState?.attempted_questions)
+          ? userState.attempted_questions
+          : [],
+        profile: {
+          student_name: userState?.profile?.student_name || "",
+          family_code: userState?.profile?.family_code || "",
+          last_synced_at: userState?.profile?.last_synced_at || "",
+        },
+      };
+    });
+
+    return {
+      currentUserCode: base.currentUserCode || "",
+      users,
+      aiExplanations: base.aiExplanations || {},
+    };
+  }
+
   function ensureUser(code) {
     const state = readState();
     if (!state.users[code]) {
       state.users[code] = {
         attempts: [],
         attempted_questions: [],
+        profile: {
+          student_name: "",
+          family_code: "",
+          last_synced_at: "",
+        },
       };
       writeState(state);
     }
@@ -70,6 +117,25 @@
 
   function getAttemptByQuestionId(questionId) {
     return getCurrentUserState().attempts.find((attempt) => attempt.question_id === questionId);
+  }
+
+  function getCurrentUserProfile() {
+    return getCurrentUserState().profile || {
+      student_name: "",
+      family_code: "",
+      last_synced_at: "",
+    };
+  }
+
+  function updateCurrentUserProfile(profileUpdates) {
+    const code = getCurrentUserCode();
+    const state = ensureUser(code);
+    state.users[code].profile = {
+      ...getCurrentUserProfile(),
+      ...profileUpdates,
+    };
+    writeState(state);
+    return state.users[code].profile;
   }
 
   function recordAttempt(question, selectedOption, elapsedSeconds) {
@@ -392,6 +458,95 @@
     };
   }
 
+  function buildSupabaseAttemptSummary() {
+    const code = getCurrentUserCode();
+    const userState = getCurrentUserState();
+    const attempts = userState.attempts || [];
+    const analytics = computeAnalytics(attempts);
+    const profile = getCurrentUserProfile();
+    const chapterBreakdown = {};
+    const reviewItems = [];
+
+    attempts.forEach((attempt) => {
+      const chapter = attempt.chapter || "unknown";
+      if (!chapterBreakdown[chapter]) {
+        chapterBreakdown[chapter] = { attempted: 0, correct: 0, wrong: 0 };
+      }
+      chapterBreakdown[chapter].attempted += 1;
+      chapterBreakdown[chapter].correct += attempt.correct ? 1 : 0;
+      chapterBreakdown[chapter].wrong += attempt.correct ? 0 : 1;
+
+      if (!attempt.correct) {
+        reviewItems.push({
+          question_id: attempt.question_id,
+          chapter: attempt.chapter,
+          topic: attempt.topic,
+          subject: attempt.subject,
+          selected: attempt.selected,
+          correct_option: attempt.correct_option,
+        });
+      }
+    });
+
+    const breakdown = {};
+    analytics.subjectPerformance.forEach((item) => {
+      breakdown[item.label] = {
+        attempted: item.attempted,
+        correct: item.correct,
+        wrong: item.attempted - item.correct,
+        accuracy: item.accuracy,
+      };
+    });
+
+    const totalElapsed = attempts.reduce(
+      (sum, attempt) => sum + Number(attempt.elapsed_seconds || 0),
+      0
+    );
+
+    return {
+      id:
+        globalThis.crypto?.randomUUID?.() ||
+        `${code}-${Date.now()}-${Math.random().toString(36).slice(2, 10)}`,
+      student_name: profile.student_name || code,
+      family_code: profile.family_code || "",
+      taken_at: new Date().toISOString(),
+      total_questions: analytics.totalAttempted,
+      correct_answers: analytics.correctAnswers,
+      accuracy: analytics.accuracy,
+      elapsed_seconds: totalElapsed,
+      breakdown,
+      chapter_breakdown: chapterBreakdown,
+      review_items: reviewItems,
+    };
+  }
+
+  async function syncAttemptSummaryToSupabase() {
+    if (!supabaseClient) {
+      throw new Error("Supabase client is not available on this page.");
+    }
+
+    const profile = getCurrentUserProfile();
+    if (!profile.student_name) {
+      throw new Error("Enter student name before syncing.");
+    }
+    if (!profile.family_code) {
+      throw new Error("Enter family code before syncing.");
+    }
+
+    const payload = buildSupabaseAttemptSummary();
+    if (!payload.total_questions) {
+      throw new Error("Attempt at least one question before syncing.");
+    }
+
+    const { error } = await supabaseClient.from("attempts").insert(payload);
+    if (error) {
+      throw new Error(error.message);
+    }
+
+    updateCurrentUserProfile({ last_synced_at: payload.taken_at });
+    return payload;
+  }
+
   function exportAttemptsCsv() {
     const attempts = getCurrentUserState().attempts;
     if (!attempts.length) {
@@ -562,5 +717,8 @@
     promptCode,
     renderMath,
     formatSeconds,
+    getCurrentUserProfile,
+    updateCurrentUserProfile,
+    syncAttemptSummaryToSupabase,
   };
 })();
