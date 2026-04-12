@@ -2,6 +2,8 @@
   const APP_STORAGE_KEY = "class9_quiz_app_v5";
   const ACCESS_CODES = ["USER1", "USER2", "USER3", "USER4", "USER5"];
   const DATA_PATH = "./data/questions.json";
+  const OLLAMA_ENDPOINT = "http://127.0.0.1:11434/api/generate";
+  const OLLAMA_MODEL = "llama3.2";
 
   let questionsCache = null;
 
@@ -236,35 +238,101 @@
     };
 
     try {
-      const response = await fetch("/.netlify/functions/explain", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(payload),
-      });
-
-      if (!response.ok) {
-        let message = `AI explanation unavailable (${response.status})`;
-        try {
-          const errorData = await response.json();
-          if (errorData.error) {
-            message = `${message}: ${errorData.error}`;
-          }
-        } catch {
-          // ignore parse failure
-        }
-        throw new Error(message);
-      }
-
-      const data = await response.json();
-      const explanation = data.explanation || mockExplanation(question);
+      const explanation = await requestOllamaExplanation(payload);
       state.aiExplanations[question.question_id] = explanation;
       writeState(state);
       return explanation;
     } catch (error) {
-      throw error;
+      try {
+        const explanation = await requestNetlifyExplanation(payload);
+        state.aiExplanations[question.question_id] = explanation;
+        writeState(state);
+        return explanation;
+      } catch (netlifyError) {
+        throw new Error(
+          [
+            `Ollama failed: ${error.message}`,
+            `Netlify fallback failed: ${netlifyError.message}`,
+          ].join(" | ")
+        );
+      }
     }
+  }
+
+  async function requestOllamaExplanation(payload) {
+    const prompt = [
+      "Explain this Class 9 question in simple terms.",
+      `Subject: ${payload.subject || ""}`,
+      `Chapter: ${payload.chapter || ""}`,
+      `Question: ${payload.question || ""}`,
+      "Options:",
+      ...(payload.options || []).map((option) => `${option.identifier}. ${option.content}`),
+      "Keep the explanation concise, clear, and student-friendly.",
+      "Mention why the correct option is right.",
+    ].join("\n");
+
+    let response;
+    try {
+      response = await fetch(OLLAMA_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          model: OLLAMA_MODEL,
+          prompt,
+          stream: false,
+        }),
+      });
+    } catch {
+      throw new Error(
+        "Could not reach local Ollama at http://127.0.0.1:11434. Start Ollama and run `ollama run llama3.2` first."
+      );
+    }
+
+    if (!response.ok) {
+      const text = await response.text();
+      throw new Error(`Ollama request failed (${response.status}): ${text}`);
+    }
+
+    const data = await response.json();
+    const explanation = String(data.response || "").trim();
+    if (!explanation) {
+      throw new Error("Ollama returned an empty explanation.");
+    }
+
+    return explanation;
+  }
+
+  async function requestNetlifyExplanation(payload) {
+    const response = await fetch("/.netlify/functions/explain", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+
+    if (!response.ok) {
+      let message = `AI explanation unavailable (${response.status})`;
+      try {
+        const errorData = await response.json();
+        if (errorData.error) {
+          message = `${message}: ${errorData.error}`;
+        }
+      } catch {
+        // ignore parse failure
+      }
+      throw new Error(message);
+    }
+
+    const data = await response.json();
+    const explanation = data.explanation || "";
+    if (!explanation) {
+      throw new Error("Netlify function returned an empty explanation.");
+    }
+
+    return explanation;
   }
 
   function mockExplanation(question) {
