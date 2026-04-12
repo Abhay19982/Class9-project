@@ -2,7 +2,7 @@
   const APP_STORAGE_KEY = "class9_quiz_app_v6";
   const LEGACY_STORAGE_KEYS = ["class9_quiz_app_v5"];
   const ACCESS_CODES = ["USER1", "USER2", "USER3", "USER4", "USER5"];
-  const DATA_PATH = "./data/questions.json?v=3";
+  const DATA_PATH = "./data/questions.json?v=4";
   const OLLAMA_ENDPOINT = "http://127.0.0.1:11434/api/generate";
   const OLLAMA_MODEL = "llama3.2";
   const SUPABASE_URL = "https://ytakzdebrllvzbkzwrah.supabase.co";
