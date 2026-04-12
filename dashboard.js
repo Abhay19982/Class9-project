@@ -6,6 +6,7 @@
     codeBadge: document.querySelector("#userCodeBadge"),
     changeCode: document.querySelector("#changeCodeBtn"),
     exportCsv: document.querySelector("#exportCsvBtn"),
+    exportAi: document.querySelector("#exportAiBtn"),
     syncSupabase: document.querySelector("#syncSupabaseBtn"),
     studentName: document.querySelector("#studentNameInput"),
     familyCode: document.querySelector("#familyCodeInput"),
@@ -150,6 +151,15 @@
         return;
       }
       QuizApp.downloadCsv(`class9-${QuizApp.getCurrentUserCode().toLowerCase()}-attempts.csv`, csv);
+    });
+    selectors.exportAi.addEventListener("click", () => {
+      const exported = QuizApp.exportAIExplanationsJson();
+      if (!exported) {
+        setSyncStatus("No AI explanations saved in this browser yet.", true);
+        return;
+      }
+      QuizApp.downloadJson("class9-ai-explanations.json", exported);
+      setSyncStatus("AI explanations exported. Share that JSON file and we can make them permanent.");
     });
     selectors.studentName.addEventListener("input", () => {
       QuizApp.updateCurrentUserProfile({

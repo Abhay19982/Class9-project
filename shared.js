@@ -581,8 +581,42 @@
     return [header.join(","), ...rows].join("\n");
   }
 
+  function exportAIExplanationsJson() {
+    const explanations = readState().aiExplanations || {};
+    const entries = Object.entries(explanations)
+      .filter(([, explanation]) => String(explanation || "").trim())
+      .map(([question_id, explanation]) => ({
+        question_id,
+        explanation: String(explanation).trim(),
+      }));
+
+    if (!entries.length) {
+      return null;
+    }
+
+    return {
+      exported_at: new Date().toISOString(),
+      total: entries.length,
+      explanations: entries,
+    };
+  }
+
   function downloadCsv(filename, content) {
     const blob = new Blob([content], { type: "text/csv;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  function downloadJson(filename, content) {
+    const blob = new Blob([JSON.stringify(content, null, 2)], {
+      type: "application/json;charset=utf-8",
+    });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
@@ -709,7 +743,9 @@
     getAIExplanation,
     computeAnalytics,
     exportAttemptsCsv,
+    exportAIExplanationsJson,
     downloadCsv,
+    downloadJson,
     allQuestionsCompleted,
     createEmptyState,
     markActiveNav,
