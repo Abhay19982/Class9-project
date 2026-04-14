@@ -7,6 +7,7 @@
     bundle: [],
     filteredQuestions: [],
     questionStartedAt: Date.now(),
+    lastAttempt: null,
   };
 
   const selectors = {
@@ -155,9 +156,26 @@
       } else {
         button.addEventListener("click", async () => {
           const elapsedSeconds = Math.max(Math.round((Date.now() - state.questionStartedAt) / 1000), 0);
-          QuizApp.recordAttempt(question, identifier, elapsedSeconds);
+          const attempt = QuizApp.recordAttempt(question, identifier, elapsedSeconds);
+          if (!attempt) {
+            loadQuestions(false);
+            return;
+          }
+          state.lastAttempt = { question, attempt };
           updateHeader();
-          renderCurrentQuestion();
+          loadQuestions(false);
+          QuizApp.syncAttemptSummaryToSupabase()
+            .then(() => {
+              setStatus(
+                `${attempt.correct ? "Correct" : "Wrong"}. Progress auto-synced to Supabase for ${QuizApp.getCurrentUserCode()}.`
+              );
+            })
+            .catch((error) => {
+              setStatus(
+                `${attempt.correct ? "Correct" : "Wrong"}. Saved locally, but Supabase auto-sync failed: ${error.message}`,
+                true
+              );
+            });
         });
       }
 
@@ -165,6 +183,10 @@
     });
 
     article.append(meta, prompt, options);
+
+    if (state.lastAttempt) {
+      selectors.board.append(resultPanel(state.lastAttempt.question, state.lastAttempt.attempt));
+    }
 
     selectors.board.append(article);
 
@@ -226,6 +248,7 @@
     selectors.form.addEventListener("submit", (event) => {
       event.preventDefault();
       state.page = 1;
+      state.lastAttempt = null;
       syncDropdowns();
       loadQuestions(true);
     });

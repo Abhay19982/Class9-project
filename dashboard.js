@@ -103,8 +103,8 @@
     const profile = QuizApp.getCurrentUserProfile();
 
     selectors.codeBadge.textContent = code;
-    selectors.studentName.value = profile.student_name || "";
-    selectors.familyCode.value = profile.family_code || "";
+    selectors.studentName.value = code;
+    selectors.familyCode.value = code;
     selectors.totalAttempted.textContent = analytics.totalAttempted.toLocaleString();
     selectors.correctRate.textContent = `${analytics.accuracy}%`;
     selectors.remaining.textContent = remaining.toLocaleString();
@@ -163,12 +163,12 @@
     });
     selectors.studentName.addEventListener("input", () => {
       QuizApp.updateCurrentUserProfile({
-        student_name: selectors.studentName.value.trim(),
+        student_name: QuizApp.getCurrentUserCode(),
       });
     });
     selectors.familyCode.addEventListener("input", () => {
       QuizApp.updateCurrentUserProfile({
-        family_code: selectors.familyCode.value.trim(),
+        family_code: QuizApp.getCurrentUserCode(),
       });
     });
     selectors.syncSupabase.addEventListener("click", async () => {

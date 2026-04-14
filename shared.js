@@ -59,8 +59,8 @@
           ? userState.attempted_questions
           : [],
         profile: {
-          student_name: userState?.profile?.student_name || "",
-          family_code: userState?.profile?.family_code || "",
+          student_name: code,
+          family_code: code,
           last_synced_at: userState?.profile?.last_synced_at || "",
         },
       };
@@ -80,8 +80,8 @@
         attempts: [],
         attempted_questions: [],
         profile: {
-          student_name: "",
-          family_code: "",
+          student_name: code,
+          family_code: code,
           last_synced_at: "",
         },
       };
@@ -120,10 +120,12 @@
   }
 
   function getCurrentUserProfile() {
-    return getCurrentUserState().profile || {
-      student_name: "",
-      family_code: "",
-      last_synced_at: "",
+    const code = getCurrentUserCode();
+    const profile = getCurrentUserState().profile || {};
+    return {
+      student_name: code,
+      family_code: code,
+      last_synced_at: profile.last_synced_at || "",
     };
   }
 
@@ -131,8 +133,9 @@
     const code = getCurrentUserCode();
     const state = ensureUser(code);
     state.users[code].profile = {
-      ...getCurrentUserProfile(),
       ...profileUpdates,
+      student_name: code,
+      family_code: code,
     };
     writeState(state);
     return state.users[code].profile;
@@ -166,6 +169,7 @@
     user.attempts.push(attempt);
     user.attempted_questions.push(question.question_id);
     writeState(state);
+    return attempt;
   }
 
   async function loadQuestions() {
@@ -468,7 +472,6 @@
     const userState = getCurrentUserState();
     const attempts = userState.attempts || [];
     const analytics = computeAnalytics(attempts);
-    const profile = getCurrentUserProfile();
     const chapterBreakdown = {};
     const reviewItems = [];
 
@@ -510,10 +513,11 @@
 
     return {
       id:
-        globalThis.crypto?.randomUUID?.() ||
-        `${code}-${Date.now()}-${Math.random().toString(36).slice(2, 10)}`,
-      student_name: profile.student_name || code,
-      family_code: profile.family_code || "",
+        `${code}-${Date.now()}-${
+          globalThis.crypto?.randomUUID?.() || Math.random().toString(36).slice(2, 10)
+        }`,
+      student_name: code,
+      family_code: code,
       taken_at: new Date().toISOString(),
       total_questions: analytics.totalAttempted,
       correct_answers: analytics.correctAnswers,
@@ -528,14 +532,6 @@
   async function syncAttemptSummaryToSupabase() {
     if (!supabaseClient) {
       throw new Error("Supabase client is not available on this page.");
-    }
-
-    const profile = getCurrentUserProfile();
-    if (!profile.student_name) {
-      throw new Error("Enter student name before syncing.");
-    }
-    if (!profile.family_code) {
-      throw new Error("Enter family code before syncing.");
     }
 
     const payload = buildSupabaseAttemptSummary();
