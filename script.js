@@ -7,7 +7,6 @@
     bundle: [],
     filteredQuestions: [],
     questionStartedAt: Date.now(),
-    lastAttempt: null,
   };
 
   const selectors = {
@@ -161,7 +160,6 @@
             loadQuestions(false);
             return;
           }
-          state.lastAttempt = { question, attempt };
           updateHeader();
           loadQuestions(false);
           QuizApp.syncAttemptSummaryToSupabase()
@@ -183,10 +181,6 @@
     });
 
     article.append(meta, prompt, options);
-
-    if (state.lastAttempt) {
-      selectors.board.append(resultPanel(state.lastAttempt.question, state.lastAttempt.attempt));
-    }
 
     selectors.board.append(article);
 
@@ -248,7 +242,6 @@
     selectors.form.addEventListener("submit", (event) => {
       event.preventDefault();
       state.page = 1;
-      state.lastAttempt = null;
       syncDropdowns();
       loadQuestions(true);
     });
