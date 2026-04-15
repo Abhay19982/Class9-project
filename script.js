@@ -204,27 +204,30 @@
     line.textContent = `Selected: ${attempt.selected} | Correct: ${attempt.correct_option}`;
 
     const staticHeading = document.createElement("h3");
-    staticHeading.textContent = "Explanation";
+    staticHeading.textContent = "Answer Explanation";
     const staticBody = document.createElement("div");
     staticBody.className = "solution";
-    staticBody.innerHTML = QuizApp.getStaticExplanation(question);
+    staticBody.textContent = QuizApp.getStaticExplanation(question);
 
-    const aiHeading = document.createElement("h3");
-    aiHeading.textContent = "AI Explanation";
-    const aiBody = document.createElement("div");
-    aiBody.className = "solution ai-solution";
-    aiBody.textContent = "Generating explanation...";
+    panel.append(title, line, staticHeading, staticBody);
 
-    panel.append(title, line, staticHeading, staticBody, aiHeading, aiBody);
+    if (!question.explanation) {
+      const aiHeading = document.createElement("h3");
+      aiHeading.textContent = "AI Explanation";
+      const aiBody = document.createElement("div");
+      aiBody.className = "solution ai-solution";
+      aiBody.textContent = "Generating explanation...";
+      panel.append(aiHeading, aiBody);
 
-    QuizApp.getAIExplanation(question)
-      .then((text) => {
-        aiBody.textContent = text;
-        QuizApp.renderMath(aiBody);
-      })
-      .catch((error) => {
-        aiBody.textContent = error.message || "Unable to generate explanation right now.";
-      });
+      QuizApp.getAIExplanation(question)
+        .then((text) => {
+          aiBody.textContent = text;
+          QuizApp.renderMath(aiBody);
+        })
+        .catch((error) => {
+          aiBody.textContent = error.message || "Unable to generate explanation right now.";
+        });
+    }
 
     return panel;
   }
