@@ -241,6 +241,10 @@ button:disabled {
   align-items: end;
 }
 
+.jee-filters {
+  grid-template-columns: 1.4fr repeat(4, minmax(130px, 1fr)) auto;
+}
+
 label {
   display: grid;
   gap: 7px;
@@ -328,6 +332,11 @@ button:focus {
 .options {
   display: grid;
   gap: 12px;
+  margin-top: 22px;
+}
+
+.reveal-button {
+  width: fit-content;
   margin-top: 22px;
 }
 

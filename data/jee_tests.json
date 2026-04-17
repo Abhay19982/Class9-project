@@ -1,0 +1,2648 @@
+{
+  "version": 1,
+  "subjects": [
+    "Maths",
+    "Physics",
+    "Chemistry"
+  ],
+  "tests": [
+    {
+      "id": "circle-001",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-1",
+      "question": "Review solved example Example-1 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Find the equation of the circle whose centre is (0, 3) and radius is 3. The equation of the circle is (x – 0)2 + (y – 3)2 = 32  x2 + y2 – 6y = 0",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-002",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-2",
+      "question": "Review solved example Example-2 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Find the equation of the circle which passes through(1, –1) and two of its dimeter are x + 2y – 5 = 0 and x – y + 1 = 0 Let P be the point of intersection of the lines x + 2y – 5 = 0 ..........(i) and x – y + 1 = 0 ..........(ii) ADVCR- 1 --- PAGE 2 --- Circle",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-003",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-3",
+      "question": "Review solved example Example-3 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Solving (i) and (ii), we get x = 1, y = 2. So, coordinates of centre are (1, 2). since circle passes through (1,–1) so radius  2 2 (1 1) (2 1) -    radius = 3 Hence the equation of the required circle is (x – 1)2 + (y + 2)2 = 9 If the equation ax2 + (b – 3)xy + 3y2 + 6ax + 2by – 3 = 0 represents the equation of a circle then find a, b ax2 + (b – 3)xy + 3y2 + 6ax + 2by – 3 = 0 above equation will represent a circle if coefficient of x2 = coefficient of y2 a = 3 coefficient of xy = 0 b = 3",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-004",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-4",
+      "question": "Review solved example Example-4 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Find the equation of a circle whose diametric end points are (x1, y1) and (x2, y2) where x1, x2 are the roots of x2 – ax + b = 0 and y1, y2 are the roots of y2 – by + a = 0. We know that the equation of the circle described on the line segment joining (x1, y1) and (x2, y2) as a diameter is (x – x1) (x – x2) + (y – y1) (y – y2) = 0. x2 + y2 – (x1+ x2)x – (y1 + y2)y + x1x2 + y1 y2 = 0 Here, x1 + x2 = a , x1x2 = b y1 + y2 = b , y1y2 = a So, the equation of the required circle is x2 + y2 – ax – by + a + b = 0",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-005",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-5",
+      "question": "Review solved example Example-5 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Find the locus of the centre of the circle whose x and y intercepts are a and b respectively. Equation of circle is x2 + y2 + 2gx + 2fy + c = 0 x intercept = a 2 2 g – c a g2 – c = 2 a 4 ...... (i) y intercept = b 2 2 f – c b f2 – c = b 2 4 ...... (ii) subtracting equation (i) and (ii) 2 2 a – b g2 – f2 = 4 hence locus of centre is x2 2 2 a – b – y2 = 4",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-006",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-6",
+      "question": "Find the parametric equations of the circle x2 + y2 + 4x + 6y + 9 = 0",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "We have : x2 + y2 + 4x + 6y + 9 = 0  (x + 2)2 + (y + 3)2 = 22 So, the parametric equations of this circle are x = –2 + 2 cos  , y = –3 + 2 sin .",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-007",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-7",
+      "question": "Review solved example Example-7 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Find the equation of the following curve in cartesian form x+ y = cos , x – y = sin where  is the parameter. We have : x+ y = cos ....... (i) x – y = sin ....... (ii) (i)2 + (ii)2  (x + y)2 + (x – y)2 = 1 x2 + y2 = 1 2 Clearly, it is a circle with centre at (0, 0) and radius 1 2.",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-008",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-8",
+      "question": "Review solved example Example-8 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Check whether the point (1, 2) lies in smaller or larger region made by circle x2 + y2 We have x2 + y2 – 4x + 2y – 11 = 0 and the line x + y = 0 – 4x + 2y – 11 = 0 or S = 0, x+y =0 • (2,–1) where S = x2 + y2 – 4x + 2y – 11. For the point (1, 2), we have S1 = 12 + 22 – 4 × 1 +2 × 2 – 11 < 0 Hence, the point (1, 2) lies inside the circle Points (1,2) and (2, –1) lie on same side of the line x + y = 0 Hence the point (1,2) lies in the larger region. Self practice problem : (8) x2 + y2 Answer : (8) How are the points (0, 1) (3, 1) and (1, 3) situated with respect to the circle – 2x – 4y + 3 = 0? (0, 1) lies on the circle ; (3, 1) lies outside the circle ; (1, 3) lies inside the circle. Line and a circle: Let L = 0 be a line & S = 0 be a circle. If r is the radius of the circle & p is the length of the perpendicular from the centre on the line, then: (i) p > r  the line does not meet the circle i. e. passes out side the circle. (ii) p = r  the line touches the circle. (It is tangent to the circle) (iii) p < r  the line is a secant of the circle. (iv) p = 0  the line is a diameter of the circle. Also, if y = mx + c is line and x2 + y2 = a2 is circle then (i) c2 < a2 (1 + m2)  the line is a secant of the circle. (ii) c2 = a2 (1 + m2)  the line touches the circle. (It is tangent to the circle) (iii) c2 > a2 (1 + m2)  the line does not meet the circle i. e. passes out side the circle. These conditions can also be obtained by solving y = mx + c with x2 + y2 = a2 and making the discriminant of the quadratic greater than zero for secant, equal to zero for tangent and less the zero for the last case. ADVCR- 4 --- PAGE 5 --- – 2x – 2y = 0 Circle",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-009",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-9",
+      "question": "Review solved example Example-9 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "For what value of , does the line x + y =  touch the circle x2 + y2 We have : x + y =  ......(i) and x2 + y2 – 2x – 2y = 0 ....... (ii) If the line (i) touches the circle (ii), then length of the  from the centre (1, 1) = radius of circle (ii) 1 1  -   = 2  2 – 2     = 0 or 4 2 2 1 1  Hence, the line (i) touches the circle (ii) for  = 0 or 4 Self practice problem : (9) points Answers : (9) m(–, – 3 )  ( 3 ,) Find the range of values of m for which the line y = mx + 2 cuts the circle x2 + y2 = 1 at distinct Slope form of tangent : y = mx + c is always a tangent to the circle x2 + y2 = a2 if c2 = a2 (1 + m2). Hence, of tangent is   2 2 a m a y = mx ± m  2 a 1 and the point of contact is , . -       c c Point form of tangent : (i) The equation of the tangent to the circle x2 + y2 = a2 at its point (x1, y1) is, x x1 + y y1 = a². (ii) The equation of the tangent to the circle x2 + y2 + 2gx + 2fy + c = 0 at its point (x1, y1) is : xx1 + yy1 + g (x+x1) + f (y+y1) + c = 0. Note : In general the equation of tangent to any second degree curve at point (x1, y1) on it can be obtained by replacing x2 by x x1, y2 by yy1, x by  , y by 1 y y 1 x x  , 2 2 xy by 1 1 x y x y  and c remains as c. 2 Parametric form of tangent : The equation of a tangent to circle x2 + y2 = a2 at (a cos , a sin)is x cos + ysin=a.    a cos a sin    NOTE : The point of intersection of the tangents at the points P() & Q() is 2 2          -  ,  -  cos cos 2 2",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-010",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-10",
+      "question": "Find the equation of the tangent to the circle x2 + y2",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Equation of tangent is 3x + 4y – 2 x 3        – 2 y 4 2        – 11 = 0 2 or 2x + 3y – 18 = 0 Hence, the required equation of the tangent is 2x + 3y – 18 = 0 – 2x – 2y – 11 = 0 at (3, 4).",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-011",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-11",
+      "question": "Review solved example Example-11 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Find the equation of tangents to the circle x2 + y2 – 4x + 2y = 0 which are perpendicular to the line x + 2y + 4 = 0 Given circle is x2 + y2 – 4x + 2y = 0 and given line is x + 2y + 4 = 0 Centre of circle (i) is (2,–1)) and its radius 2x – y + k = 0 perpendicular to the line (ii) .......(i) .......(ii) 5 is Equation of any line .......(iii) If line (iii) is tangent to circle (i) then   | 4 1 k | 5  or |k + 5| = 5 or k = 0, – 10 5 Hence equation of required tangents are 2x – y = 0 and 2x – y – 10 = 0 --- PAGE 6 --- Circle Self practice problem : (10) (i) parallel, (ii) Find the equation of the tangents to the circle x2 + y2 perpendicular to the line 3x – 4y – 1 = 0 Answer. (10) (i) 3x – 4y + 20 = 0 and 3x – 4y – 10 = 0 Normal :",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-012",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-12",
+      "question": "Review solved example Example-12 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "– 2x – 4y – 4 = 0 which are (ii) 4x + 3y + 5 = 0 and 4x + 3y – 25 = 0 If a line is normal / orthogonal to a circle, then it must pass through the centre of the circle. Using this y f  fact normal to the circle x2 + y2 + 2gx + 2fy + c = 0 at (x1, y1) is; y - y1 = 1 (x - x1).  x g 1 Two normals of a circle are 2x + 3y = 5 and 3x – 4y + 1 = 0. Find its equation having radius 2 Since point of intersection of normals is the centre of the circle point of intersection of lines 2x + 3y = 5 and 3x – 4y + 1 = 0 is (1,1) equation of circle having centre (1,1) and radius 2 is (x – 1)2 + (y – 1)2 = 4 Self practice problem : (11) Find the equation of the normal to the circle x2 + y2 – 2x – 4y + 3 = 0 at the point (2, 3). Answer : (11) x – y + 1 = 0 Pair of tangents from a point : The equation of a pair of tangents drawn from the point A (x1, y1) to the circle x2 + y2 + 2gx + 2fy + c = 0 is : SS1 = T². Where S  x2 + y2 + 2gx + 2fy + c ; S1  x1 ² + y1 ² + 2gx1 + 2fy1 + c T  xx1 + yy1 + g(x + x1) + f(y + y1) + c.",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-013",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-13",
+      "question": "Find the equation of the pair of tangents drawn to the circle x2 + y2 + 4x – 6y + 9 = 0 from thepoint (2, 1)",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Given circle is S = x2 + y2 + 4x – 6y + 9 = 0 Let P  (2, 1) For point P, S1 = 16 Clearly P lies outside the circle and T  2x + y + 2 (x + 2) – 3(y + 1) + 9 = 0 i.e T  2(2x – y + 5) Now equation of pair of tangents from P(2, 1) to circle (1) is SS1 = T2 or 16 (x2 + y2 + 4x – 6y + 9) = 4(2x – y + 5)2 or 12y2 – 16x – 56y + 16xy + 44 = 0 or 3y2 – 4x – 14y + 4xy + 11 = 0",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-014",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-14",
+      "question": "Find the angle between the tangents drawn from the point (2, 0) to the circle x2 + y2 = 1",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Given circle is x2 + y2 = 1 Given point is (2, 0). Now length of the tangent from (2, 0) to circle (i) = 2 2 2 0 1  - = 3 1 tan = 3 .........(i) 1 3  (2, 0)  =  6 so angle between tangents = 2 =  3",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-015",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-15",
+      "question": "Find the equation of director circle of the circle x2 + y2 + 6x + 8y – 2 = 0",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Centre & radius of given circle are (–3, –4) & 27 respectively. Centre and radius of the director circle will be (–3, –4) & 27. 2 = 54 respectively.  equation of director circle is (x + 3)2 + (y + 4)2 = 54  x2 + y2 + 6x + 8y –29 = 0 ADVCR- 7 --- PAGE 8 --- Circle",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-016",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-17",
+      "question": "Review solved example Example-17 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "2 L R (b) Length of chord of contact T1 T2 = 2 2 R L . (c) Area of the triangle formed by the pair of the tangents & its chord (d) (e) of contact = RL 3 2 2 R L  2RL Tangent of the angle between the pair of tangents from (x1, y1) =       2 2 L R -   Equation of the circle circumscribing the triangle PT1 T2 is: (x - x1) (x + g) + (y - y1) (y + f) = 0. Find the equation of the chord of contact of the tangents drawn from (0, 1) to the circle x2 + y2 – 2x + 4y = 0 Given circle is x2 + y2 – 2x + 4y = 0 .......(i) Let P = (0, 1) For point P (0, 1), T = x . 0 + y . 1 – (x + 0) + 2(y + 1) i.e. T = x – 3y – 2 Now equation of the chord of contact of point P(0, 1) w.r.t. circle (i) will be x – 3y – 2 = 0 If the chord of contact of the tangents drawn from (, ) to the circle x2 + y2 = a2 subtends right angle at the centre then prove that 2 + 2 = 2a2 .  QOR = QPR = 2 so OQPR is a square Q O P R OQ2 = PQ2 a2 = 2 + 2 2 + 2 = 2a2 – a2 ADVCR- 8 --- PAGE 9 --- Circle",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-017",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-18",
+      "question": "Find the equation of the chord of the circle x2 + y2 + 2x – 2y – 4 = 0, whose middle point is",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "(0, 0) Equation of given circle is S  x2 + y2 + 2x – 2y – 4 = 0 Let L  (0, 0) For point L(0, 0), S1 = –4 and T  x.0 + y (0) + (x + 0) – (y + 0) – 4 i.e. T  x – y – 4 Now equation of the chord of circle (i) whose middle point is L(0, 0) is T = S1 or x – y = 0 Second Method : Let C be the centre of the given circle, then C  (–1, 1). L  (0, 0) slope of CL = –1  Equation of chord of circle whose middle point is L, is y – 0 = 1(x – 0) ( chord is perpendicular to CL) or x – y = 0",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-018",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-19",
+      "question": "Examine if the two circles x2 + y2 – 4x – 6y + 9 = 0 and x2 + y2 – 10x – 6y + 18 = 0 intersect",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "or not Given circles are x2 + y2 – 4x – 6y + 9 = 0 and x2 + y2 – 10x – 6y + 18 = 0 ...........(i) ...........(ii) Let A and B be the centres and r1 and r2 the radii of circles (i) and (ii) respectively, then A  (2, 3), B  (5, 3), r1 = 2, r2 = 4 Now AB = 3 and r1 + r2 = 6, |r1 – r2| = 2 Thus |r1 – r2| < AB < r1 + r2, hence the two circles intersect.",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-019",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-20",
+      "question": "Review solved example Example-20 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "The centre of a circle which is orthogonal to three given circles is the radical centre provided the radical centre lies outside all the three circles. If the circles x2 + y2 + 2g1x + 2f1y + c1 = 0 and 2x2 + 2y2 + 2g2x + 2f2y + c2 = 0 are orthogonal to c each other then prove that g1g2 + f1f2 = c1 + 2 2 Given circles are x2 + y2 + 2g1x + 2f1y + c1 = 0 and 2x2 + 2y2 + 2g2x + 2f2y + c2 = 0 c or x2 + y2 + g2x + f2y + 2 2 Since circles (i) and (ii) cut orthogonally 2 g  2g1       2 f + 2f1 2       c = c1 + 2 2 2 c g1g2 + f1f2 = c1 + 2 2 ...........(i) = 0 ..........(ii)",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-020",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-21",
+      "question": "Find the co-ordinates of the point from which the lengths of the tangents to the following three circles be equal. x2 + y2 = 1 x2 + y2 – 8x + 15 = 0 x2 + y2 + 10y + 24 = 0",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Here we have to find the radical centre of the three circles. First reduce them to standard form in which coefficients of x2 and y2 be each unity. Subtracting in pairs the three radical axes are x = 2 ; 8x + 10y + 9 = 0 10y + 25 = 0 solving any two, we get the point 5   -  2, 2    which satisfies the third also. This point is called the radical centre and by definition the length of the tangents from it to the three circles are equal. Self practice problem : (23) Find the point from which the tangents to the three circles x2 + y2 – 3x + 5y + 9 = 0 and x2 + y2 + y = 0 are equal in length. Find also – 4x + 7 = 0, 2x2 + 2y2 this length. Answer : (23) (2, – 1) ; 2. Family of Circles: This article is aimed at obtaining the equation of a group of circles having a specific characteristic. For example, the equation x2 + y2 + 4x + 2y +  = 0 where  is arbitrary, represents a family of circles with fixed centre (–2, –1) but variable radius. We have the following results for some other families of circles. (a) The equation of the family of circles passing through the points of intersection of two circles S1 = 0 & S2 = 0 is : S1 + K S2 = 0 (K  -1 provided the co-efficient of x2 & y2 in S1 & S2 are same) , (b) The equation of the family of circles passing through the point of intersection of a circle S = 0 & a line L = 0 is given by S + KL = 0. (c) The equation of a family of circles passing through two given points (x1, y1) & (x2, y2) can be written in the form: x y 1 (x - x1) (x - x2) + (y - y1) (y - y2) + K x y 1 1 1 x y 1 2 2 (d) The equation of a family of circles touching a fixed line y - y1 = m (x - x1) at the fixed (x1, y1) is (x - x1)2 + (y - y1)2 + K (y - y1 - m (x - x1)) = 0, where K is a parameter. (e) Family of circles circumscribing a triangle whose sides are given by L1 = 0, L2 = 0 and L3 = 0 is given by; L1L2 +  L2L3 +  L3L1 = 0 provided co-efficient of xy = 0 and co-efficient of x2 = co-efficient of y2 . (f) Equation of circle circumscribing a quadrilateral whose side in order are represented by the lines L1 = 0, L2 = 0, L3 = 0 & L4 = 0 are u L1L3 +  L2L4 = 0 where values of u &  can be found out by using condition that co-efficient of x2 = co-efficient of y2 and co-efficient of xy = 0.",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-021",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-22",
+      "question": "Find the equation of the circle passing through the point (1, 1) and points of intersection of the circles x2 + y2 + 13x – 3y = 0 and 2x2 + 2y2 + 4x – 7y – 25 = 0.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Any circle through the intersection of given circles is S1 + S2 = 0 or x2 + y2 + 13x – 3y + (x2 + y2 + 2x – 7y/2 – 25/2) = 0 This circle passes through (1, 1) 1 + 1 + 13 – 3 + (1 + 1 + 2 – 7/2 – 25/2) = 0  = 1 Putting the value of  in (i) the required circle is 4x2 + 4y2 + 30x – 13y – 25 = 0",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-022",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-23",
+      "question": "Find the equations of smallest circle which passes through the points of intersection of the line x + y = 1 and the circle x2 + y2 = 9.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "The required circle by S + L = 0 is x2 + y2 = 0, where K is a parameter. point ....(i) ADVCR- 12 --- PAGE 13 --- Circle     centre (– g, – f) = , 2 2 - -     centre lies on the line x + y = 1  – –  = 1 2 2  = –1 x2 + y2 Putting the value of  in (i) the required circle is –x – y – 8 = 0",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-023",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-24",
+      "question": "Find the equation of circle passing through the points A(1, 1) & B(0, 3) and whose radius is 5 2.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "Equation of AB is 2x + y – 3 = 0  equation of circle is (x – 1) (x) + (y – 1) (y – 3) + (2x + y – 3) = 0 or x2 + y2 + (2 – 1)x + ( – 4)y + 3 – 3 = 0 2 2 1 4 3 3 5  -  -        -        = 2 2 2  = 1  equation of circle is x2 + y2 + x – 3y = 0",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-024",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-25",
+      "question": "Review solved example Example-25 from Circle.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "A variable circle always touhces x + y = 2 at (1, 1), cuts the circle x2 + y2 + 4x + 5y – 6 = 0. Prove that all common chords pass through a fixed point. Also find the point. Equation of circle is (x – 1)2 + (y – 1)2 + (x + y – 2) = 0 x2 + y2 + x ( – 2) + y ( – 2) + 2 – 2 = 0 common chord of this circle with x2 + y2 + 4x + 5y – 6 = 0 is ( – 6)x + ( – 7)y + 8 – 2 = 0 (x + y – 2) + (–6x – 7y + 8) = 0 this chord passes through the point of intersection of the lines x + y – 2 = 0 and –6x – 7y + 8 = 0 which is (6, –4)",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-025",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Solved examples",
+      "test": "Theory Examples",
+      "part": "Examples",
+      "question_id": "Example-26",
+      "question": "Find the equation of circle circumcscribing the triangle whose sides are 3x – y – 12 = 0, 5x – 3y – 28 = 0 & x + y – 4 = 0.",
+      "options": [],
+      "correct_options": [],
+      "answer": "See explanation",
+      "explanation": "L1L2 + L2L3 + µL1L3 = 0 (3x – y – 12) (5x – 3y – 28) + (5x – 3y – 28) (x + y – 4) + µ (3x – y – 12) (x + y – 4) = 0 coefficient of x2 = coefficient of y2  5 + 3µ + 15 = 3 – 3 – µ 2 + µ + 3 = 0 coefficient of xy = 0   + µ – 7 = 0 Solving (ii) and (iii), we have  = – 10, µ = 17 Puting these values of  & µ in equation (i), we get 2x2 + 2y2 ...........(ii) ..........(iii) – 9x + 11y + 4 = 0",
+      "difficulty": "medium",
+      "source": "Solved example extracted from theory section; PDF text order may need manual review."
+    },
+    {
+      "id": "circle-026",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "A-1",
+      "question": "Find the equation of the circle that passes through the points (1, 0), (– 1, 0) and (0, 1).",
+      "options": [],
+      "correct_options": [],
+      "answer": "x2 + y2 = 1\nCentre (0, 0), radius 1\nx2 + y2 = 1\nHindi. dsUnz (0, 0), f=kT;k = 1\nx2 + y2 = 1",
+      "explanation": "A-1. Sol. Find the equation of the circle that passes through the points (1, 0), (– 1, 0) and (0, 1).\nfcUnqvksa (1, 0), (– 1, 0) vkSj (0, 1) ls xqtjus okys o`Ùk dk lehdj.k Kkr dhft,A\nAns. x2 + y2 = 1\nCentre (0, 0), radius 1\nx2 + y2 = 1\nHindi. dsUnz (0, 0), f=kT;k = 1\nx2 + y2 = 1",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-027",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "A-2",
+      "question": "ABCD is a square in first quadrant whose side is a, taking AB and AD as axes, prove that the equation to the circle circumscribing the square is x2 + y2 = a(x + y).",
+      "options": [],
+      "correct_options": [],
+      "answer": "",
+      "explanation": "A-2. Sol. ABCD is a square in first quadrant whose side is a, taking AB and AD as axes, prove that the equation\nto the circle circumscribing the square is x2 + y2 = a(x + y).\nHkqtk a okyk ,d oxZ ABCD izFke prqFkk±'k esa gSA Hkqtk AB vkSj AD dks v{k ysrs gq, fl) dhft, fd oxZ ds\nifjxro`Ùk dk lehdj.k x2 + y2 = a(x + y) gSA\nSince BD is diameter of circle\nHence (x – a) (x – 0) + (y – 0) (y – a) = 0\n x2 + y2 = a (x + y)\nHindi. pw¡fd BD o`Ùk dk O;kl gSA\nvr% (x – a) (x – 0) + (y – 0) (y – a) = 0\n x2 + y2 = a (x + y)",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-028",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "A-3",
+      "question": "Find the equation to the circle which passes through the origin and cuts off intercepts equal to 3 and 4 from the positive axes.",
+      "options": [],
+      "correct_options": [],
+      "answer": "x2 + y2\n– 3x – 4y = 0",
+      "explanation": "A-3. Find the equation to the circle which passes through the origin and cuts off intercepts equal to 3 and 4\nfrom the positive axes.\nml o`Ùk dk lehdj.k Kkr dhft, tks ewyfcUnq ls xqtjrk gS rFkk /kukRed v{kksa ij Øe'k% 3 vkSj 4 yEckbZ ds\nvUr%[k.M dkVrk gSA\nAns. x2 + y2\n– 3x – 4y = 0\nSol.\n(x – 3)(x – 0) + (y – 0)(y –4) = 0",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-029",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "A-4",
+      "question": "Find equation of circle which touches x & y axis & perpendicular distance of centre of circle from 3x + 4y + 11 = 0 is 5. Given that circle lies in Ist quadrant.",
+      "options": [],
+      "correct_options": [],
+      "answer": "x2 + y2\n– 4x – 4y + 4 = 0",
+      "explanation": "A-4. Find equation of circle which touches x & y axis & perpendicular distance of centre of circle\nfrom 3x + 4y + 11 = 0 is 5. Given that circle lies in Ist quadrant.\nml o`Ùk dk lehdj.k Kkr dhft, tks x o y v{k dks Li'kZ djrk gS rFkk js[kk 3x + 4y + 11 = 0 ls o`Ùk ds dsUnz dh\nyEcor~ nwjh 5 gSA fn;k x;k gS fd o`Ùk izFke prqFkk±'k esa fLFkr gSA\nAns. x2 + y2\n– 4x – 4y + 4 = 0\nSol.  distance yEcor~ nwjh 3r 4r 11\n  = 5\n5\n7r + 11 = ± 25\nr = 2 , – 36/7\n circle is in st quadrant Hence r = 2\n o`Ùk izFke prqFkkZa'k esa gS vr% r = 2\nEquation lehdj.k (x – 2)2 + (y – 2)2 = 22  x2 + y2\n– 4x – 4y + 4 = 0",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-030",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "A-5",
+      "question": " Find the equation to the circle which touches the axis of x at a distance 3 from the origin and intercepts a distance 6 on the axis of y.",
+      "options": [],
+      "correct_options": [],
+      "answer": "x2 + y2 ± 6 2y ± 6x + 9 = 0",
+      "explanation": "A-5. Find the equation to the circle which touches the axis of x at a distance 3 from the origin and intercepts\na distance 6 on the axis of y.\nml o`Ùk dk lehdj.k Kkr dhft, tks x-v{k dks ewyfcUnq ls 3 bdkbZ nwjh ij Li'kZ djrk gS vkSj y-v{k ij 6 bdkbZ\ndk vUr%[k.M dkVrk gSaA\nAns. x2 + y2 ± 6 2y ± 6x + 9 = 0\nSol.",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-031",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "A-6",
+      "question": "Find equation of circle whose cartesian equation are x = –3 + 2 sin , y = 4 + 2 cos ",
+      "options": [],
+      "correct_options": [],
+      "answer": "(x + 3)2 + (y – 4)2 = 4\nx = –3 + 2sin   x + 3 = 2 sin \ny = 4 + 2cos   y – 4 = 2 cos \nSquarring and add (x + 3)2 + (y – 4)2 = 4\nx = –3 + 2sin   x + 3 = 2 sin \ny = 4 + 2cos   y – 4 = 2 cos \noxZ djds tksM+us ij (x + 3)2 + (y – 4)2 = 4",
+      "explanation": "A-6. Sol. Hindi. 2 x 3 y 3 2 3 2    \n     2 2\nFind equation of circle whose cartesian equation are x = –3 + 2 sin  , y = 4 + 2 cos \nml o`Ùk dk lehdj.k Kkr dhft, ftldh dkrhZ; lehdj.k x = –3 + 2 sin  , y = 4 + 2 cos  gSA\nAns. (x + 3)2 + (y – 4)2 = 4\nx = –3 + 2sin   x + 3 = 2 sin \ny = 4 + 2cos   y – 4 = 2 cos \nSquarring and add (x + 3)2 + (y – 4)2 = 4\nx = –3 + 2sin   x + 3 = 2 sin \ny = 4 + 2cos   y – 4 = 2 cos \noxZ djds tksM+us ij (x + 3)2 + (y – 4)2 = 4",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-032",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "A-7",
+      "question": "Find the values of p for which the power of a point (2, 5) is negative with respect to a circle x2 + y2 - 8x - 12y + p = 0 which neither touches the axes nor cuts them. Section (B) : Line and circle, tangent, pair of tangent",
+      "options": [],
+      "correct_options": [],
+      "answer": "(36, 47)",
+      "explanation": "A-7. Find the values of p for which the power of a point (2, 5) is negative with respect to a circle\nx2 + y2\n 8x  12y + p = 0 which neither touches the axes nor cuts them.\no`Ùk x2 + y2\n 8x  12y + p = 0 tks u rks v{kksa dks dkVrk gks u gh Li'kZ djrk gks rFkk fcUnq (2, 5) ds lkis{k\nfcUnq&'kfDr _.kkRed gksus ds fy;s p ds eku Kkr dhft,A\nAns. (36, 47)\nSol. x2 + y2\n– 8x – 12y + p = 0\nPower of (2, 5) is S1 = 4 + 25 – 16 – 60 + P = P – 47 < 0  P < 47\nCircle neither touches nor cuts coordinate axes\ng2\n– c < 0  16 – p < 0  p > 16\nf2\n– c < 0  36 – p < 0  p > 36\ntaking intersection P  (36, 47)\nSol. x2 + y2\n– 8x – 12y + p = 0\n(2, 5) dk fcUnq 'kfä gS S1 = 4 + 25 – 16 – 60 + P = P – 47 < 0  P < 47\no`Ùk u rks Li'kZ djrk gS u gh funsZ'kkad v{kksa dks Li'kZ djrk gSA\ng2\n– c < 0  16 – p < 0  p > 16\nf2\n– c < 0  36 – p < 0  p > 36\nloZfu\"B ysus ij P  (36, 47)\nSection (B) : Line and circle, tangent, pair of tangent\n[k.M (B) : js[kk ,oa o`Ùk] Li'kZ js[kk] Li'kZ js[kk ;qXe",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-033",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "B-1",
+      "question": "If radii of the largest and smallest circle passing through the point (1, –1) and touching the circle x2 + y2 + 2 2 y – 2 = 0 are r1 and r2 respectively, then find the sum of r1 and r2 .",
+      "options": [],
+      "correct_options": [],
+      "answer": "2",
+      "explanation": "B-1. If radii of the largest and smallest circle passing through the point (1, –1) and touching the circle\nx2 + y2 + 2 2 y – 2 = 0 are r1 and r2 respectively, then find the sum of r1 and r2 .\n;fn fcUnq (1, –1) ls xqtjus okys vkSj o`Ùk x2 + y2 + 2 2 y – 2 = 0 dks Li'kZ djus okys lcls cMs vkSj lcls\nNksVs o`Ùk dh f=kT;k,a Øe'k% r1 vkSj r2 gS rc r1 vkSj r2 ds e/; vUrj Kkr dhft,A\nAns. 2\nSol. r1\n+ r2 = r = 2",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-034",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "B-2",
+      "question": "Find the points of intersection of the line x – y + 2 = 0 and the circle 3x2 + 3y2 determine the length of the chord intercepted. – 29x – 19y + 56 = 0. Also",
+      "options": [],
+      "correct_options": [],
+      "answer": "(1, 3), (5, 7), 4 2",
+      "explanation": "B-2. Find the points of intersection of the line x – y + 2 = 0 and the circle 3x2 + 3y2\n– 29x – 19y + 56 = 0. Also\ndetermine the length of the chord intercepted.\no`Ùk 3x2 + 3y2\n– 29x – 19y + 56 = 0 rFkk ljy js[kk x – y + 2 = 0 ds izfrPNsn fcUnq Kkr dhft,A izfrPNsnu ls\nizkIr thok dh yEckbZ Hkh Kkr dhft,A\nAns. (1, 3), (5, 7), 4 2\nSol. On solving, points of intersection are (1,3) & (5, 7), length = 4 2\nHindi. gy djus ij] izfrPNsnh fcUnq (1,3) o (5, 7) gksaxs vr% thok dh yEckbZ = 4 2",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-035",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "B-3",
+      "question": "Show that the line 7y – x = 5 touches the circle x2 + y2 parallel tangent. – 5x + 5y = 0 and find the equation of the other",
+      "options": [],
+      "correct_options": [],
+      "answer": "x – 7y – 45 = 0\n– 5x + 5y = 0 and find the equation of the other\n– 5x + 5y = 0 dks Li'kZ djrh gS rFkk blds lekUrj vU;",
+      "explanation": "B-3. Show that the line 7y – x = 5 touches the circle x2 + y2\nparallel tangent.\niznf'kZr dhft, fd ljy js[kk 7y – x = 5 , o`Ùk x2 + y2\nLi'kZ js[kk dh lehdj.k Kkr dhft,A\nAns. x – 7y – 45 = 0\n– 5x + 5y = 0 and find the equation of the other\n– 5x + 5y = 0 dks Li'kZ djrh gS rFkk blds lekUrj vU;\nSol. Other tangent is – x + 7y +  = 0 then\n5\n2\n5 5 7\n    \n2 2\n other tangent is x – 7y – 45 = 0\nHindi vU; Li'kZ js[kk gS – x + 7y +  = 0 rks\n50\n5 5 7\n    \n2 2\n=\n5\n  = 45 and – 5\n=\n = 45 ,oa – 5\n50\n2\n vU; Li'kZ js[kk gS& x – 7y – 45 = 0",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-036",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "B-4",
+      "question": "Find the equation of the tangents to the circle x2 + y2 = 4 which make an angle of 60º with the positive x- axis in anticlockwise direction.",
+      "options": [],
+      "correct_options": [],
+      "answer": "3x– y ± 4 = 0",
+      "explanation": "B-4. Find the equation of the tangents to the circle x2 + y2 = 4 which make an angle of 60º with the positive x-\naxis in anticlockwise direction .\no`Ùk x2 + y2 = 4 dh ml Li'kZ js[kk dk lehdj.k Kkr dhft, tks fd okekorZ fn'kk esa /kukRed x v{k ls 60º dk\ndks.k cukrh gSA\nAns. 3x– y ± 4 = 0\nSol. m = tan 60º = 3x ; y = mx 2 a 1 m  y = x 3 2 2  ",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-037",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "B-5",
+      "question": "Show that two tangents can be drawn from the point (9, 0) to the circle x2 + y2 = 16; also find the equation of the pair of tangents and the angle between them.",
+      "options": [],
+      "correct_options": [],
+      "answer": "16x2\n– 65y2\n– 288x + 1296 = 0, tan–1 8 65\n       \n49\nS1  (9)2 + (0)2\n– 16 = 65 > 0\nSince (9, 0) lies outside the circle. Hence two real tangents can be drawn.\nNow S  x2 + y2\n– 16\nS1  9x – 16. Hence pair of tangents SS1 = T2\n(x2 + y2\n– 16) (65) = (9x – 16)2\n65x2 + 65y2\n– 1040 = 81 x2 + 256 – 288 x\n16x2\n– 65y2\n– 288x + 1296 = 0\n2 2 h ab\n\nAngle between these tangents =\n(a b)\n\n=\nS1  (9)2 + (0)2\n– 16 = 65 > 0\npw¡fd (9, 0) o`Ùk ds ckgj fLFkr gSA vr% nks okLrfod Li'kZ js[kk,¡ [khaph tk ldrh gSA\nvc S  x2 + y2\n– 16\nS1  9x – 16\nvr% Li'khZ;qXe dk lehdj.k SS1 = T2\n(x2 + y2\n– 16) (65) = (9x – 16)2\n65x2 + 65y2\n– 1040 = 81 x2 + 256 – 288 x\n16x2\n– 65y2\n– 288x + 1296 = 0\n2 2 h ab\nLi'kZ js[kkvksa ds e/; dks.k =\n\n(a b)\n\n=\n2 0 16 65\n \n16 65\n\n8 65\n49\n2 0 16 65\n \n=\n=\n16 65\n\n8 65\n49",
+      "explanation": "B-5. Sol. Hindi. Show that two tangents can be drawn from the point (9, 0) to the circle x2 + y2 = 16; also find the\nequation of the pair of tangents and the angle between them. [16JM110493]\niznf'kZr dhft, fd fcUnq (9, 0) ls o`Ùk x2 + y2 = 16 ij nks Li'kZ js[kk,¡ [khaph tk ldrh gSA bl Li'kZ js[kk ;qXe dk\nlehdj.k vkSj muds e/; dks.k Hkh Kkr dhft,A\nAns. 16x2\n– 65y2\n– 288x + 1296 = 0, tan–1 8 65\n       \n49\nS1  (9)2 + (0)2\n– 16 = 65 > 0\nSince (9, 0) lies outside the circle. Hence two real tangents can be drawn.\nNow S  x2 + y2\n– 16\nS1  9x – 16. Hence pair of tangents SS1 = T2\n(x2 + y2\n– 16) (65) = (9x – 16)2\n65x2 + 65y2\n– 1040 = 81 x2 + 256 – 288 x\n16x2\n– 65y2\n– 288x + 1296 = 0\n2 2 h ab\n\nAngle between these tangents =\n(a b)\n\n=\nS1  (9)2 + (0)2\n– 16 = 65 > 0\npw¡fd (9, 0) o`Ùk ds ckgj fLFkr gSA vr% nks okLrfod Li'kZ js[kk,¡ [khaph tk ldrh gSA\nvc S  x2 + y2\n– 16\nS1  9x – 16\nvr% Li'khZ;qXe dk lehdj.k SS1 = T2\n(x2 + y2\n– 16) (65) = (9x – 16)2\n65x2 + 65y2\n– 1040 = 81 x2 + 256 – 288 x\n16x2\n– 65y2\n– 288x + 1296 = 0\n2 2 h ab\nLi'kZ js[kkvksa ds e/; dks.k =\n\n(a b)\n\n=\n2 0 16 65\n \n16 65\n\n8 65\n49\n2 0 16 65\n \n=\n=\n16 65\n\n8 65\n49",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-038",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "B-6",
+      "question": "If the length of the tangent from (f, g) to the circle x2 + y2 = 6 be twice the length of the tangent from (f, g) to the circle x2 + y2 + 3x + 3y = 0, then will f2 + g2 + 4f + 4g + 2 = 0 ? Section (C) : Normal, Director circle, chord of contact, chord with mid point",
+      "options": [],
+      "correct_options": [],
+      "answer": "Yes lR;",
+      "explanation": "B-6. If the length of the tangent from (f, g) to the circle x2 + y2 = 6 be twice the length of the tangent from\n(f, g) to the circle x2 + y2 + 3x + 3y = 0, then will f2 + g2 + 4f + 4g + 2 = 0 ?\n;fn fcUnq (f, g) ls o`Ùk x2 + y2 = 6 ij [khaph xbZ Li'kZ js[kk dh yEckbZ] fcUnq (f, g) ls o`Ùk x2 + y2 + 3x + 3y = 0 ij\n[khaph xbZ Li'kZ js[kk dh yEckbZ ls nqxuh gks] rks f2 + g2 + 4f + 4g + 2 = 0 lR; gS vFkok vlR; \\\nAns. Yes lR;\nSol. given 2 2 f g 6   = 2 2 2 f g 3g 3f     3g2 + 3f2 + 12g + 12f + 6 = 0\n g2 + f2 + 4g + 4f + 2 = 0\nHindi. fn;k x;k gS 2 2 f g 6   = 2 2 2 f g 3g 3f     3g2 + 3f2 + 12g + 12f + 6 = 0\n g2 + f2 + 4g + 4f + 2 = 0\nSection (C) : Normal, Director circle, chord of contact, chord with mid point\n[k.M (C) : vfHkyEc] fu;ked o`Ùk] Li'kZ thok] e/; fcUnq okyh thok",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-039",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "C-1",
+      "question": "Find the equation of the normal to the circle x2 + y2 = 5 at the point (1, 2)",
+      "options": [],
+      "correct_options": [],
+      "answer": "2x – y = 0",
+      "explanation": "C-1. Find the equation of the normal to the circle x2 + y2 = 5 at the point (1, 2)\nfcUnq (1,2) ij o`Ùk x2 + y2 = 5 ds vfHkyEc dk lehdj.k Kkr dhft,A\n\nAns. 2x – y = 0\nSol. Normal passes through centre\nHence equation of normal\n2\ny =\nx  y = 2x\n1\nHindi. vfHkyEc o`Ùk ds dsUnz ls xqtjrk gSA\nvr% vfHkyEc dk lehdj.k\n2\ny =\nx  y = 2x\n1",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-040",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "C-2",
+      "question": "C-3. Find the equation of the normal to the circle x2 + y2 = 2x, which is parallel to the line x + 2y = 3. Find the equation of director circle of the circle (x + 4)2 + y2 = 8",
+      "options": [],
+      "correct_options": [],
+      "answer": "x + 2y – 1 = 0",
+      "explanation": "C-2. Find the equation of the normal to the circle x2 + y2 = 2x, which is parallel to the line x + 2y = 3.\no`Ùk x2 + y2 = 2x ds ml vfHkyEc dk lehdj.k Kkr dhft, tks ljy js[kk x + 2y = 3 ds lekUrj gksA\nAns. x + 2y – 1 = 0\nSol. Equation of line parallel to x + 2y – 3 = 0 is x + 2y + k = 0\nThis is normal of x2 + y2\n– 2x = 0. Hence centre of circle satisfies it 1 + 0 + k = 0  k = –1\nx + 2y – 1 = 0\nHindi. x + 2y – 3 = 0 ds lekUrj js[kk dk lehdj.k x + 2y + k = 0 gSA\n;g o`Ùk x2 + y2\n– 2x = 0, 1 + 0 + k = 0  k = –1 dk vfHkyEc gS vr% o`Ùk dk dsUnz bls larq\"V djrk gSA\nx + 2y – 1 = 0",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-041",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "C-4",
+      "question": " Tangents are drawn from the point (h, k) to the circle x2 + y2 = a2; prove that the area of the triangle 2 2 2 3 / 2 a(h k a )  - formed by them and the straight line joining their points of contact is c. 2 2 h k ",
+      "options": [],
+      "correct_options": [],
+      "answer": "",
+      "explanation": "C-4. Tangents are drawn from the point (h, k) to the circle x2 + y2 = a2 ; prove that the area of the triangle\n2 2 2 3 / 2\na(h k a )\n \nformed by them and the straight line joining their points of contact is\nc.\n2 2\nh k\n\nfcUnq (h,k) ls o`Ùk x2 + y2 = a2 ij Li'kZ js[kk,¡ [khaph tkrh gSA fl) dhft, fd Li'kZ js[kkvksa rFkk Li'kZ fcUnqvksa dks\n2 2 2 3 / 2\nfeykus okyh ljy js[kk ls fufeZr f=kHkqt dk {ks=kQy\na(h k a )\n \ngksrk gSA\nRL\n3\nSol. 2 2\nh k\n\nArea of triangle formed by pair of tangents & chord of contact is =\n2 2\nR L \n\n3 / 2\n2 2 2\na h k a\n \nHere R = a L = 2 2 2 h k a   . Hence Area =  \n2 2\nh k\n\n \nRL\n3\nHindi. Li'khZ thok vkSj Li'khZ ;qXe ls cus f=kHkqt dk {ks=kQy =\n2 2\nR L \n3 / 2\n2 2 2\na h k a\n \n;gk¡ R = a  L = 2 2 2 h k a   . vr% {ks=kQy =  \n2 2\nh k\n\n ",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-042",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "C-5",
+      "question": "Find the equation of the chord of the circle x2 + y2 + 6x + 8y + 9 = 0 whose middle point is (– 2, – 3).",
+      "options": [],
+      "correct_options": [],
+      "answer": "x + y + 5 = 0",
+      "explanation": "C-5. Find the equation of the chord of the circle x2 + y2 + 6x + 8y + 9 = 0 whose middle point is (– 2, – 3).\no`Ùk x2 + y2 + 6x + 8y + 9 = 0 dh ml thok dk lehdj.k Kkr dhft, ftldk e/; fcUnq (– 2, – 3) gSA\nx + y + 5 = 0\nAns. Sol. T = S1  –2x – 3y +3(x –2) +4 (y – 3) + 9 = 4 + 9 – 12 – 24 + 9 x + y + 5 = 0",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-043",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "C-6",
+      "question": " Tangents are drawn to the circle x2 + y2 = 12 at the points where it is met by the circle x2 + y2 – 5x + 3y – 2 = 0; find the point of intersection of these tangents. ADVCR- 14 --- PAGE 15 --- Circle Section (D) : Position of two circle, Orthogonality, Radical axis and radical centre",
+      "options": [],
+      "correct_options": [],
+      "answer": "18\n6, 5\n    ",
+      "explanation": "C-6. Tangents are drawn to the circle x2 + y2 = 12 at the points where it is met by the circle\nx2 + y2\n– 5x + 3y – 2 = 0; find the point of intersection of these tangents.\no`Ùk x2 + y2 = 12 ds mu fcUnqvksa ij Li'kZ js[kk,¡ [khaph tkrh gS tgk¡ ij ;g o`Ùk x2 + y2\n– 5x + 3y – 2 = 0 ls\nfeyrk gS] rks bu Li'kZ js[kkvksa dk izfrPNsn fcUnq Kkr dhft,A\n \nAns. 18\n6, 5\n    \nSol. Equation of common chord is S1 – S2 = 0  5x – 3y – 10 = 0\nThis chord is also chord of contact.\nLet point of intersection is p(h, k)\nThen hx + ky – 12 = 0 compare both equations\nh k 12\n\n \n18\n \n (h,k )\n5 3 10\n \n6, 5\n    \nHindi mHk;fu\"B thok dk lehdj.k S1 – S2 = 0  5x – 3y – 10 = 0\n;g thok Li'khZ thok Hkh gSA ekuk izfrPNsn fcUnq p(h, k) gSA\nrc hx + ky – 12 = 0\nnksuksa lehdj.kksa dh rqyuk djus ij  (h,k )\n\nnksuksa lehdj.kksa dh rqyuk djus ij h k 12\n \n5 3 10\n \n \n18\n (h,k )\n6, 5\n    \n\nSection (D) : Position of two circle, Orthogonality, Radical axis and radical centre\n[k.M (D) : nks o`Ùkksa dh fLFkfr] yEcdks.kh;rk] ewyk{k ,oa ewyk{k dsUnz",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-044",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "D-1",
+      "question": " Find the equations to the common tangents of the circles x2 + y2 x2 + y2 + 6x – 2y + 1 = 0 – 2x – 6y + 9 = 0 and",
+      "options": [],
+      "correct_options": [],
+      "answer": "x = 0, 3x + 4y = 10, y = 4 and 3y = 4x.",
+      "explanation": "D-1. Find the equations to the common tangents of the circles x2 + y2\n– 2x – 6y + 9 = 0 and\nx2 + y2 + 6x – 2y + 1 = 0\no`Ùkksa x2 + y2\n– 2x – 6y + 9 = 0 ,oa x2 + y2 + 6x – 2y + 1 = 0 dh mHk;fu\"B Li'kZ js[kkvksa ds lehdj.k Kkr\ndhft,A\nAns. Sol. x = 0, 3x + 4y = 10, y = 4 and 3y = 4x.\nx = 0, 3x + 4y = 10, y = 4 ,oa 3y = 4x.\nS1 : x2 + y2\n– 2x – 6y + 9 = 0 C1(1, 3), r1 = 1\nS2 : x2 + y2 + 6x – 2y + 1 = 0 C2(–3, 1), r2 = 3\nC1C2 = 16 4  = 20  n + r2 = 4\nHence C1C2 > r1 + r2 Both circles are non-intersecting.\nHence there are four common tangents.\nTransverse common tangents :\ncoordinate of P 3 3 1 9\n         \n5\n, 1 3 1 3\n     \n0, 2\nLet slope of these tangents is m\ny –\n5\n2 = m(x – 0)  mx – y +\n5\nm 3\n \n2\nNow\n= 1 \nm\n1 m\n2\n\n5\n= 0\n2\n1\n2 = 2 1 m \n m2 +\n1\n4 – m = 1 + m2  m = –\n3\n4 , other tangents is vertical\nEquation of tangents x = 0\n3\n5\n–\nx – y +\n= 0  –3x – 4y + 10 = 0  3x + 3y = 10\n4\n2\nDirect common tangents\ncoordinate of Q 3 3 1 9\n      \n     Q(3, 4)\n, 1 3 1 3\nHence equations y – 4 = m(x – 3)  mx – y + (4 – 3m) = 0\n\nm 3 4 3m\n  \n= 1  |1 – 2m| = 2 1 m   1 + 4m2\n– 4m = 1 + m2  3m2\n1 m\n2\n\n– 4m = 0  m = 0, 4\n3\nHence equation y – 4 = 0(x – 3)  y = 4  y – 4 = 4\n3 (x – 3)  4x – 3y = 0\nHindi. S1 : x2 + y2\n– 2x – 6y + 9 = 0 S2 : x2 + y2 + 6x – 2y + 1 = 0 C1(1, 3), r1 = 1\nC2(–3, 1), r2 = 3\nC1C2 = 16 4  = 20  n + r2 = 4\nvr% C1C2 > r1 + r2 nksuksa o`Ùk çfrPNsnh ugha gSA\nvr% pkj mHk;fu\"V Li'kZ js[kk gSA\nfr;Zd mHk;fu\"B Li'kZ js[kk,¡ :\n\nP ds funsZ'kkad 3 3 1 9\n         \n5\n, 1 3 1 3\n     \n0, 2\nekuk Li'kZ js[kkvksa dh ço.krk m gSA\ny –\n5\n2 = m(x – 0)  mx – y +\n5\n= 0\n2\n5\nm 3\n \n2\nNow\n= 1 \nm\n1 m\n2\n\n1\n2 = 2 1 m \n m2 +\n1\n4 – m = 1 + m2  m = –\n3\n4, vr% Li'kZ js[kk,¡ m?okZ/kj gSA Li'kZ js[kkvksa ds lehdj.k x = 0\n3\n5\n–\nx – y +\n= 0  –3x – 4y + 10 = 0  3x + 3y = 10\n4\n2\nvuqØe mHk;fu\"B Li'kZ js[kk,¡\nQ ds funsZ'kkad 3 3 1 9\n      \n     Q(3, 4)\n, 1 3 1 3\n2 1 m  D-2. vr% lehdj.ks y – 4 = m(x – 3)  mx – y + (4 – 3m) = 0\nm 3 4 3m\n  \n\n= 1  |1 – 2m| =  1 + 4m2\n– 4m = 1 + m2  3m2\n1 m\n2\n\nvr% lehdj.k y – 4 = 0(x – 3)  y = 4  y – 4 = 4\n3 (x – 3)  4x – 3y = 0\n– 4m = 0  m = 0, 4\n3\nShow that the circles x2 + y2\nfl) dhft, fd o`Ùk x2 + y2\ndjrs gSaA\n–2x – 6y – 12 = 0 and x2 + y2 + 6x + 4y – 6 = 0 cut each other orthogonally.\n–2x – 6y – 12 = 0 vkSj x2 + y2 + 6x + 4y – 6 = 0 ,d nwljs dks yEcdks.kh; izfrPNsn\nSol. 1 C (1, 3) C2 (–3, –2)  r1 = 22  r2 = 19  (C1C2)2 = r1\n2 + r2\n2\n...(1)",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-045",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "D-2",
+      "question": "Show that the circles x2 + y2 –2x – 6y – 12 = 0 and x2 + y2 + 6x + 4y – 6 = 0 cut each other orthogonally.",
+      "options": [],
+      "correct_options": [],
+      "answer": "",
+      "explanation": "Show that the circles x2 + y2\nfl) dhft, fd o`Ùk x2 + y2\ndjrs gSaA\n–2x – 6y – 12 = 0 and x2 + y2 + 6x + 4y – 6 = 0 cut each other orthogonally.\n–2x – 6y – 12 = 0 vkSj x2 + y2 + 6x + 4y – 6 = 0 ,d nwljs dks yEcdks.kh; izfrPNsn\nSol. 1 C (1, 3) C2 (–3, –2)  r1 = 22  r2 = 19  (C1C2)2 = r1\n2 + r2\n2\n...(1)\nSol. 1 C (1, 3) C2 (–3, –2)  r1 = 22  r2 = 19  (C1C2)2 = r1\n2 + r2\n2\n...(1)",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation manually mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-046",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "D-3",
+      "question": " Find the equation of the circle passing through the origin and cutting the circles x2 + y2 – 4x + 6y + 10 = 0 and x2 + y2 + 12y + 6 = 0 at right angles.",
+      "options": [],
+      "correct_options": [],
+      "answer": "2(x2 + y2) – 7x + 2y = 0",
+      "explanation": "D-3. Find the equation of the circle passing through the origin and cutting the circles\nx2 + y2\n– 4x + 6y + 10 = 0 and x2 + y2 + 12y + 6 = 0 at right angles.\nml o`Ùk dk lehdj.k Kkr dhft, tks ewy fcUnq ls xqtjrk gS rFkk o`Ùkksa\nx2 + y2\n– 4x + 6y + 10 = 0 vkSj x2 + y2 + 12y + 6 = 0 dks ledks.k ij dkVrk gSaA\nAns. 2(x2 + y2) – 7x + 2y = 0\nSol. Equation of circle passing through origin is x2 + y2 + 2gx + 2fy = 0\nThis circle cuts the circle x2 + y2\n– 4x + 6y + 10 = 0 orthogonally\n2g(–2) + 2f(3) = 0 + 10  –2g + 3f – 5 = 0 & x2 + y2 + 12y + 6 = 0 also\n2g(0) + 2f(6) = 6 + 0  f = 1\n –2g + 3\n2\n2 –5 = 0  2g = –\n7\n2\n g = –\n7\n4\nHence circle x2 + y2 + 2 7\n \nx + 2 1\n    \n4\n      y = 0  2x2 + 2y2\n– 7x + 2y = 0\n2\nHindi. ewy fcUnq ls xqtjus okys o`Ùk dk lehdj.k x2 + y2 + 2gx + 2fy = 0\n;g o`Ùk] o`Ùk x2 + y2\n– 4x + 6y + 10 = 0 dks ledks.kh; çfrPNsn djrk gSA\n\n7\n2\n– 7x + 2y = 0\n2g(–2) + 2f(3) = 0 + 10  –2g + 3f – 5 = 0 ...(1)\nrFkk x2 + y2 + 12y + 6 = 0\n2g(0) + 2f(6) = 6 + 0  f = 1\n –2g + 3\n2\n2 –5 = 0  2g = –\nvr% o`Ùk x2 + y2 + 2 7\n \nx + 2 1\n    \n4\n      y = 0  2x2 + 2y2\n2\n g = –\n7\n4",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-047",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "D-4",
+      "question": "Given the three circles x2 + y2 – 16x + 60 = 0, 3x2 + 3y2 – 36x + 81 = 0 and x2 + y2 find (1) the point from which the tangents to them are equal in length and (2) this length. – 16x – 12y + 84 = 0, Section (E) : Family of circles , Locus, Miscellaneous",
+      "options": [],
+      "correct_options": [],
+      "answer": "33 , 2\n      ;\n1\n4\n4",
+      "explanation": "D-4. Given the three circles x2 + y2\n– 16x + 60 = 0, 3x2 + 3y2\n– 36x + 81 = 0 and x2 + y2\n– 16x – 12y + 84 = 0,\nfind (1) the point from which the tangents to them are equal in length and (2) this length. [16JM110497]\nrhu o`Ùk x2 + y2\n– 16x + 60 = 0, 3x2 + 3y2\n– 36x + 81 = 0 vkSj x2 + y2\n– 16x – 12y + 84 = 0 gks] rks Kkr\ndhft,\n(1) ml fcUnq ds funsZ'kkad ftlls bu o`Ùkksa ij [khaph xbZ Li'kZ js[kkvksa dh yEckb;k¡ ijLij cjkcj gksA\n(2) bu Li'kZ js[kkvksa dh yEckbZA\nAns. 33 , 2\n      ;\n1\n4\n4\nSol. (1) S1 – S2 = 0  4x – 33 = 0\nS3 – S1 = 0  –12y + 24 = 0 \n33 , 2\n     \n4\n(2) Length of tangent from 33 , 2\n      to any circle is = 1\n4\n4.\nHindi. (1) S1 – S2 = 0  4x – 33 = 0\nS3 – S1 = 0  –12y + 24 = 0 \n33 , 2\n     \n4\n(2) 33 , 2\n   4\n   ls fdlh Hkh o`Ùk ij Li'kZ js[kk dh yEckbZ =\n1\n4 .\nSection (E) : Family of circles , Locus, Miscellaneous\n[k.M (E) : o`Ùk fudk;] fcUnqiFk] fofo/k",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-048",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "E-1",
+      "question": " If y = 2x is a chord of the circle x2 + y2 diameter. – 10x = 0, find the equation of a circle with this chord as",
+      "options": [],
+      "correct_options": [],
+      "answer": "x2 + y2\n– 2x – 4y = 0.",
+      "explanation": "E-1. If y = 2x is a chord of the circle x2 + y2\ndiameter.\n;fn y = 2x o`Ùk x2 + y2\ngSA\nAns. x2 + y2\n– 2x – 4y = 0.\nSol. x2 + y2\n– 10x +  (2x – y) = 0 ....(i)\nx2 + y2 + 2x ( – 5) – y = 0\nCentre (– ( – 5) , /2)\nUsing on y = 2x  2( 5)\n     \n2\n\n5 10\n\n2\nPutting  = 4  x2 + y2\n– 2x – 4y = 0\nHindi x2 + y2\n– 10x +  (2x – y) = 0 ...........(i)\nx2 + y2 + 2x + ( – 5) – y = 0\ndsUnz (– ( – 5) , /2)  y=2x dk iz;ksx djus ij\n 2( 5)\n     \n\n5 10\n\n2\n2\n = 4 j[kus ij  x2 + y2\n– 2x – 4y = 0\n– 10x = 0, find the equation of a circle with this chord as\n– 10x = 0 dh thok gks] rks ml o`Ùk dk lehdj.k Kkr dhft, ftlds fy, ;g thok O;kl",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-049",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "E-2",
+      "question": "Find the equation of a circle which touches the line 2x – y = 4 at the point (1, –2) and (i) Passes through (3, 4) (ii) Radius = 5",
+      "options": [],
+      "correct_options": [],
+      "answer": "(i) (x – 1)2 + (y + 2)2 + 20 (2x – y – 4) = 0 (ii) (x – 1)2 + (y + 2)2 ±",
+      "explanation": "E-2. Ans. Sol. Hindi Find the equation of a circle which touches the line 2x – y = 4 at the point (1, –2) and\no`Ùk dk lehdj.k Kkr dhft, tks js[kk 2x – y = 4 dks fcUnq (1, –2) ij Li'kZ djrh gSA\n(i) Passes through (3, 4) (i) (3, 4 ls xqtjrh gSA\n(ii) Radius = 5 (ii) f=kT;k = 5\n(i) (x – 1)2 + (y + 2)2 + 20 (2x – y – 4) = 0\n(ii) (x – 1)2 + (y + 2)2 ± 20 (2x – y – 4) = 0\n(i) Equation of circle is (x – 1)2 + (y + 2)2 +  (2x – y – 4) = 0\n(1,–2) (3,4)\n•\nwhich passes through (3,4)   = 20\n(ii) equation of circle is (x – 1)2 + (y + 2)2 +  (2x – y – 4) = 0\n2\n– 4\nwhose radius is 5  ( – 1)2 +\n       \n– (1 + 4 – 4) = 25   = ± 2\n(i) o`Ùk dk lehdj.k (x – 1)2 + (y + 2)2 +  (2x – y – 4) = 0 gS &\n(1,–2) (3,4)\n•\n20\ntks (3,4) ls xqtjrh gS   = 20\n(ii) o`‚Ùk dk lehdj.k (x – 1)2 + 20 (y + 2)2 +  (2x – y – 4) = 0 gS\n2\n– 4\nftldh f=kT;k 5 gS  ( – 1)2 +\n       \n– (1 + 4 – 4) = 25   = ± 20\n2",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-050",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "E-3",
+      "question": "Show that the equation x2 + y2 – 2x – 2y – 8 = 0 represents for different values of  a system of circles passing through two fixed points A and B on the x-axis, and also find the equation of that circle of the system the tangent to which at A and B meet on the line x + 2y + 5 = 0.",
+      "options": [],
+      "correct_options": [],
+      "answer": "",
+      "explanation": "E-3. Show that the equation x2 + y2\n– 2x – 2y – 8 = 0 represents for different values of  a system of circles\npassing through two fixed points A and B on the x-axis, and also find the equation of that circle of the\nsystem the tangent to which at A and B meet on the line x + 2y + 5 = 0.\nn'kkZb;s fd lehdj.k x2 + y2\n– 2x – 2y – 8 = 0 ds fy, ds fHkUu&fHkUu ekuksa ds fy, o`Ùkksa dk fudk; nks fLFkj\nfcUnqvksa A rFkk B ls xqtjrk gS tks x-v{k ij feyrk gSA rFkk o`Ùk dk lehdj.k Kkr dhft, tcfd Li'kZ js[kk\nfudk;] js[kk x + 2y + 5 = 0 dks A rFkk B ij feyrk gSA\nSol. (x2 + y2\n– 2x – 8) – 2y = 0\nS +  L = 0\nsolving ¼gy djus ij½ S = 0 & L = 0\nput y = 0 j[kus ij½  x2\n– 2x – 8 = 0\n(x – 4) (x + 2) = 0\nx = – 2 or 4\nA  (4, 0)\nB  (– 2, 0)\nEquation of AB ¼AB dk lehdj.k½ :\nC.O.C. xx1 + yy1 – 1 (x+x1) –  (y+y1) – 8 = 0\n x (x1–1) + y (y–y1) – (x1 + y1+8) = 0 Also equation of AB is x-axis i.e\nrFkk AB dk lehdj.k x-va{k gS\n0.x + 1.y + 0.c = 0 comparing (1) & (2) ls\n0 1 0\n \n     \nx 1 y x y 8\n1 1 1 1\nx1 = 1 & y1 + 9 = 0\n...(1)\n...(2)\n\ny1 =\n9\n\n(–2,0)B A (4,0)\nx1-y1\nAlso blfy, x + 2y + 5 = 0  1 –\n18\n\n+ 5 = 0   18\n = 3\n\nequation of circle is o`Ùk dk lehdj.k x2 + y2\n– 2x – 6y – 8 = 0",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-051",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "E-4",
+      "question": " Consider a family of circles passing through two fixed points A (3, 7) and B (6, 5). Show that the chords in which the circles x2 + y2 – 4x – 3 = 0 cuts the members of the family are concurrent at a point. Also find the co-ordinates of this point.",
+      "options": [],
+      "correct_options": [],
+      "answer": "52 23\n     \n,– 3 9",
+      "explanation": "E-4. Consider a family of circles passing through two fixed points A (3, 7) and B (6, 5). Show that the chords\nin which the circles x2 + y2\n– 4x – 3 = 0 cuts the members of the family are concurrent at a point. Also\nfind the co-ordinates of this point.\nekuk fd o`Ùkksa dk fudk; nks fLFkj fcUnqvksa A (3, 7) vkSj B (6, 5) ls xqtjrk gSA n'kkZb;sa fd thok,sa tks o`Ùk\nx2 + y2\n– 4x – 3 = 0 dks fudk; ds lnL; dks ,d fcUnq ij laxkeh gksrh gSA rFkk bl fcUnq ds funsZ'kkad Hkh Kkr\ndhft,A\nAns. 52 23\n     \n,– 3 9\nSol. Family of circles passes through two fixed point is\nnks fLFkj fcUnqvksa ls xqtjus okys o`Ùkksa dk fudk; gS &\nS + L = 0 ...(1)\nwhere tgk¡ S = (x – 3) (x – 6) + (y – 7) (y – 5) = 0\nx y 1\nL 3 7 1 0\n \n6 5 1\nEquation of variable common chord is pj mHk;fu\"B thok dk lehdj.k gS &\nS + L – S’ = 0\n (S – S’) + L = 0\nor ;k L’ + L = 0 which represents family of lines concurrent at L’ = 0 and L = 0\nL’ + L = 0 laxkeh js[kk fudk; dks O;Dr j[krk gS L’ = 0 rFkk L = 0\nA (3,7) B (6,5)",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-052",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "E-5",
+      "question": "Find the equation of the circle circumscribing the triangle formed by the lines x + y = 6, 2x + y = 4 and",
+      "options": [],
+      "correct_options": [],
+      "answer": "x2 + y2\n– 17x – 19y + 50 = 0\nEquation of circumcircle of this triangle\nL1L2 + L2L3 + L3L1 = 0\n(x + 2y – 5)(x + y – 6)+(x + y – 6)(2x + y – 4)+(x + 2y – 5)(2x + y – 4) = 0\n\ncoef. of xy = 0  3 + 3 + 5 = 0  3 + 5 + 3 = 0 coef. x2 = coef. y2  1 + 2 + 2 = 2 +  + 2\n...(1)\n  = 1  = –\n6\n5\nHence (x + 2y – 5) (x + y – 6) + (x + y – 6)(2x + y – 4) –\n6\n5 (x + 2y – 5) (2x + y – 4) = 0\n x2 + y2\n– 17x – 19y + 50 = 0\nHindi. bl f=kHkqt ds ifjxr o`Ùk dk lehdj.k\nL1L2 + L2L3 + L3L1 = 0\n(x + 2y – 5)(x + y – 6)+(x + y – 6)(2x + y – 4)+(x + 2y – 5)(2x + y – 4) = 0",
+      "explanation": "E-5. Sol. S = (x – 3) (x – 6) + (y – 7) (y – 5) = 0\nx2 + y2\n– ax – 12y + 53 = 0\nx2 + y2\n– 4x – 3 = 0\n– 5x – 12y + 56 = 0\n4(2x + 3y – 27 = 0)  x =\n52\n3 , y =\n–\n23\n9\nFind the equation of the circle circumscribing the triangle formed by the lines x + y = 6, 2x + y = 4 and\nx + 2y = 5.\nljy js[kkvksa x + y = 6, 2x + y = 4 vkSj x + 2y = 5 ls fufeZr f=kHkqt ds ifjo`Ùk dk lehdj.k Kkr dhft,A\nAns. x2 + y2\n– 17x – 19y + 50 = 0\nEquation of circumcircle of this triangle\nL1L2 + L2L3 + L3L1 = 0\n(x + 2y – 5)(x + y – 6)+(x + y – 6)(2x + y – 4)+(x + 2y – 5)(2x + y – 4) = 0\n\ncoef. of xy = 0  3 + 3 + 5 = 0  3 + 5 + 3 = 0 coef. x2 = coef. y2  1 + 2 + 2 = 2 +  + 2\n...(1)\n  = 1  = –\n6\n5\nHence (x + 2y – 5) (x + y – 6) + (x + y – 6)(2x + y – 4) –\n6\n5 (x + 2y – 5) (2x + y – 4) = 0\n x2 + y2\n– 17x – 19y + 50 = 0\nHindi. bl f=kHkqt ds ifjxr o`Ùk dk lehdj.k\nL1L2 + L2L3 + L3L1 = 0\n(x + 2y – 5)(x + y – 6)+(x + y – 6)(2x + y – 4)+(x + 2y – 5)(2x + y – 4) = 0",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-053",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Subjective",
+      "test": "Exercise 1",
+      "part": "Part I",
+      "question_id": "E-6",
+      "question": " x + 2y = 5. Prove that the circle x2 + y2 + 2ax + c2 = 0 and x2 + y2 + 2by + c2 = 0 touches each other 1 1 1   if 2 2 2 a b c",
+      "options": [],
+      "correct_options": [],
+      "answer": "",
+      "explanation": "E-6. Sol. xy dk xq.kkad = 0  3 + 3 + 5 = 0  3 + 5 + 3 = 0 x2 dk xq.kkad =y2 dk xq.kkad  1 + 2 + 2 = 2 +  + 2\n...(1)\n6\n  = 1  = –\n5\nvr% (x + 2y – 5) (x + y – 6) + (x + y – 6)(2x + y – 4) –\n6\n5 (x + 2y – 5) (2x + y – 4) = 0\n x2 + y2\n– 17x – 19y + 50 = 0\nProve that the circle x2 + y2 + 2ax + c2 = 0 and x2 + y2 + 2by + c2 = 0 touches each other\n1 1 1\n \nif 2 2 2\na b c\nfl) dhft, fd o`Ùk x2 + y2 + 2ax + c2 = 0 vkSj x2 + y2 + 2by + c2 = 0 ,d nwljs dks Li'kZ djrs gS\n1 1 1\n;fn 2 2 2\n \na b c\nSubtract to get common tangent and drop pependicular from centre on any one circle and equate it to\nits radius.\n?kVkus ij mHk;fu\"B Li'kZ js[kk izkIr gksrh gSA dsUnz ls Mkyk x;k yEc f=kT;k ds cjkcj gksrk gS A\nRadical axes is ax – by = 0 which touches both the circle\newyk{k ax – by = 0 tks nksuksa o`Ùkksa dks Li'kZ djrh gS\n2\nax\nNow vc x2 +\n      + 2ax + c2 = 0\nb\n (b2 + a2)x2 + 2ab2 x + b2c2 = 0\n 4a2b2\n– 4(b2 + a2) b2c2 = 0\n a2b2 = c2 (b2 + a2)\n1\n1\n1\n 2\n=\n+\n2\nc\na\nb\n2",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-054",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "A-1",
+      "question": "A-2. A-3. A-4. A-5. The radius of the circle passing through the points (1, 2), (5, 2) & (5, - 2) is:",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "3x + 2y – 12 = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "3x + y – 6 = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "3x + 4y – 12 = 0 – 4x – 6y = 0 on"
+        },
+        {
+          "identifier": "D",
+          "content": "3x + 2y – 6 = 0"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(D)",
+      "explanation": "A-1. The radius of the circle passing through the points (1, 2), (5, 2) & (5,  2) is:\nfcUnqvksa (1, 2), (5, 2) ,oa (5,  2) ls xqtjus okys o`Ùk dh f=kT;k gS –\n(A) 5 2 (B) 2 5 (C) 3 2 (D*) 2 2\nSol.\ndiameter = 4 2 O;kl = 4 2  r = 2 2",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-055",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "A-6",
+      "question": " Two thin rods AB & CD of lengths 2a & 2b move along OX & OY respectively, when ‘O’ is the origin. The equation of the locus of the centre of the circle passing through the extremities of the two rods is:",
+      "options": [
+        {
+          "identifier": "B",
+          "content": "Circle"
+        },
+        {
+          "identifier": "C",
+          "content": "x² + y² = a² - b²"
+        },
+        {
+          "identifier": "D",
+          "content": "x² - y² = a² + b² ADVCR- 15 --- PAGE 16 --- radius"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "A-6. Two thin rods AB & CD of lengths 2a & 2b move along OX & OY respectively, when ‘O’ is the origin.\nThe equation of the locus of the centre of the circle passing through the extremities of the two rods is:\nnks iryh NM+sa AB vkSj CD ftudh yEckb;k¡ 2a vkSj 2b gS Øe'k% OX vkSj OY v{kksa ds vuqfn'k xfr'khy gS] tcfd\nO ewyfcUnq gSA nksuksa NM+ksa ds fljksa ls xqtjus okys o`Ùk ds dsUnz dk fcUnqiFk gksxk &\n(A) x² + y² = a² + b² Sol. h2 + b2 = r2 k2 + a2 = r2  h2\n(B*) x²  y² = a²  b² – k2 = a2\n– b2\n(C) x² + y² = a²  b² (D) x²  y² = a² + b²\nHindi h2 + b2 = r2 k2 + a2 = r2  h2\n– k2 = a2\n– b2\n fcUnqiFk gS x2\n– y2 = a2\n– b2",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-056",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "A-7",
+      "question": "Let A and B be two fixed points then the locus of a point C which moves so that (tanBAC) (tan ABC)=1, 0 < BAC <  , 0 < ABC < 2",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "Circle  is 2"
+        },
+        {
+          "identifier": "B",
+          "content": "pair of straight line"
+        },
+        {
+          "identifier": "C",
+          "content": "A point"
+        },
+        {
+          "identifier": "D",
+          "content": "Straight line"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "A-7. Let A and B be two fixed points then the locus of a point C which moves so that (tanBAC)(tan\nABC)=1,\n0 <BAC <\n , 0 < ABC <\n2\n is\n2\n(A*) Circle (B) pair of straight line (C) A point (D) Straight line\nekuk A ,oa B nks fLFkj fcUnq gS rc fcUnq C dk fcUnqiFk tcfd fcUnq C bl izdkj gS fd (tanBAC)(tan\nABC)=1, 0 0 <BAC <\n , 0 < ABC <\n gksxkµ\n2\n2\n(A*) o`Ùk (B) ljy js[kk ;qXe (C) ,d fcUnq (D) ljy js[kk\n\n--- PAGE 15 ---\n2 2\n  \nCircle\nSol. tan  tan = 1 tan  = cot   tan  = tan –\n       \n2\n+ =\n\n2\n ACB =\n\n2\n locus of C is a\nC\n \nA B\n\ncircle as angle in a semicircle is 2",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-057",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "A-8",
+      "question": "STATEMENT-1 : The length of intercept made by the circle x2 + y2 – 2x – 2y = 0 on the x-axis is 2. STATEMENT-2 : x2 + y2 – x – y = 0 is a circle which passes through origin with centre         and , 2 2 (C) (D) 2 2    2 STATEMENT-1 for STATEMENT-1 STATEMENT-1 is true, STATEMENT-2 is false STATEMENT-1 is false, STATEMENT-2 is true STATEMENT-1 is true, STATEMENT-2 is true and STATEMENT-2 is correct explanation for STATEMENT-1 is true, STATEMENT-2 is true and STATEMENT-2 is not correct explanation Section (B) : Line and circle, tangent, pair of tangent",
+      "options": [
+        {
+          "identifier": "B",
+          "content": ": Line and circle, tangent, pair of tangent"
+        },
+        {
+          "identifier": "D",
+          "content": "2 2    2 STATEMENT-1 for STATEMENT-1 STATEMENT-1 is true, STATEMENT-2 is false STATEMENT-1 is false, STATEMENT-2 is true STATEMENT-1 is true, STATEMENT-2 is true and STATEMENT-2 is correct explanation for STATEMENT-1 is true, STATEMENT-2 is true and STATEMENT-2 is not correct explanation Section"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(C)",
+      "explanation": "A-8. vr% c dk fcUnqiFk ,d o`Ùk gksxk tSlk fd v/kZo`Ùk es cuk dksa.k 2\n gksrk gSA\nSTATEMENT-1 : The length of intercept made by the circle x2 + y2\nSTATEMENT-2 : x2 + y2\n– 2x – 2y = 0 on the x-axis is 2.\n– x – y = 0 is a circle which passes through origin with centre        \n, 2 2\nand\nradius\n(A) (B) (C*) (D) dFku-1 : o`Ùk x2 + y2\n2\nSTATEMENT-1 is true, STATEMENT-2 is true and STATEMENT-2 is correct explanation for\nSTATEMENT-1\nSTATEMENT-1 is true, STATEMENT-2 is true and STATEMENT-2 is not correct explanation\nfor\nSTATEMENT-1\nSTATEMENT-1 is true, STATEMENT-2 is false\nSTATEMENT-1 is false, STATEMENT-2 is true\n– 2x – 2y = 0 }kjk x-v{k ij dkVs x, vUr%[k.M dh yEckbZ 2 gSA\ndFku-2 : x2 + y2\n– x – y = 0 ewyfcUnq ls xqtjus okyk ,d o`Ùk gS ftldk dsUnz        \n, 2 2\nvkSj f=kT;k\n2 2\n  \n2\nSol. gSA\n(A) (B) (C) (D) dFku&1 lR; gS] dFku&2 lR; gS ; dFku&2, dFku&1 dk lgh Li\"Vhdj.k gSA\ndFku&1 lR; gS] dFku&2 lR; gS ; dFku&2, dFku&1 dk lgh Li\"Vhdj.k ugha gSA\ndFku&1 lR; gS] dFku&2 vlR; gSA\ndFku&1 vlR; gS] dFku&2 lR; gSA\nStatement-1 is true and statement-2 is false as radius = 1\n2 2   \n2\nHindi dFku-1 lR; gS vkSj dFku-2 vlR; gS D;ksafd f=kT;k =\n1\n2 2   \n2\nSection (B) : Line and circle, tangent, pair of tangent\n[k.M (B) : js[kk ,oa o`Ùk] Li'kZ js[kk] Li'kZ js[kk ;qXe",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-058",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-1",
+      "question": "Find the co-ordinates of a point p on line x + y = – 13, nearest to the circle x2 + y2 + 4x + 6y – 5 = 0",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "(– 6, – 7)"
+        },
+        {
+          "identifier": "B",
+          "content": "(– 15, 2)"
+        },
+        {
+          "identifier": "C",
+          "content": "(– 5, – 6)"
+        },
+        {
+          "identifier": "D",
+          "content": "(– 7, – 6)"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "B-1. Find the co-ordinates of a point p on line x + y = – 13, nearest to the circle x2 + y2 + 4x + 6y – 5 = 0\njs[kk x + y = – 13 ij fLFkr fcUnq P ds funsZ'kkad tks fd o`Ùk\nx2 + y2 + 4x + 6y – 5 = 0 ds fudVre gks] gksxk&\n(A*) (– 6, – 7) (B) (– 15, 2) (C) (– 5, – 6) (D) (– 7, – 6)\nSol. Point on the line x + y + 13 = 0 nearest to the circle x2 + y2 + 4x + 6y – 5 = 0 is foot of  from centre\nx 2\n\n\n= y 3\n2 3 13\n1\n         \n= –\n2 2\n= –4  x = –6 y = –7\n1\n1 1\nHindi. js[kk x + y + 13 = 0 ij fLFkr fcUnq ds o`Ùk x2 + y2 + 4x + 6y – 5 = 0 ds utnhd gksus ds fy, dsUæ ls yEc Mkyrs\ngSA\nx 2\n\n\n= y 3\n2 3 13\n         \n= –\n1\n2 2\n= –4  x = –6 y = –7\n1 1\n1",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-059",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-2",
+      "question": "The number of tangents that can be drawn from the point (8, 6) to the circle x2 + y2 – 100 = 0 is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "0"
+        },
+        {
+          "identifier": "B",
+          "content": "1"
+        },
+        {
+          "identifier": "C",
+          "content": "2"
+        },
+        {
+          "identifier": "D",
+          "content": "none"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "B-2. The number of tangents that can be drawn from the point (8, 6) to the circle x2 + y2\n– 100 = 0 is\n(A) 0 (B*) 1 (C) 2 (D) none\nfcUnq (8, 6) ls o`Ùk x2 + y2\n– 100 = 0 ij [khaph tk ldus okyh Li'kZ js[kkvksa dh la[;k gS&\n(A) 0 (B) 1 (C) 2 (D) buesa ls dksbZ ugha\nSol. Point (8,6) lies on circle ; S1 = 0  one tangent.\nHindi. fcUnq (8,6) o`Ùk ij fLFkr gSA S1 = 0  vr% ,d Li'kZ js[kk gksxhA",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-060",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-3",
+      "question": " Two lines through (2, 3) from which the circle x2 + y2 = 25 intercepts chords of length 8 units have equations",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "2x + 3y = 13, x + 5y = 17"
+        },
+        {
+          "identifier": "B",
+          "content": "y = 3, 12x + 5y = 39"
+        },
+        {
+          "identifier": "C",
+          "content": "x = 2, 9x – 11y = 51"
+        },
+        {
+          "identifier": "D",
+          "content": "y = 0, 12x + 5y = 39"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "B-3. Two lines through (2, 3) from which the circle x2 + y2 = 25 intercepts chords of length 8 units have\nequations\n(A) 2x + 3y = 13, x + 5y = 17 (B*) y = 3, 12x + 5y = 39\n(C) x = 2, 9x – 11y = 51 (D) y = 0, 12x + 5y = 39\nfcUnq (2, 3) ls xqtjus okyh mu nks ljy js[kkvksa ds lehdj.k tks o`Ùk x2 + y2 = 25 ij 8 bdkbZ yEckbZ ds\nvUr%[k.M dh thok gks] gS&\n(A) 2x + 3y = 13, x + 5y = 17 (C) x = 2, 9x – 11y = 51 (B) y = 3, 12x + 5y = 39\n(D) y = 0, 12x + 5y = 39\nSol. Let slope of required line is m\ny – 3 = m(x – 2)  mx – y +(3 – 2m) = 0\nlength of  from origin = 3\n 9 + 4m2\n– 12m = 9 + 9m2 5m2 + 12m = 0  m = 0, –\n12\n5\nHence lines are y – 3 = 0  y = 3\n12\ny – 3 = –\n5 (x – 2)  5y – 15 = –12x + 24  12x + 5y = 39.\nHindi. ekuk vHkh\"V js[kk dh ço.krk = m\ny – 3 = m(x – 2)  mx – y +(3 – 2m) = 0\newyfcUnw ls yEc dh yECkkbZ = 3\n 9 + 4m2\n– 12m = 9 + 9m2 5m2 + 12m = 0  m = 0, –\n12\n5\nvr% js[kk,¡ y – 3 = 0  y = 3\n12\ny – 3 = –\n5 (x – 2)  5y – 15 = –12x + 24  12x + 5y = 39.",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-061",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-4",
+      "question": "The line 3x + 5y + 9 = 0 w.r.t. the circle x2 + y2 – 4x + 6y + 5 = 0 is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "chord dividing circumference in 1 : 3 ratio"
+        },
+        {
+          "identifier": "B",
+          "content": "diameter"
+        },
+        {
+          "identifier": "C",
+          "content": "tangent"
+        },
+        {
+          "identifier": "D",
+          "content": "outside line"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "B-4. The line 3x + 5y + 9 = 0 w.r.t. the circle x2 + y2\n– 4x + 6y + 5 = 0 is\n(A) chord dividing circumference in 1 : 3 ratio (B*) diameter\n(C) tangent (D) outside line\njs[kk 3x + 5y + 9 = 0 o`Ùk x2 + y2\n– 4x + 6y + 5 = 0 ds lkis{k gSa &\n(A) thok tks ifjf/k dks 1 : 3 esa foHkkftr djrk gSA (B) O;kl\n(C) Li'kZ js[kk (D) o`Ùk ds ckgj ls tkus okyh js[kk\nSol. From centre (2, –3), length of perpendicular on line 3x + 5y + 9 = 0 is\n \np =\n6 15 9 0\n\n; line is diameter.\n25 9\n\nHindi dsUnz (2, –3) ls js[kk 3x + 5y + 9 = 0 ij Mkys x;s yEc dh yEckbZ\n \np =\n6 15 9 0\n\n js[kk O;kl gSA\n25 9\n",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-062",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-5",
+      "question": " If one of the diameters of the circle x2 + y2 – 2x – 6y + 6 = 0 is a chord to the circle with centre (2, 1), then the radius of the circle is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "3"
+        },
+        {
+          "identifier": "B",
+          "content": "2"
+        },
+        {
+          "identifier": "C",
+          "content": "3/2"
+        },
+        {
+          "identifier": "D",
+          "content": "1"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "B-5. Sol. If one of the diameters of the circle x2 + y2\n– 2x – 6y + 6 = 0 is a chord to the circle with centre (2, 1),\nthen the radius of the circle is\n;fn o`Ùk x2 + y2\n– 2x – 6y + 6 = 0 dk ,d O;kl ml o`Ùk dh thok gS ftldk dsUnz (2, 1) gks] rks o`Ùk dh f=kT;k\ngksxh&\n(A*) 3 (B) 2 (C) 3/2 (D) 1\nClearly from the figure the radius of bigger circle\nfp=k ls Li\"Vr;k cM+s o`Ùk dh f=kT;k\nr2 = 22 + {(2 – 1)2 + (1 – 3)2}\nr2 = 9 or r = 3",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-063",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-6",
+      "question": "The tangent lines to the circle x² + y² - 6x + 4y = 12 which are parallel to the line 4x + 3y + 5 = 0 are given by:",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "4x + 3y - 7 = 0, 4x + 3y + 15 = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "4x + 3y - 31 = 0, 4x + 3y + 19 = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "4x + 3y - 17 = 0, 4x + 3y + 13 = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "4x + 3y - 31 = 0, 4x + 3y – 19 = 0"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "B-6. The tangent lines to the circle x² + y²  6x + 4y = 12 which are parallel to the line 4x + 3y + 5 = 0 are\ngiven by:\n(A) 4x + 3y  7 = 0, 4x + 3y + 15 = 0 (B*) 4x + 3y  31 = 0, 4x + 3y + 19 = 0\n(C) 4x + 3y  17 = 0, 4x + 3y + 13 = 0 (D) 4x + 3y  31 = 0, 4x + 3y – 19 = 0\nljy js[kk 4x + 3y + 5 = 0 ds lekUrj o`Ùk x² + y²  6x + 4y = 12 dh Li'kZ js[kkvksa ds lehdj.k gS&\n(A) 4x + 3y  7 = 0, 4x + 3y + 15 = 0 (B) 4x + 3y  31 = 0, 4x + 3y + 19 = 0\n(C) 4x + 3y  17 = 0, 4x + 3y + 13 = 0 (D) 4x + 3y  31 = 0, 4x + 3y – 19 = 0\nSol. Line parallel to given line 4x + 3y + 5 = 0 is 4x + 3y + k = 0\nThis is tangent to x2 + y2\n– 6x + 4y – 12 = 0\n12 6 k\n  = 5  6 + k = ±25  k = 19, –31\n5\nHence required line 4x + 3y – 31 = 0, 4x + 3y + 19 = 0\nHindi. nh xbZ js[kk 4x + 3y + 5 = 0 ds lekUrj js[kk 4x + 3y + k = 0\n;g o`Ùk x2 + y2\n– 6x + 4y – 12 = 0 dh Li'kZ js[kk gSA\n12 6 k\n  = 5  6 + k = ±25  k = 19, –31\n5\nvr% vHkh\"V js[kk 4x + 3y – 31 = 0, 4x + 3y + 19 = 0 gSA",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-064",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-7",
+      "question": "The condition so that the line (x + g) cos + (y + f) sin  = k is a tangent to x2 + y2 + 2gx + 2fy + c = 0 is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "g2 + f2 = c + k2"
+        },
+        {
+          "identifier": "B",
+          "content": "g2 + f2 = c2 + k"
+        },
+        {
+          "identifier": "C",
+          "content": "g2 + f2 = c2 + k2"
+        },
+        {
+          "identifier": "D",
+          "content": "g2 + f2 = c + k"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "B-7. The condition so that the line (x + g) cos + (y + f) sin  = k is a tangent to x2 + y2 + 2gx + 2fy + c = 0 is\nljy js[kk (x + g) cos + (y + f) sin  = k ds o`Ùk x2 + y2 + 2gx + 2fy + c = 0 dh Li'kZ js[kk gksus ds fy,\nizfrcU/k gS &\n(A*) g2 + f2 = c + k2 (B) g2 + f2 = c2 + k        \n( g g)cos ( f f)sin k\nSol. p = 2 2\ncos sin\n  \n(C) g2 + f2 = c2 + k2 (D) g2 + f2 = c + k\n= 2 2 g f c   g2 + f2 = c + k2",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-065",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-8",
+      "question": " The tangent to the circle x2 + y2 = 5 at the point (1, –2) also touches the circle x2 + y2 – 8x + 6y + 20 = 0 at",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "(–2, 1)"
+        },
+        {
+          "identifier": "B",
+          "content": "(–3, 0)"
+        },
+        {
+          "identifier": "C",
+          "content": "(–1, –1)"
+        },
+        {
+          "identifier": "D",
+          "content": "(3, –1)"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(D)",
+      "explanation": "B-8. Sol. The tangent to the circle x2 + y2 = 5 at the point (1, –2) also touches the circle\nx2 + y2\n– 8x + 6y + 20 = 0 at\no`Ùk x2 + y2 = 5 ds fcUnq (1,–2) ij Li'kZ js[kk] o`Ùk x2 + y2\nfcUnq gS&\n(A) (–2, 1) (B) (–3, 0) (C) (–1, –1) (D*) (3, –1)\nEquation of tangent x – 2y = 5\nLet required point be (,)\nx + y –4(x + ) + 3(y + ) + 20 = 0  x( – 4) + y ( + 3) – 4 + 3 + 20 = 0\nComparing\n– 8x + 6y + 20 = 0 dks Hkh Li'kZ djrk gks] rks Li'kZ\n\n       \n4 3 4 3 20\n \n1 2 5\n\nSimilarly (,) (3, –1)\nHindi Li'kZ js[kk dk lehdj.k x – 2y = 5\nekuk fd vHkh\"V fcUnq (,) gSA\nx + y –4(x + ) + 3(y + ) + 20 = 0  x( – 4) + y ( + 3) – 4 + 3 + 20 = 0\nrqyuk djus ij\n       \n4 3 4 3 20\n \n1 2 5\n\nblh izdkj (,) (3, –1)",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-066",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-9",
+      "question": " The angle between the two tangents from the origin to the circle (x - 7)² + (y + 1)² = 25 equals",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "4 "
+        },
+        {
+          "identifier": "B",
+          "content": "3 "
+        },
+        {
+          "identifier": "C",
+          "content": "2  "
+        },
+        {
+          "identifier": "D",
+          "content": "6"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(C)",
+      "explanation": "B-9. The angle between the two tangents from the origin to the circle (x  7)² + (y + 1)² = 25 equals\n(A) 4\n (B) 3\n (C*) 2\n\n (D) 6\newy fcUnq ls o`Ùk (x  7)² + (y + 1)² = 25 ij [khaph xbZ Li'kZ js[kkvksa ds e/; dks.k gS &\n(A) 4\n (B) 3\n (C*) 2\n\n (D) 6\n\nSol. Let tangent be y = mx \n7m 1 5\n\n1 m\n2\n\n24m2 + 14 m – 24 = 0  m1m2 = – 1 Hindi ekukfd Li'kZ js[kk y = mx gSA\n 49m2 + 1 + 14m = 25 (1+m2)\nangle = 90º\n\n7m 1 5\n\n  49m2 + 1 + 14m = 25 (1+m2) \n1 m\n2\n\n 24m2 + 14 m – 24 = 0  m1m2 = – 1  dks.k = 90º",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-067",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-10",
+      "question": " A point A(2, 1) is outside the circle x² + y² + 2gx + 2fy + c = 0 & AP, AQ are tangents to the circle. The equation of the circle circumscribing the triangle APQ is :",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "(x + g) (x - 2) + (y + f) (y - 1) = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "(x + g) (x - 2) - (y + f) (y - 1) = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "(x - g) (x + 2) + (y - f) (y + 1) = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "(x – g) (x - 2) + (y – f) (y - 1) = 0 ADVCR- 16 --- PAGE 17 --- Circle"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "B-10. A point A(2, 1) is outside the circle x² + y² + 2gx + 2fy + c = 0 & AP, AQ are tangents to the circle.\nThe equation of the circle circumscribing the triangle APQ is :\n(A*) (x + g) (x  2) + (y + f) (y  1) = 0 (B) (x + g) (x  2)  (y + f) (y  1) = 0\n(C) (x  g) (x + 2) + (y  f) (y + 1) = 0 (D) (x – g) (x  2) + (y – f) (y  1) = 0\n,d fcUnq A(2, 1) o`Ùk x² + y² + 2gx + 2fy + c = 0 ds ckgj fLFkr gS rFkk AP ,oa AQ o`Ùk dh Li'kZ js[kk,¡ gSaA f=kHkqt\nAPQ ds ifjo`Ùk dk lehdj.k gSa&\n(A) (x + g) (x  2) + (y + f) (y  1) = 0 (C) (x  g) (x + 2) + (y  f) (y + 1) = 0 (B) (x + g) (x  2)  (y + f) (y  1) = 0\n(D) (x – g) (x  2) + (y – f) (y  1) = 0\nSol.\n(x + g)(x – 2) + (y + f)(y –1) = 0",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-068",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-11",
+      "question": "A line segment through a point P cuts a given circle in 2 points A & B, such that PA = 16 & PB = 9, find the length of tangent from points to the circle",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "7"
+        },
+        {
+          "identifier": "B",
+          "content": "25"
+        },
+        {
+          "identifier": "C",
+          "content": "12"
+        },
+        {
+          "identifier": "D",
+          "content": "8"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(C)",
+      "explanation": "B-11. A line segment through a point P cuts a given circle in 2 points A & B, such that PA = 16 & PB = 9, find\nthe length of tangent from points to the circle\n(A) 7 (B) 25 (C*) 12 (D) 8\nfcUnq P ls xqtjus okyk js[kk[kaM fn;s x;s o`Ùk dks nks fcUnqvksa A ,oa B ij bl izdkj dkVrk gS fd PA = 16 o\nPB = 9 gks, rks fcUnq ls o`Ùk ij [khaph x;h Li'kZ js[kk dh yEckbZ gksxh&\n(A) 7 (B) 25 (C*) 12 (D) 8\nSol. As we know\nPA.PB = PT2 = (Length of tangent)2\n\nLength of tangent = 16 9  = 12\nHindi. ge tkurs gS fd\nPA.PB = PT2 = (Li'kZ js[kk dh yEckbZ)2\nLi'kZ js[kk dh yEckbZ = 16 9  = 12",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-069",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-12",
+      "question": "The length of the tangent drawn from any point on the circle x² + y² + 2gx + 2fy + p = 0 to the circle x² + y² + 2gx + 2fy + q = 0 is:",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "q p-"
+        },
+        {
+          "identifier": "B",
+          "content": "p q-"
+        },
+        {
+          "identifier": "C",
+          "content": "q p "
+        },
+        {
+          "identifier": "D",
+          "content": "2q p "
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "B-12.The length of the tangent drawn from any point on the circle x² + y² + 2gx + 2fy + p = 0 to the circle\nx² + y² + 2gx + 2fy + q = 0 is:\n(A*) q p (B) p q (C) q p  (D) 2q p \no`Ùk x² + y² + 2gx + 2fy + p = 0 ds fdlh fcUnq ls o`Ùk x² + y² + 2gx + 2fy + q = 0 ij [khaph xbZ Li'kZ js[kk dh\nyEckbZ gS &\n(A) q p (B) p q (C) q p  (D) 2q p \nSol. Let any point on the circle x2 + y2 + 2gx + 2fy + p = 0 (, )\nThis point satisfies 2 + 2 + 2g + 2f + p = 0\nLength of tangent from this point to circle x2 + y2 + 2gx + 2fy + q = 0\nlength = 1 S = 2 2 2g 2f q         = q p\nHindi ekuk o`Ùk x2 + y2 + 2gx + 2fy + p = 0 (, )\n;g 2 + 2 + 2g + 2f + p = 0 larq\"V gksrk gSA\nbl fcUnq ls o`Ùk x2 + y2 + 2gx + 2fy + q = 0 ij yEc dh yEckbZ\nyEckbZ = 1 S = 2 2 2g 2f q         = q p",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-070",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-13",
+      "question": "The equation of the diameter of the circle (x – 2)2 + (y + 1)2 = 16 which bisects the chord cut off by the circle on the line x – 2y – 3 = 0 is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "x + 2y = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "2x + y – 3 = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "3x + 2y – 4 = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "3x – 2y – 4 = 0"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "B-13. Sol. The equation of the diameter of the circle (x – 2)2 + (y + 1)2 = 16 which bisects the chord cut off by the\ncircle on the line x – 2y – 3 = 0 is\n(A) x + 2y = 0 (B*) 2x + y – 3 = 0 (C) 3x + 2y – 4 = 0 (D) 3x – 2y – 4 = 0\no`Ùk (x – 2)2 + (y + 1)2 = 16 ds O;kl dk og lehdj.k tks o`Ùk }kjk ljy js[kk x – 2y – 3 = 0 ij dkVh xbZ thok\ndks lef}Hkkftr djrk gS &\n(A) x + 2y = 0 (B) 2x + y – 3 = 0 (C) 3x + 2y – 4 = 0 (D) 3x – 2y – 4 = 0a\nRequired diameter is  to given line.\nHence y + 1 = –2(x – 2)  2x + y – 3 = 0.\nHindi. vHkh\"V O;kl] nh xbZ js[kk ds yEcor~ gSA\nvr% y + 1 = –2(x – 2)  2x + y – 3 = 0",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-071",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "B-14",
+      "question": " The locus of the point of intersection of the tangents to the circle x2 + y2 = a2 at points whose parametric angles differ by 3  is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "x2 + y2 = 4a 2 3"
+        },
+        {
+          "identifier": "B",
+          "content": "x2 + y2 = 2a 2 3"
+        },
+        {
+          "identifier": "C",
+          "content": ": Normal, Director circle, chord of contact, chord with mid point"
+        },
+        {
+          "identifier": "D",
+          "content": "x2 + y2 = 2 a 9 Section"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "B-14. The locus of the point of intersection of the tangents to the circle x2 + y2 = a2 at points whose parametric\nangles differ by 3\n is\no`Ùk x2 + y2 = a2 ds mu fcUnqvksa ftuds izkpfyd dks.kksa dk vUrj /3 gS] dh Li'kZ js[kkvksa ds izfrPNsn fcUnq dk\nfcUnqiFk gSA\n4a\n2\n(A*) x2 + y2 =\n3 (B) x2 + y2 =\n2a\n2\n3 (C) x2 + y2 =\n2\n2\na\na\n3 (D) x2 + y2 =\nSol. POQ =\n and vkSj  POR =\n3\n\n6\n9\nOP = OR cos 30º\n3\na = 2 2 h k \n x2 + y2 =\n2\n4a\n2\n3\nSection (C) : Normal, Director circle, chord of contact, chord with mid point\n[k.M (C) : vfHkyEc] fu;ked o`Ùk] Li'kZ thok] e/; fcUnq okyh thok",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-072",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "C-1",
+      "question": "The equation of normal to the circle x2 + y2",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "3x + y – 4 = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "x – y = 0 – 4x + 4y – 17 = 0 which passes through (1, 1) is"
+        },
+        {
+          "identifier": "C",
+          "content": "x + y = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "3x – y – 4 = 0"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "C-1. The equation of normal to the circle x2 + y2\n– 4x + 4y – 17 = 0 which passes through (1, 1) is\n(A*) 3x + y – 4 = 0 (B) x – y = 0 (C) x + y = 0 (D) 3x – y – 4 = 0\no`Ùk x2 + y2\n– 4x + 4y – 17 = 0 ds vfHkyEc dk lehdj.k tks fcUnq (1, 1) ls xqtjrk gS &\n(A) 3x + y – 4 = 0 (B) x – y = 0 (C) x + y = 0 (D) 3x – y – 4 = 0\nSol. Normal to the circle x2 + y2\n– 4x + 4y – 17 = 0 also passes through centre.\nHence its equation is line joining (2, –2) and (1, 1)\n\n(y –1) = 1 2\n(x – 1) y – 1 = –3x + 3 3x + y – 4 = 0\n1 2\n\nHindi. o`Ùk x2 + y2\n– 4x + 4y – 17 = 0 dk vfHkyEc lnSo o`Ùk ds dsUnz ls xqtjrk gSA\nvr% bldh lehdj.k fcUnqvksa (2, –2) vkSj (1, 1) ls feykus okyh js[kk gSA\n\n(y –1) = 1 2\n(x – 1) y – 1 = –3x + 3 3x + y – 4 = 0\n1 2\n",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-073",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "C-2",
+      "question": "The normal at the point (3, 4) on a circle cuts the circle at the point (–1, –2). Then the equation of the circle is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "x2 + y2 + 2x – 2y – 13 = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "x2 + y2"
+        },
+        {
+          "identifier": "C",
+          "content": "x2 + y2 – 2x + 2y + 12 = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "x2 + y2 – 2x – 2y – 11 = 0 – 2x – 2y + 14 = 0"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "C-2. The normal at the point (3, 4) on a circle cuts the circle at the point (–1, –2). Then the equation of the\ncircle is\no`Ùk ds fcUnq (3, 4) ij vfHkyEc o`Ùk dks fcUnq (–1, –2) ij dkVrk gks] rks o`Ùk dk lehdj.k gS&\n(A) x2 + y2 + 2x – 2y – 13 = 0 (B*) x2 + y2\n– 2x – 2y – 11 = 0\n(C) x2 + y2\n– 2x + 2y + 12 = 0 (D) x2 + y2\n– 2x – 2y + 14 = 0\nSol.\n(x –3)(x +1) + (y –4)(y + 2) = 0\nEquation x2 + y2\n–2x –2y –11 = 0\nHindi\n(x –3)(x +1) + (y –4)(y + 2) = 0\nvr% vHkh\"V lehdj.k x2 + y2\n–2x –2y –11 = 0",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-074",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "C-3",
+      "question": "The co-ordinates of the middle point of the chord cut off on 2x – 5y + 18 = 0 by the circle x2 + y2 – 6x + 2y – 54 = 0 are",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "(1, 4)"
+        },
+        {
+          "identifier": "B",
+          "content": "(2, 4)"
+        },
+        {
+          "identifier": "C",
+          "content": "(4, 1)"
+        },
+        {
+          "identifier": "D",
+          "content": "(1, 1)"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "C-3. The co-ordinates of the middle point of the chord cut off on 2x – 5y + 18 = 0 by the circle\nx2 + y2\n– 6x + 2y – 54 = 0 are\no`Ùk x2 + y2\n– 6x + 2y – 54 = 0 }kjk ljy js[kk 2x – 5y + 18 = 0 ij dkVh xbZ thok ds e/; fcUnq ds funsZ'kkad\ngS&\n(A*) (1, 4) (B) (2, 4) (C) (4, 1) (D) (1, 1)\nSol. Required point is foot of  \nx 3\n\n\n= y 1\n6 5 18\n= –\n2\n        \n= –1 x = 1, y = 4\n\n5\n4 25\nHindi. yEcikn ds fcUnq gS",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-075",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "C-4",
+      "question": " The locus of the mid point of a chord of the circle x² + y² = 4 which subtends a right angle at the origin is:",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "x + y = 2"
+        },
+        {
+          "identifier": "B",
+          "content": "x² + y² = 1"
+        },
+        {
+          "identifier": "C",
+          "content": "x² + y² = 2"
+        },
+        {
+          "identifier": "D",
+          "content": "x + y = 1"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(C)",
+      "explanation": "C-4. x 3\n\n\n= y 1\n6 5 18\n2\n        \n= –\n= –1 x = 1, y = 4\n\n5\n4 25\nThe locus of the mid point of a chord of the circle x² + y² = 4 which subtends a right angle at the origin\nis:\no`Ùk x² + y² = 4 dh ml thok ds e/; fcUnq dk fcUnqiFk tks ewy fcUnq ij ledks.k cukrhgks]gksxk–\n(A) x + y = 2 (C*) x² + y² = 2 (B) x² + y² = 1\n(D) x + y = 1\nSol. cos 45° = cm\n2 2 h k\n\n=\ncp\n2\nHence locus vr% fcUnqiFk x2 + y2 = 2",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-076",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "C-5",
+      "question": " The chords of contact of the pair of tangents drawn from each point on the line 2x + y = 4 to the circle x2 + y2 = 1 pass through the point",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "(1, 2)"
+        },
+        {
+          "identifier": "B",
+          "content": "1 1      "
+        },
+        {
+          "identifier": "C",
+          "content": "(2, 4)"
+        },
+        {
+          "identifier": "D",
+          "content": "(4, 4) , 2 4"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "C-5. The chords of contact of the pair of tangents drawn from each point on the line 2x + y = 4 to the circle\nx2 + y2 = 1 pass through the point\n(A) (1, 2) (B*) 1 1\n      (C) (2, 4) (D) (4, 4)\n, 2 4\nljy js[kk 2x + y = 4 ds izR;sd fcUnq ls x2 + y2 = 1 ij [khaps x;s Li'khZ js[kk ;qXe dh Li'kZ thok,¡ ftl fcUnq ls\nxqtjrh gSa] og gS &–\n(A) (1, 2) (B) 1 1\n      (C) (2, 4) (D) (4, 4)\n, 2 4\nSol. Let point on line be (h, 4 – 2h) (chord of contact)\nhx + y (4 – 2h) = 1  h(x – 2y) + 4y – 1 = 0  Point 1 1\n     \n, 2 4\nHindi. ekukfd js[kk ij fcUnq (h, 4 – 2h) (Li'khZ thok,¡)\nhx + y (4 – 2h) = 1  h(x – 2y) + 4y – 1 = 0  vr% fcUnq 1 1\n     \n, 2 4",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-077",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "C-6",
+      "question": "The locus of the centers of the circles such that the point (2, 3) is the mid point of the chord 5x + 2y = 16 is:",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "2x - 5y + 11 = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "2x + 5y - 11 = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "2x + 5y + 11 = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "2x - 5y – 11 = 0"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "C-6. The locus of the centers of the circles such that the point (2, 3) is the mid point of the chord 5x + 2y = 16\nis:\n(A*) 2x  5y + 11 = 0 (B) 2x + 5y  11 = 0 (C) 2x + 5y + 11 = 0 o`Ùkksa ds dsUnzksa dk fcUnqiFk tcfd fcUnq (2,3) thok 5x + 2y = 16 dk e/; fcUnq gSa&\n(A) 2x  5y + 11 = 0 (B) 2x + 5y  11 = 0 (C) 2x + 5y + 11 = 0 (D) 2x  5y – 11 = 0\n(D) 2x  5y – 11 = 0\nSol.\n   \nk 3 5 1\n     \n 2x – 5y + 11 = 0\nh 2 2\n   ",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-078",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "C-7",
+      "question": " Find the locus of the mid point of the chord of a circle x² + y² = 4 such that the segment intercepted by the chord on the curve x² - 2x - 2y = 0 subtends a right angle at the origin.",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "x² + y² - 2x - 2y = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "x² + y²  2x - 2y = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "x² + y²  2x  2y = 0"
+        },
+        {
+          "identifier": "D",
+          "content": ": Position of two circle, Orthogonality, Radical axis and radical centre"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "C-7. Find the locus of the mid point of the chord of a circle x² + y² = 4 such that the segment intercepted by\nthe chord on the curve x²  2x  2y = 0 subtends a right angle at the origin.\no`Ùk x² + y² = 4 dh thok ds e/; fcUnq dk fcUnqiFk Kkr dhft, tcfd thok }kjk oØ x²  2x  2y = 0 ij dkVk\nx;k vUr%[k.M ewyfcUnq ij ledks.k cukrk gSaA\n(A*) x² + y²  2x  2y = 0 (C) x² + y²  2x  2y = 0 (B) x² + y²  2x  2y = 0\n(D) x² + y² – 2x  2y = 0\nSol. Let mid-point be (h, k) hx + ky = h2 + k2\nhx ky\nsubtend right angle  x2\n– 2(x + y) 2 2\n       \n= 0 (h2 + k2) x2\n– 2(x + y) (hx + ky) = 0\nh k\nAs angle 90º , Coefficient of x2 + Coefficient of y2 = 0 h2 + k2\n– 2h – 2k = 0 \nLocus x2 + y2\n– 2x –2y = 0\nHindi. ekukfd e/; fcUnq (h, k) gS  hx + ky = h2 + k2\ntks fd ledks.k cukrk gS  x2\nhx ky\n– 2(x + y) 2 2\n       \n=0  (h2 + k2) x2\nh k\ndks.k 90º gksus ds vuqlkj x2 dk xq.kkad + y2 dk xq.kkad = 0\nh2 + k2\n– 2h – 2k = 0 fcUnqiFk x2 + y2\n– 2x –2y = 0\n– 2(x + y)(hx + ky) = 0\nSection (D) : Position of two circle, Orthogonality, Radical axis and radical centre\n[k.M (D) : nks o`Ùkksa dh fLFkfr] yEcdks.kh;rk] ewyk{k ,oa ewyk{k dsUnz",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-079",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "D-1",
+      "question": "Number of common tangents of the circles (x + 2)² + (y-2)² = 49 and (x - 2)² + (y + 1)² = 4 is:",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "0"
+        },
+        {
+          "identifier": "B",
+          "content": "1"
+        },
+        {
+          "identifier": "C",
+          "content": "2"
+        },
+        {
+          "identifier": "D",
+          "content": "3"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "D-1. Number of common tangents of the circles (x + 2)²+(y2)² = 49 and (x  2)² + (y + 1)² = 4 is:\no`Ùk (x + 2)²+(y2)² = 49 vkSj (x  2)² + (y + 1)² = 4 dh mHk;fu\"B Li'kZ js[kkvksa dh la[;k gSa&\n(A) 0 (B*) 1 (C) 2 (D) 3\nSol. C1C2 = 5 , r1 = 71 r2 = 2\nC1C2 = |r1 – r2| one common tangent\nHindi C1C2 = 5 , r1 = 71 r2 = 2\nC1C2 = |r1 – r2| ,d mHk;fu\"V Li'kZ js[kk",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-080",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "D-2",
+      "question": "The equation of the common tangent to the circle x2 + y2 at their point of contact is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "12x + 5y + 19 = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "5x + 12y + 19 = 0 – 4x – 6y–12=0 and x2 + y2 + 6x+18y + 26 = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "5x – 12y + 19 = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "12x –5y + 19 = 0 ADVCR- 17 --- PAGE 18 --- Circle"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "D-2. Sol. D-3. Sol. Hindi The equation of the common tangent to the circle x2 + y2\n– 4x – 6y–12=0 and x2 + y2 + 6x+18y + 26 = 0\nat their point of contact is\no`Ùk x2 + y2\n– 4x – 6y – 12 = 0 vkSj x2 + y2 + 6x + 18y + 26 = 0 ds Li'kZ fcUnq ij mHk;fu\"B Li'kZ js[kk dk\nlehdj.k gS –\n(A) 12x + 5y + 19 = 0 (B*) 5x + 12y + 19 = 0\n(C) 5x – 12y + 19 = 0 (D) 12x –5y + 19 = 0\nEquation of common tangent at point of contact is S1 – S2 = 0\nLi'kZ fcUnq ij mHk;fu\"B Li'kZ js[kk dk lehdj.k S1 – S2 = 0 gSA\n 10x + 24y + 38 = 0  5x + 12y + 19 = 0\nEquation of the circle cutting orthogonally the three circles x2 + y2\nx2 + y2 + 5x – 5y + 9 = 0 and x2 + y2 + 7x – 9y + 29 = 0 is\n– 2x + 3y – 7 = 0,\n(A*) x2 + y2\n– 16x – 18y – 4 = 0 (B) x2 + y2\n(C) x2 + y2 + 2x – 8y + 9 = 0 rhu o`Ùkksa x2 + y2\n– 7x + 11y + 6 = 0\n(D) x2 + y2 + 16x – 18y – 4 = 0\n– 2x + 3y – 7 = 0, x2 + y2 + 5x – 5y + 9 = 0 ,oa x2 + y2 + 7x – 9y + 29 = 0 dks yEcdks.kh;\ndkVus okys o`Ùk dk lehdj.k gS –\n(A) x2 + y2\n– 16x – 18y – 4 = 0 (C) x2 + y2 + 2x – 8y + 9 = 0 (B) x2 + y2\n– 7x + 11y + 6 = 0\n(D) x2 + y2 + 16x – 18y – 4 = 0\nS1 – S2 = 0  7x – 8y + 16 = 0\nS2 – S3 = 0  2x –4y + 20 = 0\nS3 – S1 = 0  9x –12y + 36 = 0\nOn solving centre (8, 9)\nLength of tangent = 1 S 64 81 16 27 7      = 149 = (x – 8)2 + (y – 9)2 = 149\n= x2 + y2\n– 16x – 18y – 4 = 0\nS1 – S2 = 0 S2 – S3 = 0 S3 – S1 = 0 7x –3y + 16 = 0\n2x –4y + 20 = 0\n9x –12y + 36 = 0\ngy djus ij] dsUnz (8,9) gksxk\nLi'kZ js[kk dh yEckbZ 1 S 64 81 16 27 7      = 149 = (x – 8)2 + (y – 9)2 = 149\n= x2 + y2\n– 16x – 18y – 4 = 0.",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-081",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "D-3",
+      "question": "Equation of the circle cutting orthogonally the three circles x2 + y2 – 2x + 3y – 7 = 0, x2 + y2 + 5x – 5y + 9 = 0 and x2 + y2 + 7x – 9y + 29 = 0 is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "x2 + y2 – 16x – 18y – 4 = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "x2 + y2 – 7x + 11y + 6 = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "x2 + y2 + 2x – 8y + 9 = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "x2 + y2 + 16x – 18y – 4 = 0"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "Equation of the circle cutting orthogonally the three circles x2 + y2\nx2 + y2 + 5x – 5y + 9 = 0 and x2 + y2 + 7x – 9y + 29 = 0 is\n– 2x + 3y – 7 = 0,\n(A*) x2 + y2\n– 16x – 18y – 4 = 0 (B) x2 + y2\n(C) x2 + y2 + 2x – 8y + 9 = 0 rhu o`Ùkksa x2 + y2\n– 7x + 11y + 6 = 0\n(D) x2 + y2 + 16x – 18y – 4 = 0\n– 2x + 3y – 7 = 0, x2 + y2 + 5x – 5y + 9 = 0 ,oa x2 + y2 + 7x – 9y + 29 = 0 dks yEcdks.kh;\ndkVus okys o`Ùk dk lehdj.k gS –\n(A) x2 + y2\n– 16x – 18y – 4 = 0 (C) x2 + y2 + 2x – 8y + 9 = 0 (B) x2 + y2\n– 7x + 11y + 6 = 0\n(D) x2 + y2 + 16x – 18y – 4 = 0\nS1 – S2 = 0  7x – 8y + 16 = 0\nS2 – S3 = 0  2x –4y + 20 = 0\nS3 – S1 = 0  9x –12y + 36 = 0\nOn solving centre (8, 9)\nLength of tangent = 1 S 64 81 16 27 7      = 149 = (x – 8)2 + (y – 9)2 = 149\n= x2 + y2\n– 16x – 18y – 4 = 0\nS1 – S2 = 0 S2 – S3 = 0 S3 – S1 = 0 7x –3y + 16 = 0\n2x –4y + 20 = 0\n9x –12y + 36 = 0\ngy djus ij] dsUnz (8,9) gksxk\nLi'kZ js[kk dh yEckbZ 1 S 64 81 16 27 7      = 149 = (x – 8)2 + (y – 9)2 = 149\n= x2 + y2\n– 16x – 18y – 4 = 0.\nD-4. If the length of a common internal tangent to two circles is 7, and that of a common external tangent is\n11, then the product of the radii of the two circles is:\n;fn nks o`Ùkksa dh mHk;fu\"B vkUrfjd Li'kZ js[kkvksa dh yEckbZ 7 vkSj mHk;fu\"B cká Li'kZ js[kk dh yEckbZ 11 gks] rks\nnksuksa o`Ùkksa dh f=kT;kvksa dk xq.kuQy gSa :\n(A*) 18 (B) 20 (C) 16 (D) 12\nSol. as we know Lint = 2 2\n1 2 d (r r )   =7  Lext\n= 2 2\n1 2 d (r r )  = 11\nsquaring & subtact r1r2 = 18",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation manually mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-082",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "D-4",
+      "question": " If the length of a common internal tangent to two circles is 7, and that of a common external tangent is 11, then the product of the radii of the two circles is:",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "18"
+        },
+        {
+          "identifier": "B",
+          "content": "20"
+        },
+        {
+          "identifier": "C",
+          "content": "16"
+        },
+        {
+          "identifier": "D",
+          "content": "12 Section (E) : Family of circles , Locus, Miscellaneous"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "D-4. If the length of a common internal tangent to two circles is 7, and that of a common external tangent is\n11, then the product of the radii of the two circles is:\n;fn nks o`Ùkksa dh mHk;fu\"B vkUrfjd Li'kZ js[kkvksa dh yEckbZ 7 vkSj mHk;fu\"B cká Li'kZ js[kk dh yEckbZ 11 gks] rks\nnksuksa o`Ùkksa dh f=kT;kvksa dk xq.kuQy gSa :\n(A*) 18 (B) 20 (C) 16 (D) 12\nSol. as we know Lint = 2 2\n1 2 d (r r )   =7  Lext\n= 2 2\n1 2 d (r r )  = 11\nsquaring & subtact r1r2 = 18\nSection (E) : Family of circles , Locus, Miscellaneous\n[k.M (E) : o`Ùk fudk;] fcUnqiFk] fofo/k",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-083",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 1",
+      "part": "Part II",
+      "question_id": "E-1",
+      "question": "E-2. E-3. E-4. E-5. E-6. The locus of the centre of the circle which bisects the circumferences of the circles x² + y² = 4 & x² + y² - 2x + 6y + 1 = 0 is:",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "40 9"
+        },
+        {
+          "identifier": "B",
+          "content": "9 40"
+        },
+        {
+          "identifier": "C",
+          "content": "1 9"
+        },
+        {
+          "identifier": "D",
+          "content": "1 3"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "E-1. The locus of the centre of the circle which bisects the circumferences of the circles\nx² + y² = 4 & x² + y²  2x + 6y + 1 = 0 is:\n(A*) a straight line (B) a circle (C) a parabola (D) pair of straight line\no`Ùkksa x² + y² = 4 vkSj x² + y²  2x + 6y + 1 = 0 dh ifjf/k;ksa dks lef}Hkkftr djus okys o`Ùk ds dsUnz dk fcUnqiFk gS\n&\nSol. (A) ,d ljy js[kk (B) o`Ùk (C) ijoy; (D) ljy js[kk ;qXe\nLet required circle is x2 + y2 + 2gx + 2fy + c = 0\n\nHence common chord with x2 + y2\n– 4 = 0\nis 2gx + 2fy + c + y = 0\nThis is diameter of circle x2 + y2 = 4 hence c = –4.\nNow again common chord with other circle\n2x(g + 1) + 2y(f – 3) + (c – 1) = 0\nThis is diameter of x2 + y2\n– 2x + 6y + 1 = 0\n2(g + 1) – 6(f – 3) + 5 = 0\n2g – 6f + 15 = 0\nlocus 2x – 3y – 15 = 0 which is st. line.\nHindi. ekuk dh o`Ùk x2 + y2 + 2gx + 2fy + c = 0\nvr% x2 + y2\n– 4 = 0 ds lkFk mHk;fu\"V thok 2gx + 2fy + c + y = 0 gSA\n;g o`Ùk x2 + y2 = 4 dk O;kl gS vr% c = –4\nvc mHk;fu\"V thok nwljs o`Ùk ds lkFk\n2x(g + 1) + 2y(f – 3) + (c – 1) = 0\n;g o`Ùk x2 + y2\n– 2x + 6y + 1 = 0 dk O;kl gS\n2(g + 1) – 6(f – 3) + 5 = 0\n2g – 6f + 15 = 0\nfcUnqiFk 2x – 3y – 15 = 0 tks fd ljy js[kk gSA",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-084",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Match the column",
+      "test": "Exercise 1",
+      "part": "Part III",
+      "question_id": "1",
+      "question": "Column – I Column – II",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "Number of values of a for which the common chord (p) 0 of the circles x2 + y2 = 8 and (x – a)2 + y2 = 8 subtends a right angle at the origin is"
+        },
+        {
+          "identifier": "B",
+          "content": " The number of circles touching all the three lines (q) 2 3x + 7y = 2, 21x + 49y = 5 and 9x + 21y = 0 are"
+        },
+        {
+          "identifier": "C",
+          "content": "The length of common chord of circles x2 + y2 – x – 11y + 18 = 0 (r) 5 and x2 + y2 – 9x – 5y + 14 = 0 is"
+        },
+        {
+          "identifier": "D",
+          "content": "Number of common tangents of the circles x2 + y2 – 2x = 0 and x2 + y2 + 6x – 6y + 2 = 0 is (s) 3 ADVCR- 18 --- PAGE 19 --- Circle"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)  (q), (B)  (p), (C)  (r), (D)  (s)\nLrEHk – I (A) a ds mu ekukas dh la[;k ftuds fy, o`Ùkksa x2 + y2 = 8 rFkk (x – a)2 + y2 = 8 dh mHk;fu\"B thok ewy fcUnq ij ledks.k vUrfjr djrh gS &\n(B) lHkh rhu js[kkvksa 3x + 7y = 2, 21x + 49y = 5 rFkk 9x + 21y = 0 dks Li'kZ djus okys o`Ùkksa dh la[;k gS &\n(C) o`Ùkksa x2 + y2\n– x – 11y + 18 = 0 vkSj x2 + y2\n– 9x – 5y + 14 = 0 dh mHk;fu\"B thok dh yEckbZ\n(D) o`Ùkksa x2 + y2\n– 2x = 0 rFkk x2 + y2 + 6x – 6y + 2 = 0 dh mHk;fu\"B Li'kZ js[kkvksa dh la[;k gS\nAns. (A)  (q), (B)  (p), (C)  (r), (D)  (s)\n(s) 3\nLrEHk – II\n(p) 0\n(r) 2\n(r) 5\n(s) 3",
+      "explanation": "1. Column – I Column – II\n(A) Number of values of a for which the common chord (p) 0\nof the circles x2 + y2 = 8 and (x – a)2 + y2 = 8 subtends\na right angle at the origin is\n(B) The number of circles touching all the three lines (q) 2\n3x + 7y = 2, 21x + 49y = 5 and 9x + 21y = 0 are\n(C) The length of common chord of circles x2 + y2\n– x – 11y + 18 = 0 (r) 5\nand x2 + y2\n– 9x – 5y + 14 = 0 is\n(D) Number of common tangents of the circles x2 + y2\n– 2x = 0 and x2 + y2 + 6x – 6y + 2 = 0 is\nAns. (A)  (q), (B)  (p), (C)  (r), (D)  (s)\nLrEHk – I (A) a ds mu ekukas dh la[;k ftuds fy, o`Ùkksa x2 + y2 = 8 rFkk (x – a)2 + y2 = 8 dh mHk;fu\"B thok ewy fcUnq ij ledks.k vUrfjr djrh gS &\n(B) lHkh rhu js[kkvksa 3x + 7y = 2, 21x + 49y = 5 rFkk 9x + 21y = 0 dks Li'kZ djus okys o`Ùkksa dh la[;k gS &\n(C) o`Ùkksa x2 + y2\n– x – 11y + 18 = 0 vkSj x2 + y2\n– 9x – 5y + 14 = 0 dh mHk;fu\"B thok dh yEckbZ\n(D) o`Ùkksa x2 + y2\n– 2x = 0 rFkk x2 + y2 + 6x – 6y + 2 = 0 dh mHk;fu\"B Li'kZ js[kkvksa dh la[;k gS\nAns. (A)  (q), (B)  (p), (C)  (r), (D)  (s)\n(s) 3\nLrEHk – II\n(p) 0\n(r) 2\n(r) 5\n(s) 3\nSol. (A) S1 – S2 = 0 is the required common chord i.e 2x = a\n2\nx\nMake homogeneous, we get x2 + y2\n– 8.4\n= 0\n2\na\nAs pair of lines substending angle of 90° at origin\n coefficient of x2 + coefficient of y2 = 0\n a = ± 4\n(B) Three lines are parallel so not any circle is possible\n( 3 , 2)\n\n(C) (D) Hindi (A) (B) Equation of common chord is 4x – 3y + 2 = 0.\nEnd points of common chord are (1,2) & (4,6)\nLength of common chord is 5\nC1 (1, 0), r1 = 1 and C2 (–3, 3), r2 = 4\ndistance between centres C1 and C2 = d = 5\nd = r1 + r2 = 5  3 common tangents\nvHkh\"V mHk;fu\"B thok S1 – S2 = 0 gS vFkkZr~ 2x = a\n2\nx\nle?kkr cukus ij x2 + y2\n– 8.4\n= 0\n2\na\npw¡fd js[kk ;qXe ewy fcUnq ij ledks.k vUrfjr djrk gSA\n x2 dk xq.kkad + y2 dk xq.kkad = 0\n a = ± 4\nrhuksa js[kk,¡ lekUrj gS vr% dksbZ Hkh o`Ùk fo|eku ugha gksxk\n( 3 , 2)\n(C) mHk;fu\"B thok dk lehdj.k 4x – 3y + 2 = 0.\nmHk;fu\"B thok ds fljs (1,2) & (4,6)\nmHk;fu\"B thok dh yEckbZ Length of common chord is 5\n(D) C1 (1, 0), r1 = 1 rFkk C2 (–3, 3), r2 = 4\ndsUnzksa C1 rFkk C2 ds e/; nwjh = d = 5\nd = r1 + r2 = 53 mHk;fu\"B Li'kZ js[kk,¡",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-085",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Match the column",
+      "test": "Exercise 1",
+      "part": "Part III",
+      "question_id": "2",
+      "question": "Column – I Column – II",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "If director circle of two given circles C1 and C2 of equal (p) 13 radii touches each other, then ratio of length of internal common tangent of C1 and C2 to their radii equals to"
+        },
+        {
+          "identifier": "D",
+          "content": "Let two circles having radii r1 and r2 are orthogonal to each other. If length of their common chord is k times the square root of hormonic mean between squares of their radii, then k4 equals to The axes are translated so that the new equation of the circle x² + y² - 5x + 2y - 5 = 0 has no first degree terms and the new 2 equation x2 + y2 =  , then the value of  is 4  The number of integral points which lie on or inside the circle x2 + y2 = 4 is (q) 7 (r) 4 (s) 2"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)  (s), (B)  (r), (C)  (q), (D)  (p)",
+      "explanation": "2. Column – I (A) If director circle of two given circles C1 and C2 of equal radii touches each other, then ratio of length of internal\ncommon tangent of C1 and C2 to their radii equals to\n(B) Let two circles having radii r1 and r2 are orthogonal to each other. If length of their common chord is k times the square\nroot of hormonic mean between squares of their radii, then\nk4 equals to\n(C) The axes are translated so that the new equation of the circle x² + y²  5x + 2y  5 = 0 has no first degree terms and the new\n2\nequation x2 + y2 =\n , then the value of \nis\n4\n\n(D) The number of integral points which lie on or inside the circle x2 + y2 = 4 is\nAns. (A)  (s), (B)  (r), (C)  (q), (D)  (p)\nSol. (A) Length of internal common tangent equals to 2r\nColumn – II\n(p) 13\n(q) 7\n(r) 4\n(s) 2\n\nr r\nr r\n(B) 1\n2\n  = 2\nr r r r\nr r\nr r\nr r\n1\nr1 r2 =\n2\n×\n      × 2 2\n1 2 r r  2\n{where  is length of common chord)\n2 2\n2r r\n1 2\n2 2\nr r \n1 2\n k = 2  k2 = 2\n(C) x2 + y2\n– 5x + 2y – 5 = 0 \n \n2\n5\nx\n     + (y+1)2\n2\n– 5 –\n25\n4–1=0\n \n2\n5\n49\n\nx\n     +(y+1)2 =\n2\n4\n \n So the axes are shifted to 5 , 1\n    \n2\n49\nNew equation of circle must be x2 +y2=\n4\n(D)\nHindi LrEHk – I (A) LrEHk – II\n;fn nks fn, x, cjkcj f=kT;k ds o`Ùkksa ds fu;ked o`Ùk ,d\nnqljs dks ckg~; Li'kZ djrs gSA rc C1 vkSj C2 dh vkUrfjd\nmHk;fu\"B Li'kZ js[kk dh yEckbZ dk mudh f=kT;k ls vuqikr cjkcj gS (p) (B) ekuk nks o`Ùk ftudh f=kT;k,a r1 vkSj r2 ,d nqljs ds ykfEcd gSA\n;fn mudh mHk;fu\"B thok dh yEckbZ mudh f=kT;kvksa ds oxksZ ds\ne/; gjkRed ek/; ds oxZewy dk k xquk gS rc k4 cjkcj\ngS& (q) 7\n(C) v{kksa dks bl izdkj ifjofrZr fd;k tkrk gS fd o`r (r) 4\nx² + y²  5x + 2y  5 = 0 dh ubZ lehdj.k esa ,d ?kkr dk\ndksbZ in ugha gksrk gS rc u;k lehdj.k x2 + y2 =\nrks  dk eku Kkr dhft,A\n ls nh tkrh gS]\n4\n(D) ,sls iw.kkZ±d fcUnqvksa dh la[;k Kkr dhft, tks o`Ùk x2 + y2 = 4 ds Åij ;k vUnj fLFkr gSA\n(s) 2\nAns. (A)  (s), (B)  (r), (C)  (q), (D)  (p)\nSol. (A) Length of internal common tangent equals to 2r\n13\n\nr r\nr r\nr r r r\nr r\n1\nr r\nr r\n×\n      × 2 2\n1 2 r r  2\n(B) 1\n2\nr1 r2 =\n2\n  = 2\n2 2\n2r r\n1 2\n2 2\nr r \n1 2\n(C) x2 + y2\n– 5x + 2y – 5 = 0  \n2\n5\n49\n\nx\n     +(y+1)2 =\n2\n4\no`Ùk dh u;h lehdj.k x2 + y2 =\n{where  is length of common chord)\n k = 2  k2 = 2\n49\n4\n \n2\n5\n25\n\nx\n     + (y+1)2\n– 5 –\n2\n4–1=0\n \n v{kksa dks 5 , 1\n    \nij izfrLFkkfir djus ij\n2\ngSA\n(D)",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-086",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 2",
+      "part": "Part I",
+      "question_id": "2",
+      "question": "From the point A (0, 3) on the circle x² + 4x + (y - 3)² = 0 a chord AB is drawn & extended to a point M such that AM = 2 AB. The equation of the locus of M is :",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "x² + 8x + y² = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "x² + 8x + (y - 3)² = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "(x - 3)² + 8x + y² = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "x² + 8x + 8y² = 0"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "2. From the point A (0, 3) on the circle x² + 4x + (y  3)² = 0 a chord AB is drawn & extended to a point M\nsuch that AM = 2 AB. The equation of the locus of M is :\no`Ùk x² + 4x + (y  3)² = 0 ij fcUnq A (0,3) ls ,d thok AB [khaph tkrh gS rFkk bls fcUnq M rd bl izdkj c<+k;k\ntkrk gS fd AM = 2 AB gks] rks M ds fcUnqiFk dk lehdj.k gS :\n(A) x² + 8x + y² = 0 (B*) x² + 8x + (y  3)² = 0\n(C) (x  3)² + 8x + y² = 0 (D) x² + 8x + 8y² = 0\nSol.\n2\nh\nB lies on circle\n     \n+ 4 h\n2\n     \n  \n2\n+\nk 3 3\n     = 0 \n2\n2\nHence locus of (h, k) x2 + 8x + (y – 3)2 = 0.\nh\n2\n4\n2 (k 3)\n\n+ 2h +\n= 0\n4\nSol.\n2\nh\nB o`Ùk ij fLFkr gS\n     \n+ 4 h\n2\n     \n  \n2\n+\nk 3 3\n     = 0 \n2\n2\nvr% (h, k) dk fcUnqiFk x2 + 8x + (y – 3)2 = 0\nh\n2\n4\n2 (k 3)\n\n+ 2h +\n= 0\n4",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-087",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 2",
+      "part": "Part I",
+      "question_id": "3",
+      "question": "If tangent at (1, 2) to the circle c1: x2 + y2 = 5 intersects the circle c2: x2 + y2 = 9 at A & B and tangents at A & B to the second circle meet at point C, then the co-ordinates of C is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "1 : 2 – 24x + 32y + 75 = 0 and 5x2 + 5y2 – 48x + 64y + 300 = 0 are in the ratio"
+        },
+        {
+          "identifier": "B",
+          "content": "2 : 3"
+        },
+        {
+          "identifier": "C",
+          "content": "3 : 4"
+        },
+        {
+          "identifier": "D",
+          "content": "2 : 1"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(D)",
+      "explanation": "3. Sol. If tangent at (1, 2) to the circle c1: x2 + y2 = 5 intersects the circle c2: x2 + y2 = 9 at A & B and tangents\nat A & B to the second circle meet at point C, then the coordinates of C is\n;fn fcUnq (1,2) ij o`Ùk c1: x2 + y2 = 5 dh Li'kZ js[kk] o`Ùk c2: x2 + y2 = 9 dks fcUnq A vkSj B ij dkVrh gS rFkk\nf}rh; o`Ùk ds fcUnq A vkSj B ij Li'kZ js[kk,¡ fcUnq C ij feyrh gks] rks C ds funsZ'kkad gS &\n(A) (4, 5) (B) 9 18\n      (C) (4,  5) (D*) 9 18\n, 15 5\n     \n, 5 5\nTangent at (1, 2) to the circle x2 + y2 = 5\nx + 2y – 5 = 0\nchord of contact from C(h, k) to x2 + y2 = 9\nhx + ky – 9 = 0\n\ncompare both equations h\nk\n=\n=\n1\n2\n9\n5\n9 18\n(h, k) \n     \n, 5 5\nHindi. o`Ùk x2 + y2 = 5 ds fcUnq (1, 2) ij Li'kZ js[kk dk lehdj.k\nx + 2y – 5 = 0 gS\no`Ùk x2 + y2 = 9 ds fy, C(h, k) ls Li'kZ thok\n9\nhx + ky – 9 = 0\nnksuks dh rqyuk djus ij h\nk\n=\n=\n1\n2\n5\n9 18\n(h, k) \n     \n, 5 5",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-088",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 2",
+      "part": "Part I",
+      "question_id": "6",
+      "question": "The distance between the chords of contact of tangents to the circle; x² + y² + 2gx + 2fy + c = 0 from the origin & the point (g, f) is: 2 2 g f c",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "2 2 g f "
+        },
+        {
+          "identifier": "B",
+          "content": " -"
+        },
+        {
+          "identifier": "C",
+          "content": "2 2 2 g f c  -"
+        },
+        {
+          "identifier": "D",
+          "content": "2 2 g f c   2 2 2 g f  2 2 2 g f  ADVCR- 19 --- PAGE 20 ---"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer": "(C)",
+      "explanation": "6. The distance between the chords of contact of tangents to the circle; x² + y² + 2gx + 2fy + c = 0 from the\norigin & the point (g, f) is:\newyfcUnq vkSj fcUnq (g,f) ls o`Ùk x² + y² + 2gx + 2fy + c = 0 ij [khaps x, Li'khZ ;qXe dh Li'khZ thokvksa ds chp dh\nnwjh gS &\n2 2 g f c\n(A) 2 2 g f  (B)\n  (C*)\n2\n2 2\ng f c\n \n2 2\ng f c\n \n2 2\n2 g f\n\n2 2\n2 g f\n\nSol. Equation of chords of contact from (0, 0) & (g, f)\ngx + fy + c = 0 gx + fy + g(x + g) + f(y + f) + c = 0 gx + fy +  = 0\n2 2\ng f c\n \nDistance between these parallel lines =\n2 2\n2 g f\n\nHindi. (0, 0) rFkk (g, f) ls Li'khZ thok dk lehdj.k\ngx + fy + c = 0 gx + fy + g(x + g) + f(y + f) + c = 0 gx + fy + = 0\n2 2\ng f c\n \nlekUrj js[kkvksa ds e/; dh nwjh = .\n2 2\n2 g f\n",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-089",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Only one option correct",
+      "test": "Exercise 2",
+      "part": "Part I",
+      "question_id": "7",
+      "question": "8. 9. f 2 g 2 10. 11. 12. 13. 14. 15. 16. Circle If from any point P on the circle x² + y² + 2gx + 2fy + c = 0, tangents are drawn to the circle x² + y² + 2gx + 2fy + c sin² + (g² + f²) cos² = 0, then the angle between the tangents is: ",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "13(x² + y²) - 4x - 6y - 50 = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "9(x² + y²) + 8x - 4y + 25 = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "x² + y² - 5x + 2y + 72 = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "13(x² + y²) - 4x - 6y  50 = 0 ADVCR- 20 --- PAGE 21 --- Circle"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "7. If from any point P on the circle x² + y² + 2gx + 2fy + c = 0, tangents are drawn to the circle\nx² + y² + 2gx + 2fy + c sin² + (g² + f²) cos² = 0, then the angle between the tangents is:\n(D)\n \n2 2 g f c\n2\n 2 2 g  \nf c\n2\n\n\n(A)  (B*) 2  (C) 2\n (D) 3\n;fn o`Ùk x² + y² + 2gx + 2fy + c = 0 ij fLFkr fdlh fcUnq P ls o`Ùk x² + y² + 2gx + 2fy + c sin² + (g² + f²)\ncos²=0 ij Li'kZ js[kk,¡ [khaph tkrh gks] rks Li'kZ js[kkvksa ds e/; dks.k gS&\n\n(A)  (B) 2  (C) 2\n\n (D) 3\nSol. tan = tan2   = 2 \n\n    \n",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-090",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Numerical value",
+      "test": "Exercise 2",
+      "part": "Part II",
+      "question_id": "8",
+      "question": "If (, ) is a point on the circle whose centre is on the x-axis and which touches the line x + y = 0 at (2, –2), then find the greatest value of ‘ ’ is 9. Two circles whose radii are equal to 4 and 8 intersect at right angles, then length of their common chord is",
+      "options": [],
+      "correct_options": [],
+      "answer": "06.82 or 06.83",
+      "explanation": "8. If (, ) is a point on the circle whose centre is on the x-axis and which touches the line x + y = 0 at\n(2, –2), then find the greatest value of ‘\n’ is\n;fn o`Ùk ftldk dsUnz x-v{k ij fLFkr gks] ij fLFkr ,d fcUnq (, ) gS rFkk tks js[kk x + y = 0 dks (2, –2) fcUnq ij\nLi'kZ djrk gks] rks dk vf/kdre eku gksxk&\nAns. 06.82 or 06.83\nSol.  Equation of circle (x – 2)2 + (y + 2)2 + (x + y) = 0 ........(i)\n Centre lies on the x-axis\n  = – 4 put in (i)\n equation of circle is x2 + y2\n– 8x + 8 = 0\n(, ) lies on it  2 = – 2 + 8 – 8  0\n greatest value of ‘’ is 4 + 2 2\nHindi.  o`Ùk dk lehdj.k (x – 2)2 + (y + 2)2 + (x + y) = 0 ........(i)\n dsUnz x v{k ij fLFkr gSA\n (i) esa  = – 4 j[kus ij\n o`Ùk dk lehdj.k x2 + y2\n– 8x + 8 = 0 gSA\n(, ) bl ij fLFkr gSA 2 = – 2 + 8 – 8  0\n dk vf/kdre eku 4 + 2 2 gSA",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-091",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Numerical value",
+      "test": "Exercise 2",
+      "part": "Part II",
+      "question_id": "10",
+      "question": "A variable circle passes through the point A (a, b) & touches the x-axis and the locus of the other end of the diameter through A is (x - a)² = by , then find the value of  11. Let A be the centre of the circle x² + y² - 2x - 4y - 20 = 0. Suppose that the tangents at the points B (1, 7) & D (4, - 2) on the circle meet at the point C. Find the area of the quadrilateral ABCD.",
+      "options": [],
+      "correct_options": [],
+      "answer": "04.00",
+      "explanation": "10. A variable circle passes through the point A (a, b) & touches the xaxis and the locus of the other end\nof the diameter through A is (x  a)² = by , then find the value of  \n,d pj o`Ùk fcUnq A (a, b) ls xqtjrk gS rFkk xv{k dks Li'kZ djrk gSA A ls xqtjus okys O;kl ds nwljs fljs dk\nfcUnqiFk (x  a)² = by gks] rks  dk eku Kkr dhft;sA\nAns. 04.00\nSol. Equation of circle whose diameter's end points are (a, b) and (h, k)\n(x – a) (x – h) + (y – b) (y – k) = 0\nx2 + y2\n– x(a + h) – y(b + k) + ah + bk = 0\nit touches x-axis.\n2\na h\nHence g2 = c  \n       = ah + bk  (h – a)2 = 4bk\n2\n Locus of (h, k) is (x – a)2 = 4by.\nHindi ml o`Ùk dk lehdj.k ftlds O;kl ds vUr fljs (a, b) vkSj (h, k) gSA\n(x – a) (x – h) + (y – b) (y – k) = 0\nx2 + y2\n– x(a + h) – y(b + k) + ah + bk = 0\n;g x-v{k dks Li'kZ djrk gSA\n\n2\na h\nvr% g2 = c  \n      \n= ah + bk 2\n (h, k) dk fcUnqiFk (x – a)2 = 4by gSA\n (h – a)2 = 4bk",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-092",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Numerical value",
+      "test": "Exercise 2",
+      "part": "Part II",
+      "question_id": "12",
+      "question": "If the complete set of values of a for which the point (2a, a + 1) is an interior point of the larger segment of the circle x2 + y2 - 2x - 2y - 8 = 0 made by the chord whose equation is 3x - 4y + 5 = 0 is (p,q) then value of p + q is",
+      "options": [],
+      "correct_options": [],
+      "answer": "01.30",
+      "explanation": "12. If the complete set of values of a for which the point (2a, a + 1) is an interior point of the larger segment\nof the circle x2 + y2\n 2x  2y  8 = 0 made by the chord whose equation is 3x  4y + 5 = 0 is (p,q) then\nvalue of p + q is\n;fn a\na ds lHkh ekuksa dk leqPp; ftlds fy, js[kk 3x – 4y + 5 = 0 }kjk o`Ùk x2 + y2\n– 2x – 2y – 8 = 0 dks\nfoHkkftr djus ij cuus okys cM+s o`Ùk [k.M (Larger segment) esa fcUnq (2a, a + 1) fo|eku gks] (p,q) gS rc p + q\ndk eku gksxk &\nAns. 01.30\nSol. Point (2a, a + 1) lies inside circle x2 + y2\n– 2x – 2y – 8 = 0\n4a2 + (a + 1)2\n– 2(2a) – 2(a + 1) – 8 < 0  5a2\n– 4a – 9 < 0\n5a2\n– 9a + 5a – 9 < 0 a(5a – 9) + 1(5a – 9) < 0\n\n(5a – 9) (a + 1) < 0  a  (–1, 9/5)\ncentre & (2a, a + 1) lies on same side w.r.t. line 3x – 4y + 5 = 0\n1\n6a – 4(a + 1) + 5 > 0  a >\n–\n2\n1 9\nHence a \n     \n– , 2 5\nHindi fcUnq (2a, a + 1) o`Ùk x2 + y2\n– 2x – 2y – 8 = 0 ds vUnj gS\n4a2 + (a + 1)2\n– 2(2a) – 2(a + 1) – 8 < 0\n5a2\n– 4a – 9 < 0 5a2\n– 9a + 5a – 9 < 0\na(5a – 9) + 1(5a – 9) < 0 (5a – 9) (a + 1) < 0  a  (–1, 9/5)\ndsUæ rFkk (2a, a + 1) js[kk 3x – 4y + 5 = 0 ds ,d gh vkSj fLFkr gksxsa\n1\n6a – 4(a + 1) + 5 > 0  a >\n–\n2\n1 9\nvr% a \n     \n– , 2 5",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-093",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Numerical value",
+      "test": "Exercise 2",
+      "part": "Part II",
+      "question_id": "13",
+      "question": "The circles x2 + y2 + 2ax + cy + a = 0 and x2 + y2 – 3ax + dy – 1 = 0 intersect in two distinct points P and Q, then find the number of values of ‘a’ for which the line 5x + by – a = 0 passes through P and Q. 14. The circumference of the circle x2 + y2 x2 + y2 + 4x + 12y + p = 0, then find p + q - 2x + 8y - q = 0 is bisected by the circle",
+      "options": [],
+      "correct_options": [],
+      "answer": "00.00",
+      "explanation": "13. The circles x2 + y2 + 2ax + cy + a = 0 and x2 + y2\n– 3ax + dy – 1 = 0 intersect in two distinct points P and\nQ, then find the number of values of ‘a’ for which the line 5x + by – a = 0 passes through P and Q.\n;fn o`Ùk x2 + y2 + 2ax + cy + a = 0 rFkk x2 + y2\n– 3ax + dy – 1 = 0 nks fHkUu&fHkUu fcUnqvksa P rFkk Q ij dkVrs\ngks] rks a ds ekuksa dh la[;k Kkr dhft, ftlds fy, js[kk 5x + by – a = 0 fcUnq P rFkk Q ls xqtjrh gS\nAns. 00.00\nSol. Let S1 : x2 + y2 + 2ax + cy + a = 0\nS1 : x2 + y2\n– 3ax + dy – 1 = 0\ncommon chord S1 – S2 = 0  5ax + y(c – d) + (a + 1) = 0\ngiven line is 5x + by – a = 0\ncompare both 5a\nc d\n\na 1\n\nc d\n\n1\n=\n=\n a =\n= –1 –\n5\nb\n\na\nb\na\nHindi (i) (ii) (iii)\nFrom (i) & (iii) a2 + a + 1 = 0  a = , 2 no real a.\nekuk S1 : x2 + y2 + 2ax + cy + a = 0  S1 : x2 + y2\nmHk;fu\"V thok S1 – S2 = 0  5ax + y(c – d) + (a + 1) = 0\nnh xbZ js[kk 5x + by – a = 0\nrqyuk djus ij 5a\nc d\n\na 1\n\nc d\n\n=\n=\n a =\n5\nb\n– 3ax + dy – 1 = 0\n1\n= –1 –\na\n(i) (ii) (iii)\n(i) ,oa (iii) ls a2 + a + 1 = 0  a = , 2 fdlh Hkh eku ds fy, a okLrfod ugha gSA\nb\n\na",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-094",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "Numerical value",
+      "test": "Exercise 2",
+      "part": "Part II",
+      "question_id": "15",
+      "question": "A circle touches the line y = x at a point P such that OP = 4 2 where O is the origin. The circle contains the point (-10, 2) in its interior and the length of its chord on the line x + y = 0 is 6 equation of the circle x2 + y2 + 2g x  2fy + 3c = 0, then value of g + f + c is 2 . If the",
+      "options": [],
+      "correct_options": [],
+      "answer": "18.66 or 18.67\n,d o`Ùk ljy js[kk y = x dks fcUnq P ij bl izdkj Li'kZ djrk gS fd OP = 4 2 tgk¡ O ewyfcUnq gSA (10, 2)\no`Ùk ds vUnj dksbZ fcUnq gS rFkk ljy js[kk x + y = 0 ij o`Ùk dh thok dh yEckbZ 6 2 gSA ;fn o`Ùk dk lehdj.k\nx2 + y2 + 2g x  2fy + 3c = 0 gS] rc g + f + c dk eku gksxk &",
+      "explanation": "15. A circle touches the line y = x at a point P such that OP = 4 2 where O is the origin. The circle\ncontains the point (10, 2) in its interior and the length of its chord on the line x + y = 0 is 6 2. If the\nequation of the circle x2 + y2 + 2g x  2fy + 3c = 0, then value of g + f + c is\nAns. 18.66 or 18.67\n,d o`Ùk ljy js[kk y = x dks fcUnq P ij bl izdkj Li'kZ djrk gS fd OP = 4 2 tgk¡ O ewyfcUnq gSA (10, 2)\no`Ùk ds vUnj dksbZ fcUnq gS rFkk ljy js[kk x + y = 0 ij o`Ùk dh thok dh yEckbZ 6 2 gSA ;fn o`Ùk dk lehdj.k\nx2 + y2 + 2g x  2fy + 3c = 0 gS] rc g + f + c dk eku gksxk &\nSol. By family of circle equation of circle touching y = x at p(4, 4)\n(x – 4)2 + (y – 4)2 + (x – y) = 0  x2 + y2 + x( – 8) – y( + 8) + 32 = 0\n       \nradius =\n2 2 8 8 32\n= 5 2\n         \n2 2\n22 + 128 – 128 = 200   = ±10\n = 10 x2 + y2 + 2x – 18y + 32 = 0\n = –10 x2 + y2\n– 18x + 2y + 32 = 0\nBy family of circle equation of circle touching y = x at p(–4, –4)\n(x + 4)2 + (y + 4)2 + (x – y) = 0 x2 + y2 + x( + 8) + y(8 – ) + 32 = 0\n       \nradius =\n2 2 8 8 32\n= 5          \n2  2 = 100   = ±10\n2 2\n\nHence x2 + y2 + 18x – 2y + 32 = 0 x2 + y2\n– 2x – 18y + 32 = 0\nas (–10, 2) lies inside x2 + y2 + 18x – 2y + 32 = 0\ng = 9 , f = –1, c = 32\n g + f + c = 56\n3\n3\nHindi o`Ùkksa ds fudk; }kjk y = x dks p(4, 4) ij Li'kZ djus okys o`Ùk dh lehdj.k\n(x – 4)2 + (y – 4)2 + (x – y) = 0 x2 + y2 + x( – 8) – y( + 8) + 32 = 0\n       \nf=kT;k =\n2 2 8 8 32\n= 5 2\n         \n2 2\n22 + 128 – 128 = 200   = ±10\n = 10 x2 + y2 + 2x – 18y + 32 = 0\n = –10 x2 + y2\n– 18x + 2y + 32 = 0\no`Ùkksa ds fudk; }kjk y = x dks p(–4, –4) ij Li'kZ djus okys o`Ùk dh lehdj.k\n(x + 4)2 + (y + 4)2 + (x – y) = 0 x2 + y2 + x( + 8) + y(8 – ) + 32 = 0\n       \nf=kT;k =\n2 2 8 8 32\n= 5 2\n         \n2 2\n2 = 100   = ±10\nvr% x2 + y2 + 18x – 2y + 32 = 0  x2 + y2\n– 2x – 18y + 32 = 0\ntSlkfd (–10, 2) o`Ùk x2 + y2 + 18x – 2y + 32 = 0 ds vUnj gSA\ng = 9 , f = –1, c = 32\n g + f + c = 56\n3\n3",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-095",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "One or more correct",
+      "test": "Exercise 2",
+      "part": "Part III",
+      "question_id": "1",
+      "question": "The equation of circles passing through (3, –6) touching both the axes is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "x2 + y2 – 6x + 6y + 9 = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "x2 + y2 + 6x – 6y + 9 = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "x2 + y2 + 30x – 30y + 225 = 0"
+        },
+        {
+          "identifier": "D",
+          "content": "x2 + y2 – 30x + 30y + 225 = 0 ADVCR- 21 --- PAGE 22 ---"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(B)",
+      "explanation": "1. The equation of circles passing through (3, –6) touching both the axes is\nfcUnq (3, –6) ls xqtjus okys rFkk nksuksa v{kksa dks Li'kZ djus okys o`Ùk dk lehdj.k gSa –\n(A*) x2 + y2\n– 6x + 6y + 9 = 0 (B) x2 + y2 + 6x – 6y + 9 = 0\n(C) x2 + y2 + 30x – 30y + 225 = 0 (D*) x2 + y2\n– 30x + 30y + 225 = 0\nSol. Now vc\n(r – 3)2 + (–r + 6)2 = r2\nr2\n– 18r + 45 = 0  r = 3, 15\nHence circle vr% o`Ùk\n\n(x – 3)2 + (y + 3)2 = 32 x2 + y2\n(x – 15)2 + (y + 15)2 = (15)2  x2 + y2\n– 6x + 6y + 9 = 0\n– 30x + 30y + 225 = 0",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-096",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "One or more correct",
+      "test": "Exercise 2",
+      "part": "Part III",
+      "question_id": "2",
+      "question": "3. 4. 5. 6. 7. 8. 9. 10. 11. 12. Circle Equations of circles which pass through the points (1, –2) and (3, – 4) and touch the x-axis is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "OA2 + OB2 + BC2  [7, 11], where O is the origin."
+        },
+        {
+          "identifier": "B",
+          "content": "OA2 + OB2 + BC2  [4, 7], where O is the origin."
+        },
+        {
+          "identifier": "C",
+          "content": "Locus of midpoint of AB is a circle of radius 1"
+        },
+        {
+          "identifier": "D",
+          "content": "bx + ay = ab Consider two circles C1 : x2 + y2 – 1 = 0 and C2 : x2 + y2 – 2 = 0. Let A(1,0) be a fixed point on the circle C1 and B be any variable point on the circle C2. The line BA meets the curve C2 again at C. Which of the following alternative(s) is/are correct ?"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(D)",
+      "explanation": "2. Sol. Equations of circles which pass through the points (1, –2) and (3, – 4) and touch the x-axis is\n(A) x2 + y2 + 6x + 2y + 9 = 0 (B*) x2 + y2 + 10x + 20y + 25 = 0\n(C*) x2 + y2\n– 6x + 4y + 9 = 0 (D) x2 + y2 + 10x + 20y – 25 = 0\nfcUnqvksa (1, –2) ,oa (3, – 4) ls xqtjus okys ,oa x-v{k dks Li'kZ djus okys o`Ùk dk lehdj.k gS&\n(A) x2 + y2 + 6x + 2y + 9 = 0 (B) x2 + y2 + 10x + 20y + 25 = 0\n(C) x2 + y2\n– 6x + 4y + 9 = 0 (D) x2 + y2 + 10x + 20y – 25 = 0\nLet equation of required circle is\nx2 + y2 + 2gx + 2fy + c = 0\nit passes through (1, –2) & (3, –4)\n2g – 4f + c = –5\n6g – 8f + c = –25\n4g – 8f + 2c = –10\n6g – 8f + c = –25\n–2g + c = 15\ncircle touches x-axis g2 = c \ng2\n– 2g – 15 = 0\ng = 5, – 3\ng = 5, c = 25, f = 10   x2 + y2 + 10x + 20y + 25 = 0\ng = –3, c = 9, f= 2  x2 + y2\n– 6x + 4y + 9 = 0\nHindi o`Ùk dk lehdj.k\nx2 + y2 + 2gx + 2fy + c = 0\n;g (1, –2) rFkk (3, –4) ls xqtjrk gSA\n2g – 4f + c = –5\n6g – 8f + c = –25\nx-v{k dks Li'kZ djrk gS g2 = c  g2\ng = 5, c = 25, f = 10   g = –3, c = 9, f= 2  x2 + y2\n4g – 8f + 2c = –10\n6g – 8f + c = –25\n–2g + c = 15\n– 2g – 15 = 0\ng = 5, – 3\nx2 + y2 + 10x + 20y + 25 = 0\n– 6x + 4y + 9 = 0",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-097",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "One or more correct",
+      "test": "Exercise 2",
+      "part": "Part III",
+      "question_id": "2",
+      "question": " (D) Locus of midpoint of AB is a circle of area 2 . One of the diameter of the circle circumscribing the rectangle ABCD is x – 3y + 1 = 0. If two verticles of rectangle are the points (– 2, 5) and (6, 5) respectively, then which of the following hold(s) good?",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "S1 and S2 intersect at an angle of 90°."
+        },
+        {
+          "identifier": "B",
+          "content": "The point of intersection of the two circle are (2, 0) and 6 8      . , 5 5"
+        },
+        {
+          "identifier": "C",
+          "content": "Length of the common of chord of S1 and S2 is 4"
+        },
+        {
+          "identifier": "D",
+          "content": "For r equal to 21 number of common tangents are 2. Which of the following statement(s) is/are correct with respect to the circles S1  x2 + y2 – 4 = 0 and S2  x2 + y2 – 2x – 4y + 4 = 0 ?"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(D)",
+      "explanation": "2. Sol. Equations of circles which pass through the points (1, –2) and (3, – 4) and touch the x-axis is\n(A) x2 + y2 + 6x + 2y + 9 = 0 (B*) x2 + y2 + 10x + 20y + 25 = 0\n(C*) x2 + y2\n– 6x + 4y + 9 = 0 (D) x2 + y2 + 10x + 20y – 25 = 0\nfcUnqvksa (1, –2) ,oa (3, – 4) ls xqtjus okys ,oa x-v{k dks Li'kZ djus okys o`Ùk dk lehdj.k gS&\n(A) x2 + y2 + 6x + 2y + 9 = 0 (B) x2 + y2 + 10x + 20y + 25 = 0\n(C) x2 + y2\n– 6x + 4y + 9 = 0 (D) x2 + y2 + 10x + 20y – 25 = 0\nLet equation of required circle is\nx2 + y2 + 2gx + 2fy + c = 0\nit passes through (1, –2) & (3, –4)\n2g – 4f + c = –5\n6g – 8f + c = –25\n4g – 8f + 2c = –10\n6g – 8f + c = –25\n–2g + c = 15\ncircle touches x-axis g2 = c \ng2\n– 2g – 15 = 0\ng = 5, – 3\ng = 5, c = 25, f = 10   x2 + y2 + 10x + 20y + 25 = 0\ng = –3, c = 9, f= 2  x2 + y2\n– 6x + 4y + 9 = 0\nHindi o`Ùk dk lehdj.k\nx2 + y2 + 2gx + 2fy + c = 0\n;g (1, –2) rFkk (3, –4) ls xqtjrk gSA\n2g – 4f + c = –5\n6g – 8f + c = –25\nx-v{k dks Li'kZ djrk gS g2 = c  g2\ng = 5, c = 25, f = 10   g = –3, c = 9, f= 2  x2 + y2\n4g – 8f + 2c = –10\n6g – 8f + c = –25\n–2g + c = 15\n– 2g – 15 = 0\ng = 5, – 3\nx2 + y2 + 10x + 20y + 25 = 0\n– 6x + 4y + 9 = 0",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-098",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "One or more correct",
+      "test": "Exercise 2",
+      "part": "Part III",
+      "question_id": "17",
+      "question": "18. (D) The point (2, 3) lies outside the circles S1 and S2. Two circles, each of radius 5 units, touch each other at (1, 2). If the equation of their common tangent is 4x + 3y = 10. The equations of the circles are",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "P is also concyclic with points A, B, C, D"
+        },
+        {
+          "identifier": "B",
+          "content": "PA, PB, PC in G.P."
+        },
+        {
+          "identifier": "C",
+          "content": "PA2 + PB2 + PC2 = 3PD2"
+        },
+        {
+          "identifier": "D",
+          "content": "PA, PB, PC in A.P."
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(AB)",
+      "explanation": "17. Sol. Li\"Vr;k PC1\n2 + PC2\n2 = (C1C2)2\n nksuksa o`Ùk ledks.kh; izfrPNsn djrs gSA\nmHk;fu\"B thok dk lehdj.k S1 – S2 = 0\n – x + 2y + 4 = 0\nvc C1M = 4\n5\n mHk;fu\"B thok dh yEckbZ 2 4\n16\n5 =\n4\n5\nLi\"Vr;k S1 (2, 3) > 0 rFkk S2 (2, 3) > 0\nblfy, fcUnq (2, 3) o`Ùk S1 vkSj S2 ds ckgj gSA ]\nTwo circles, each of radius 5 units, touch each other at (1, 2). If the equation of their common tangent is\n4x + 3y = 10. The equations of the circles are\n5 bdkbZ f=kT;k ds nks o`Ùk ,d nwljs dks (1, 2) ij Li'kZ djrs gSaA ;fn mudh mHk;fu\"B Li'kZ js[kk 4x + 3y = 10 gSA\no`Ùkksa ds lehdj.k gS &\n(A*) x² + y² + 6x + 2y  15 = 0 (C) x² + y² – 6x + 2y  15 = 0 (B*) x² + y²  10x  10y + 25 = 0\n(D) x² + y²  10x  10y + 25 = 0\n1  4x + 3y = 10 ; 2  3x – 4y = – 5\nLet  be the inclination of 2\n3\n tan  =\n4\n\n equation of 2 in parametric form x 1\n4 / 5\n\n= y 2\n3 / 5\n= ± 5\nHindi. co-ordinates of centres are (5, 5), (–3, –1)\n1  4x + 3y = 10 ; 2  3x – 4y = – 5\nekuk ljy js[kk 2 dk >qdko gSA\n3\n tan  =\n\n izkpfyd :i esa ljy js[kk 2 dk lehdj.k x 1\n4 / 5\n\n= y 2\n3 / 5\n4\n= ± 5\n dsUnzksa ds funsZ'kkad (5, 5), (–3, –1) gSA",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-099",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "JEE Advanced previous years",
+      "test": "Exercise 3",
+      "part": "Part I",
+      "question_id": "1",
+      "question": "Two parallel chords of a circle of radius 2 are at a distance 3 1  center, angles of k  and 2  , where k > 0, then the value of [k] is k [Note : [k] denotes the largest integer less than or equal to k] apart. If the chords subtend at the [IIT-JEE - 2010, Paper-2, (3, 0), 79]",
+      "options": [],
+      "correct_options": [],
+      "answer": "3\nSince distance between parallel chords is greater than radius, therefore both chords lie on opposite\nside of centre.\npawfd lekUrj thokvksa ds e/; nwjh f=kT;k ls cMh gS blfy, nksuksa thok,a dsUnz ds forjhr vkSj gksxhA\n2 cos\n + 2 cos\n2k\n\nk\n= 3 + 1\n\nLet\n= \n2k\n 2 cos  + 2 cos 2 = 3 + 1   4 cos2 + 2 cos  – (3 + 3 ) = 0\n   \n cos  = 2 4 16(3 3)\n2(4)\n=\n   \n2 2 1 12 4 3\n=\n  \n1 12 1\n 2\n2(4)\n\n3\n cos\n=\n2k\n( 3 1)\n  Rejected vLohdk;Z\n2\n\n\n\n=\n k = 3  [k] = 3\n2k\n6\n2 cos  + 2 (2 cos2 – 1) = 3 + 1\n4\n  \n= 1 (2 3 1)\n4\n2,",
+      "explanation": "1. Sol. Two parallel chords of a circle of radius 2 are at a distance 3 1  center, angles of k\n and 2\n , where k > 0, then the value of [k] is\nk\n[Note : [k] denotes the largest integer less than or equal to k]\n,d o`Ùk ftldh f=kT;k 2 gS] dh nks lekukUrj thokvksa ds chp dh nwjh 3 1  \n2\nrFkk\n , k > 0 ds dks.k vUrfjr (subtend) djrh gSa] rks [k] dk eku gSA\nk\nk\napart. If the chords subtend at the\ngSA ;fn thok,¡ dsUnz ij\n[IIT-JEE - 2010, Paper-2, (3, 0), 79]\n[uksV : [k] vf/kdre iw.kk±d tks k ls de ;k leku gSA]\nAns. 3\nSince distance between parallel chords is greater than radius, therefore both chords lie on opposite\nside of centre.\npawfd lekUrj thokvksa ds e/; nwjh f=kT;k ls cMh gS blfy, nksuksa thok,a dsUnz ds forjhr vkSj gksxhA\n2 cos\n + 2 cos\n2k\n\nk\n= 3 + 1\n\nLet\n= \n2k\n 2 cos  + 2 cos 2 = 3 + 1   4 cos2 + 2 cos  – (3 + 3 ) = 0\n   \n cos  = 2 4 16(3 3)\n2(4)\n=\n   \n2 2 1 12 4 3\n=\n  \n1 12 1\n 2\n2(4)\n\n3\n cos\n=\n2k\n( 3 1)\n  Rejected vLohdk;Z\n2\n\n\n\n=\n k = 3  [k] = 3\n2k\n6\n2 cos  + 2 (2 cos2 – 1) = 3 + 1\n4\n  \n= 1 (2 3 1)\n4\n2,",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-100",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "JEE Advanced previous years",
+      "test": "Exercise 3",
+      "part": "Part I",
+      "question_id": "2",
+      "question": "The circle passing through the point (–1, 0) and touching the y-axis at (0, 2) also passes through the [IIT-JEE 2011, Paper-2, (3, –1), 80] point  ",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "3 , 0   -    "
+        },
+        {
+          "identifier": "B",
+          "content": "5 , 2 2 -    "
+        },
+        {
+          "identifier": "C",
+          "content": "3 5   2 -    "
+        },
+        {
+          "identifier": "D",
+          "content": "(–4, 0) , 2 2"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(D)",
+      "explanation": "2. The circle passing through the point (–1, 0) and touching the y-axis at (0, 2) also passes through the\npoint\nfcUnq (–1, 0) ls gksdj tkus okyk vkSj y-v{k dks (0, 2) ij Li'kZ djus okyk o`Ùk fuEu fcUnq ls Hkh gksdj tkrk gS\n \n(A) 3 , 0\n \n     (B) 5 , 2\n \n2\n     (C) 3 5\n2\n     (D) (–4, 0)\n, 2 2\n[IIT-JEE 2011, Paper-2, (3, –1), 80]\nAns. (D)\nSol. Let equation of circle is\nx2 + y2 + 2gx + 2 fy + c = 0\nas it passes through (-1,0) & (0,2)\n1 – 2g + c = 0 and 4 + 4 f+ c =0\nalso f2 = c  f = –2, c= 4 ; g = 5\n2\nequation of circle is x2 + y2 + 5x – 4y + 4 =0\nwhich passes through (–4, 0)\nHindi o`Ùk dk lehdj.k\nx2 + y2 + 2gx + 2 fy + c = 0\n(-1,0) & (0,2) ls xqtjrk gSA\n1 – 2g + c = 0 vkSj 4 + 4 f+ c =0\nrFkk f2 = c  f = –2, c= 4 ; g = 5\n2\no`Ùk dk lehdj.k x2 + y2 + 5x – 4y + 4 = 0\ntks (–4, 0) ls xqtjrk gSA",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-101",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "JEE Advanced previous years",
+      "test": "Exercise 3",
+      "part": "Part I",
+      "question_id": "3",
+      "question": "The straight line 2x – 3y = 1 divides the circular region x2 + y2  6 into two parts.           If S = 3 5 3 1 1 1 1 2, , , , , , , 4 2 4 4 4 8 4 -                    , [IIT-JEE 2011, Paper-2, (4, 0), 80] then the number of point(s) in S lying inside the smaller part is 4. The locus of the mid-point of the chord of contact of tangents drawn from points lying on the straight line 4x – 5y = 20 to the circle x2 + y2 = 9 is [IIT-JEE 2012, Paper-1, (3, –1), 70]",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "20(x2 + y2) – 36x + 45y = 0"
+        },
+        {
+          "identifier": "B",
+          "content": "20(x2 + y2) + 36x – 45y = 0"
+        },
+        {
+          "identifier": "C",
+          "content": "x + 3 y = 4"
+        },
+        {
+          "identifier": "D",
+          "content": "x + 2 3 y = 6 Circle Paragraph for Question Nos. 5 to 6"
+        }
+      ],
+      "correct_options": [],
+      "answer": "2",
+      "explanation": "3. The straight line 2x – 3y = 1 divides the circular region x2 + y2  6 into two parts.\n         \nIf S = 3 5 3 1 1 1 1 2, , , , , , , 4 2 4 4 4 8 4\n                    ,\n[IIT-JEE 2011, Paper-2, (4, 0), 80]\nthen the number of point(s) in S lying inside the smaller part is\njs[kk 2x – 3y = 1, o`Ùkh; {ks=k x2 + y2  6 dks nks Hkkxksa esa foHkkftr djrh gSA ;fn\n         \nS = 3 5 3 1 1 1 1 2, , , , , , , 4 2 4 4 4 8 4\n                     ,\nrks S esa fLFkr mu fcUnqvksa dh la[;k tks y?kqrj Hkkx esa vUnj gS] fuEu gS&\nAns. 2\nSol. 2x – 3y = 1, x2 + y2  6\n         \n3 5 3 1 1 1 1 2, , , , , , , 4 2 4 4 4 8 4\n                    \nS \n   \n( ) ( ) ( ) ( V)\nPlot the two curves\nI, III, IV will lie inside the circle and point (I, III, IV) will lie on the P region\nif (0, 0) and the given point will lie opposite to the line 2x – 3y – 1 = 0\nP(0, 0) = negative, P 3\n      = positive, P 1 1\n \n2, 4\n     = positive P 1 1\n, 4 4\n      = negative\n, 8 4\n   P 5 3\n, 2 4\n   = positive , but it will not lie in the given circle\nso point 3\n      and 1 1\n \n2, 4\n  , 4 4\n   will lie on the opp side of the line\nso two point 3\n      and 1 1\n \n2, 4\n    \n, 4 4\n\nFurther 3\n      and satisfy S1\n \n1 1\n2, 4\n< 0\n    \n, 4 4\nHindi. 2x – 3y = 1, x2 + y2  6\n         \n3 5 3 1 1 1 1 2, , , , , , , 4 2 4 4 4 8 4\n                    \nS \n   \n( ) ( ) ( ) ( V)\nnks oØksa ds vkjs[k ls\nI, III, IV o`Ùk ds vUnj fLFkr gS vkSj (I, III, IV) {ks=k P ij fLFkr gSA\n;fn (0, 0) vkSj fn;k x;k fcUnq js[kk 2x – 3y – 1 = 0 ds foijhr vksj fLFkr gksxkA\nP(0, 0) = _.kkRed, P 3\n     \n2, 4\n= /kukRed, P 1 1\n \n= /kukRed P 1 1\n    \n, 4 4\n     \n= _.kkRed\n, 8 4\nP 5 3\n     \n= /kukRed , ijUrq ;s fn, x, o`Ùk esa fLFkr ugha gSA\n, 2 4\nblfy, fcUnq 3\n     \n2, 4\n  vkSj 1 1\n \n, 4 4\n   js[kk ds foijhr vksj fLFkr gksaxsA\nblfy, nks fcUnq 3\n     \n2, 4\nvkSj 1 1\n \n     gSA\n, 4 4\n3\n     \niqu%\n2, 4\nvkSj 1 1\n \n    \nS1 < 0 dks lUrq\"V djrs gS\n, 4 4",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-102",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "JEE Advanced previous years",
+      "test": "Exercise 3",
+      "part": "Part I",
+      "question_id": "5",
+      "question": "6. 7*. 8*. 9*. 10*. 11. A tangent PT is drawn to the circle x2 + y2 = 4 at the point P( PT is a tangent to the circle (x – 3)2 + y2 = 1. A common tangent of the two circles is",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "    ,  3 3   1 1    ,"
+        },
+        {
+          "identifier": "B",
+          "content": "  4 2  1 1   1 1  –"
+        },
+        {
+          "identifier": "C",
+          "content": "    ,  3 3    – ,"
+        },
+        {
+          "identifier": "D",
+          "content": "  4 2 For how many values of p, the circle x2 + y2 + 2x + 4y – p = 0 and the coordinate axes have exactly three common points? [JEE(Advanced) 2017, Paper-1,(3, 0)/61] PARAGRAPH “X” [JEE(Advanced) 2018, Paper-1, (3, –1)/60] Let S be the circle in the xy-plane defined by the equation x2 + y2 = 4. (There are two questions based on PARAGRAPH “X”, the question given below is one of them)"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(D)\n3 y = 4 (D*) x + 2 3 y = 6",
+      "explanation": "5. A common tangent of the two circles is\nnksuksa o`Ùkks dh ,d mHk;fu\"B Li'kZ&js[kk (common tangent) fuEu gS\n(A) x = 4 (B) y = 2 (C) x + Ans. (D)\n3 y = 4 (D*) x + 2 3 y = 6",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-103",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "JEE Advanced previous years",
+      "test": "Exercise 3",
+      "part": "Part I",
+      "question_id": "12",
+      "question": "13. Let E1E2 and F1F2 be the chords of S passing through the point P0(1, 1) and parallel to the x-axis and the y-axis, respectively. Let G1G2 be the chord of S passing through P0 and having slope –1. Let the tangents to S at E1 and E2 meet at E3, the tangents to S at F1 and F2 meet at F3, and the tangents to S at G1 and G2 meet at G3. Then, then, the points E3, F3, and G3 lie on the curve",
+      "options": [
+        {
+          "identifier": "A",
+          "content": "The point (–2, 7) lies in E1"
+        },
+        {
+          "identifier": "B",
+          "content": "The point 4 7       does NOT lie in E2 , 5 5"
+        },
+        {
+          "identifier": "C",
+          "content": "The point 1,1       lies in E2 2"
+        },
+        {
+          "identifier": "D",
+          "content": "The point 3       does NOT lie in E1 0, 2"
+        }
+      ],
+      "correct_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "(A)",
+      "explanation": "12. Let E1E2 and F1F2 be the chords of S passing through the point P0(1, 1) and parallel to the x-axis and\nthe y-axis, respectively. Let G1G2 be the chord of S passing through P0 and having slope –1. Let the\ntangents to S at E1 and E2 meet at E3, the tangents to S at F1 and F2 meet at F3, and the tangents to S\nat G1 and G2 meet at G3. Then, then, the points E3, F3, and G3 lie on the curve\nekuk fd E1E2 vkSj F1F2 o`Ùk S dh ,slh thok,a (chords) gS tks fcUnq P0(1, 1) ls xqtjrh gS vkSj Øe'k% x-v{k\n(axis) o y-v{k ds lekUrj (parallel) gSA ekukfd G1G2 , S dh og thok gS tks P0 ls xqtjrh gS vkSj ftldh\nizo.krk (slope) –1 gSA ekukfd E1 vkSj E2 ij S dh Lif'kZ;ka (tangents) E3 ij feyrh gS] F1 vkSj F2 ij S dh\nLif'kZ;ka F3 ij feyrh gS] rFkk G1 vkSj G2 ij S dh Lif'kZ;ka G3 ij feyrh gSA rc og oØ (curve) ftl ij fcUnq\nE3, F3 vkSj G3 fLFkr gS] gSa\n(B) (x – 4)2 + (y – 4)2 = 16 (A) x +y = 4 Ans. (A)\nSol. Tangent at E1 and E2 are 3x y 4    and 3x y 4  \nE1 vkSj E2 ij Li'kZ js[kk,a 3x y 4    vkSj 3x y 4  \nThey intersect at E3 (0, 4)\nos E3 , (0, 4) ij feyrh gSA\nE3(0, 4)\n( 3,1)\nE1 E2\n( 3,1)\n(C) (x – 4)(y – 4) = 4 (D) xy = 4\n2\n0 2\nF1 (1, 3 ), F2 (1, – 3 ), F3 (4, 0)\nG1(0, 2), G2(2, 0), G3(2, 2)\nE3, F3, G3 lie on line x + y = 4\nE3, F3, G3 js[kk x + y = 4 ij fLFkr gSA",
+      "difficulty": "hard",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-104",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "JEE Main previous years",
+      "test": "Exercise 3",
+      "part": "Part II",
+      "question_id": "1",
+      "question": "2. 3. 4. 5. 6. 7. 8. 9. 10. The circle x2 + y2 = 4x + 8y + 5 intersects the line 3x – 4y = m at two distinct points if (1) – 35 < m < 15 (2) 15 < m < 65 (3) 35 < m < 85 [AIEEE 2010, (4, –1), 144] (4) – 85 < m < – 35 The two circles x2 + y2 = ax and x2 + y2 = c2(c > 0) touch each other if : (1) 2|a| = c (2) |a| = c (3) a = 2c [AIEEE-2011, I, (4, –1), 120] (4) |a| = 2c The equation of the circle passing through the point (1, 0) and (0, 1) and having the smallest radius is - (1) x2 + y2 – 2x – 2y + 1 = 0 (2) x2 + y2 – x – y = 0 [AIEEE-2011, II, (4, –1), 120] (3) x2 + y2 + 2x + 2y – 7 = 0 (4) x2 + y2 + x + y – 2 = 0 The length of the diameter of the circle which touches the x-axis at the point (1, 0) and passes through the point (2, 3) is : [AIEEE- 2012, (4, –1), 120] (1) 10 3 (2) 3 5 (3) 6 5 (4) 5 3 The circle passing through (1, –2) and touching the axis of x at (3, 0) also passes through the point [AIEEE - 2013, (4, –1),120] (1) (–5, 2) (2) (2, – 5) (3) (5, – 2) (4) (–2, 5) Let C be the circle with centre at (1, 1) and radius = 1. If T is the circle centred at (0, y), passing through origin and touching the circle C externally, then the radius of T is equal to : [JEE(Main) 2014, (4, – 1), 120] (1) 1 2 (2) 1 4 (3) 3 2 (4) 3 2 Locus of the image of the point (2, 3) in the line (2x – 3y + 4) + k (x – 2y + 3) = 0, k  R, is a [JEE(Main) 2015, (4, – 1), 120] (1) straight line parallel to x-axis (3) circle of radius 2 (2) straight line parallel to y-axis (4) circle of radius 3 The number of common tangents to the circles x2 + y2 – 4x –6y – 12 = 0 and x2 + y2 + 6x + 18y + 26 = 0, is [JEE(Main) 2015, (4, – 1), 120] (1) 1 (2) 2 (3) 3 (4) 4 The centres of those circles which touch the circle, x2 + y2 the x-axis, lie on : (1) an ellipse which is not a circle (3) a parabola (2) a hyperbola (4) a circle – 8x – 8y – 4 = 0, externally and also touch [JEE(Main) 2016, (4, – 1), 120] If one of the diameters of the circle, given by the equation, x2 + y2 – 4x + 6y – 12 = 0, is a chord of a circle S, whose centre is at (– 3, 2), then the radius of S is : [JEE(Main) 2016, (4, – 1), 120] (1) 3 5 5 (2) 5 (3) 10 (4) 2 ADVCR- 26 --- PAGE 27 --- Circle 1 1",
+      "options": [],
+      "correct_options": [],
+      "answer": "(1)",
+      "explanation": "1. The circle x2 + y2 = 4x + 8y + 5 intersects the line 3x – 4y = m at two distinct points if\no`Ùk x2 + y2 = 4x + 8y + 5 js[kk 3x – 4y = m dks nks fHkUu fcUnqvksa ij izfrPNsn djsxk ;fn\n(1*) – 35 < m < 15 (2) 15 < m < 65 (3) 35 < m < 85 [AIEEE 2010, (4, –1), 144]\n(4) – 85 < m < – 35\nAns. (1)\nSol. r = 4 16 5   = 5 \n6 16 m\n \n5\n < 5 – 25 < m + 10 < 25 – 35 < m < 15\nHence correct option is (1) vr% lgh fodYi (1) gSA",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-105",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "JEE Main previous years",
+      "test": "Exercise 3",
+      "part": "Part II",
+      "question_id": "11",
+      "question": "12. 13. 14. 15. 16. 17. 18. 19. Let the orthocenter and centroid of a triangle be A (–3, 5) and B(3,3) respectively. If C is the circumcentre of this triangle, then the radius of the circle having line segement AC as diameter , is : [JEE(Main) 2018, (4, – 1), 120] (1) 5 3 2 (2) 3 5 2 (3) 10 (4) 2 10 Three circles of radii, a, b, c (a < b < c) touch each other externally, If they have x-axis as a common tangent, then : [JEE(Main) 2019, Online (09-01-19),P-1 (4, – 1), 120] (1) a, b, c are in A.P. (2) a 1 1  (3) a , b , c are in A.P. (4)  b c 1 1   b a c If a circle C passing through the point (4,0) touches the circle x2 + y2 + 4x – 6y = 12 externally at the point (1, –1), then the radius of C is: [JEE(Main) 2019, Online (10-01-19),P-1 (4, – 1), 120] (1) 2 5 (2) 57 (3) 4 (4) 5 If a variable line, 3x + 4y –  = 0 is such that the two circles x2 + y2 – 2x –2y + 1 = 0 and x2 + y2 –18x –2y +78 = 0 are on its opposite sides, then the set of all values of  is the interval: [JEE(Main) 2019, Online (12-01-19),P-1 (4, – 1), 120] (1) (2, 17) (2) [12, 21] (3) [13, 23] (4) (23,31) If a circle of radius R passes through the origin O and intersects the coordinate axes at A and B, then the locus of the foot of perpendicular from O on AB is - [JEE(Main) 2019, Online (12-01-19),P-2 (4, – 1), 120] (1) (x2+y2) (x + y) = R2xy (2) (x2 + y2)3 = 4R2x2y2 (3) (x2 + y2)2 = 4Rx2y2 (4) (x2 + y2)2 = 4R2x2y2 The sum of the squares of the lengths of the chords intercepted on the circle, x2 + y2 = 16, by the lines, x + y =n, n N, where N is the set of all natural numbers, is : [JEE(Main) 2019, Online (08-04-19),P-1 (4, – 1), 120] (1) 105 (2) 210 (3) 320 (4) 160 If a tangent to the circle x2 + y2 = 1 intersects the coordinate axes at distinct points P and Q, then the locus of the mid-point of PQ is : [JEE(Main) 2019, Online (09-04-19),P-1 (4, – 1), 120] (1) x2 + y2 – 4x2y2 = 0 (2) x2 + y2 – 16x2y2 = 0 (3) x2 + y2 – 2x2y2 = 0 (4) x2 + y2 – 2xy = 0 The locus of the centres of the circles, which touch the circle, x2 + y2 = 1 externally, also touch the y-axis and lie in the first quadrant, is : [JEE(Main) 2019, Online (10-04-19),P-2 (4, – 1), 120] x  1 (1) 0  (2) 0  y,y4 1  x,x4 y  x  1  (3) 0  (4) 0  y,y2  1  x,x2 y  If a line, y = mx + c is a tangent to the circle, ( x – 3)2 + y2 = 1 and it is perpendicular to a line L1, where L1 is the tangent to the circle, x2 + y2 = 1 at the point 1 1       ; then : , 2 2 [JEE(Main) 2020, Online (08-01-20),P-2 (4, –1), 120] (1) c2 + 7c + 6 = 0 (2) c2 + 6c + 7 = 0 (3) c2 – 6c + 7 = 0 (4) c2 – 7c + 6 = 0",
+      "options": [],
+      "correct_options": [],
+      "answer": "(- 4, 4); 1 1   -     , 2 2",
+      "explanation": "11. (-3, 2)\nR 2\n5\n5\n5\n(2, –3)\n4\n\n9\n\n12\nr1 \n5\nR\n\n25\n\n50\n5\n  3\nLet the orthocenter and centroid of a triangle be A (–3, 5) and B(3,3) respectively. If C is the\ncircumcentre of this triangle, then the radius of the circle having line segement AC as diameter , is :\n[JEE(Main) 2018, (4, – 1), 120]\nekuk ,d f=kHkqt dk yEc dsUnz rFkk dsUnzd Øe'k% A (–3, 5) rFkk B(3,3) gSA ;fn bl f=kHkqt dk ifjdsUnz C gS] rks\njs[kk[k.M AC dks O;kl eku dj cuk, tkus okys o`Ùk dh f=kT;k gS %\n(1*) 5\n3\n2 (2) 3 5\n2 (3) 10 (4) 2 10\nSol. (1)\nH H( (– –3 3, ,5 5) ) 2 2 1 1\nG G( (3 3, ,3 3) )\nC C( (x x, ,y y) )\n3 = 2x – 3\n3\n x = 6\n\n--- PAGE 79 ---",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    },
+    {
+      "id": "circle-106",
+      "subject": "Maths",
+      "chapter": "Circle",
+      "subtopic": "JEE Main previous years",
+      "test": "Exercise 3",
+      "part": "Part II",
+      "question_id": "20",
+      "question": "If the curves, x2 – 6x + y2 + 8 = 0 and x2 the largest value of k is ________ – 8y + y2 + 16 – k = 0, (k > 0) touch each other at a point, then [JEE(Main) 2020, Online (09-01-20),P-2 (4, 0), 120] ADVCR- 27",
+      "options": [],
+      "correct_options": [],
+      "answer": "36",
+      "explanation": "20. If the curves, x2\n– 6x + y2 + 8 = 0 and x2\nthe largest value of k is ________\n– 8y + y2 + 16 – k = 0, (k > 0) touch each other at a point, then\n,d oØ x2\n– 6x + y2 + 8 = 0 rFkk x2\nk dk vf/kdre eku gSa\n_________\n– 8y + y2 + 16 – k = 0, (k > 0) ,d nwljs dks ,d fcUnq ij Li'kZ djrs gSa] rks\nA [JEE(Main) 2020, Online (09-01-20),P-2 (4, 0), 120]\nAns. 36\nSol. Two circles touches each other if C1 C2 = |r1 ± r2|\nDistance between C2(3, 0) and C1(0, 4) is either 1\nk  or 1–\nk (C1 C2 = 5)\n 1\nk  = 5 or 1–\nk = 5  k = 16 or k = 36  maximum value of k is 36\nSol_H. nks o`Ùk ,d nwljs dks Li'kZ djrs gSa ;fn C1 C2 = |r1 ± r2|\nC2(3, 0) rFkk C1(0, 4) ds e/; nwjh 1\nk  ;k 1–\nk gS (C1 C2 = 5)\n 1\nk  = 5 or 1–\nk = 5  k = 16 or k = 36  k dk vf/kdre eku 36 gS\n\n Marked Questions may have for Revision Questions.\n fpfUgr iz'u nksgjkus ;ksX; iz'u gSA",
+      "difficulty": "medium",
+      "source": "Question extracted from question PDF; explanation mapped from Circle_Hints_and_solutions PDF."
+    }
+  ]
+}

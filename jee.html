@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JEE Extracted Tests</title>
+    <link rel="stylesheet" href="./styles.css?v=8" />
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [["$", "$"], ["\\(", "\\)"]],
+          displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+          processEscapes: true
+        },
+        svg: {
+          fontCache: "global"
+        }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  </head>
+  <body data-page="jee">
+    <header class="topbar">
+      <a class="brand" href="./index.html">
+        <img src="./assets/image.png" alt="Quiz board" />
+        <span>Class 9 Quiz</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a data-nav="quiz" href="./index.html">Quiz</a>
+        <a data-nav="jee" href="./jee.html">JEE Tests</a>
+        <a data-nav="dashboard" href="./dashboard.html">Dashboard</a>
+        <a data-nav="analysis" href="./analysis.html">Analysis</a>
+      </nav>
+      <div class="topbar-actions">
+        <span id="jeeCountBadge" class="code-badge">Tests</span>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero-grid">
+        <div class="hero-card">
+          <p class="eyebrow">Extracted test bank</p>
+          <h1>Maths, Physics, Chemistry practice in one place.</h1>
+          <p class="hero-copy">
+            Pick a subject, choose the chapter and subtopic, then attempt the extracted questions with mapped answers and explanations.
+          </p>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <strong id="jeeTotalCount">...</strong>
+            <small>questions</small>
+          </article>
+          <article class="stat-card">
+            <strong id="jeeSubjectCount">3</strong>
+            <small>subjects</small>
+          </article>
+          <article class="stat-card">
+            <strong id="jeeAttemptCount">0</strong>
+            <small>attempted</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel filters-panel">
+        <form id="jeeFilterForm" class="filters jee-filters">
+          <label>
+            Keyword
+            <input id="jeeSearchInput" type="search" placeholder="circle, tangent, radical axis..." autocomplete="off" />
+          </label>
+          <label>
+            Subject
+            <select id="jeeSubjectSelect"></select>
+          </label>
+          <label>
+            Chapter
+            <select id="jeeChapterSelect"></select>
+          </label>
+          <label>
+            Subtopic
+            <select id="jeeSubtopicSelect"></select>
+          </label>
+          <label>
+            Test
+            <select id="jeeTestSelect"></select>
+          </label>
+          <button type="submit">Apply</button>
+        </form>
+      </section>
+
+      <div id="jeeStatus" class="status" role="status">Loading extracted tests...</div>
+
+      <section id="jeeTestBoard" class="question-board" aria-live="polite"></section>
+
+      <section class="panel pager-panel" aria-label="JEE test navigation">
+        <button id="jeePrevBtn" type="button" class="secondary-button">Previous</button>
+        <span id="jeePageInfo" class="page-info">Question 1</span>
+        <button id="jeeNextBtn" type="button">Next</button>
+      </section>
+    </main>
+
+    <script src="./shared.js?v=11"></script>
+    <script src="./jee-tests.js?v=1"></script>
+  </body>
+</html>
